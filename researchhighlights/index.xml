@@ -1,0 +1,96 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Researchhighlights | Manling Li</title>
+    <link>https://limanling.github.io/researchhighlights/</link>
+      <atom:link href="https://limanling.github.io/researchhighlights/index.xml" rel="self" type="application/rss+xml" />
+    <description>Researchhighlights</description>
+    <generator>Wowchemy (https://wowchemy.com)</generator><language>en-us</language><lastBuildDate>Thu, 01 Dec 2022 00:00:00 +0000</lastBuildDate>
+    <image>
+      <url>https://limanling.github.io/media/icon_hu437e05b1b543de801281f81b261d0785_1145_512x512_fill_lanczos_center_3.png</url>
+      <title>Researchhighlights</title>
+      <link>https://limanling.github.io/researchhighlights/</link>
+    </image>
+    
+    <item>
+      <title>CLIP-Event: Connecting Vision and Text with Event Structures</title>
+      <link>https://limanling.github.io/researchhighlights/clip-event/</link>
+      <pubDate>Fri, 01 Jul 2022 00:00:00 +0000</pubDate>
+      <guid>https://limanling.github.io/researchhighlights/clip-event/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Cross-media Structured Common Space for Multimedia Event Extraction</title>
+      <link>https://limanling.github.io/researchhighlights/m2e2/</link>
+      <pubDate>Fri, 01 May 2020 00:00:00 +0000</pubDate>
+      <guid>https://limanling.github.io/researchhighlights/m2e2/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>GAIA: A Fine-grained Multimedia Knowledge Extraction System</title>
+      <link>https://limanling.github.io/researchhighlights/gaia/</link>
+      <pubDate>Fri, 01 May 2020 00:00:00 +0000</pubDate>
+      <guid>https://limanling.github.io/researchhighlights/gaia/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>COVID-19 Literature Knowledge Graph Construction and Drug Repurposing Report Generation</title>
+      <link>https://limanling.github.io/researchhighlights/covidkg/</link>
+      <pubDate>Mon, 01 Nov 2021 00:00:00 +0000</pubDate>
+      <guid>https://limanling.github.io/researchhighlights/covidkg/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>The Future is not One-dimensional: Complex Event Schema Induction via Graph Modeling</title>
+      <link>https://limanling.github.io/researchhighlights/schemagraph/</link>
+      <pubDate>Mon, 01 Nov 2021 00:00:00 +0000</pubDate>
+      <guid>https://limanling.github.io/researchhighlights/schemagraph/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Connecting the Dots: Event Graph Schema Induction with Path Language Modeling</title>
+      <link>https://limanling.github.io/researchhighlights/schemapathlm/</link>
+      <pubDate>Sun, 01 Nov 2020 00:00:00 +0000</pubDate>
+      <guid>https://limanling.github.io/researchhighlights/schemapathlm/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Language Models with Image Descriptors are Strong Few-Shot Video-Language Learners</title>
+      <link>https://limanling.github.io/researchhighlights/vidil/</link>
+      <pubDate>Thu, 01 Dec 2022 00:00:00 +0000</pubDate>
+      <guid>https://limanling.github.io/researchhighlights/vidil/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Timeline Summarization based on Event Graph Compression via Time-Aware Optimal Transport</title>
+      <link>https://limanling.github.io/researchhighlights/timeline/</link>
+      <pubDate>Mon, 01 Nov 2021 00:00:00 +0000</pubDate>
+      <guid>https://limanling.github.io/researchhighlights/timeline/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Keep Meeting Summaries on Topic: Abstractive Multi-Modal Meeting Summarization</title>
+      <link>https://limanling.github.io/researchhighlights/meetingsum/</link>
+      <pubDate>Wed, 01 May 2019 00:00:00 +0000</pubDate>
+      <guid>https://limanling.github.io/researchhighlights/meetingsum/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>COVID-19 Claim Radar: A Structured Claim Extraction and Tracking System</title>
+      <link>https://limanling.github.io/researchhighlights/covidclaimradar/</link>
+      <pubDate>Sun, 01 May 2022 00:00:00 +0000</pubDate>
+      <guid>https://limanling.github.io/researchhighlights/covidclaimradar/</guid>
+      <description></description>
+    </item>
+    
+  </channel>
+</rss>

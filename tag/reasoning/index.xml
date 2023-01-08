@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Reasoning | Manling Li</title>
+    <link>https://limanling.github.io/tag/reasoning/</link>
+      <atom:link href="https://limanling.github.io/tag/reasoning/index.xml" rel="self" type="application/rss+xml" />
+    <description>Reasoning</description>
+    <generator>Wowchemy (https://wowchemy.com)</generator><language>en-us</language><lastBuildDate>Thu, 01 Dec 2022 00:00:00 +0000</lastBuildDate>
+    <image>
+      <url>https://limanling.github.io/media/icon_hu437e05b1b543de801281f81b261d0785_1145_512x512_fill_lanczos_center_3.png</url>
+      <title>Reasoning</title>
+      <link>https://limanling.github.io/tag/reasoning/</link>
+    </image>
+    
+    <item>
+      <title>The Future is not One-dimensional: Complex Event Schema Induction via Graph Modeling</title>
+      <link>https://limanling.github.io/researchhighlights/schemagraph/</link>
+      <pubDate>Mon, 01 Nov 2021 00:00:00 +0000</pubDate>
+      <guid>https://limanling.github.io/researchhighlights/schemagraph/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Connecting the Dots: Event Graph Schema Induction with Path Language Modeling</title>
+      <link>https://limanling.github.io/researchhighlights/schemapathlm/</link>
+      <pubDate>Sun, 01 Nov 2020 00:00:00 +0000</pubDate>
+      <guid>https://limanling.github.io/researchhighlights/schemapathlm/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Language Models with Image Descriptors are Strong Few-Shot Video-Language Learners</title>
+      <link>https://limanling.github.io/researchhighlights/vidil/</link>
+      <pubDate>Thu, 01 Dec 2022 00:00:00 +0000</pubDate>
+      <guid>https://limanling.github.io/researchhighlights/vidil/</guid>
+      <description></description>
+    </item>
+    
+  </channel>
+</rss>
