@@ -70,7 +70,7 @@ with structural justifications for participant-specific and attribute-specific c
     </item>
     
     <item>
-      <title>Write: Organized and Grounded</title>
+      <title>Write: Truthfully</title>
       <link>https://limanling.github.io/researchsummary/smartbook/</link>
       <pubDate>Wed, 27 Apr 2016 00:00:00 +0000</pubDate>
       <guid>https://limanling.github.io/researchsummary/smartbook/</guid>
@@ -363,7 +363,7 @@ data.head()
 
 
 
-&lt;div id=&#34;chart-794813562&#34; class=&#34;chart&#34;&gt;&lt;/div&gt;
+&lt;div id=&#34;chart-679482513&#34; class=&#34;chart&#34;&gt;&lt;/div&gt;
 &lt;script&gt;
   (function() {
     let a = setInterval( function() {
@@ -373,7 +373,7 @@ data.head()
       clearInterval( a );
 
       Plotly.d3.json(&#34;./line-chart.json&#34;, function(chart) {
-        Plotly.plot(&#39;chart-794813562&#39;, chart.data, chart.layout, {responsive: true});
+        Plotly.plot(&#39;chart-679482513&#39;, chart.data, chart.layout, {responsive: true});
       });
     }, 500 );
   })();
