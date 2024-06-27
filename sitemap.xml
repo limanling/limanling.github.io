@@ -200,10 +200,16 @@
     <loc>https://limanling.github.io/teaching/</loc>
     <changefreq>weekly</changefreq>
   </url><url>
+    <loc>https://limanling.github.io/projects/embodied-eval/</loc>
+    <changefreq>weekly</changefreq>
+  </url><url>
     <loc>https://limanling.github.io/talk/</loc>
     <changefreq>weekly</changefreq>
   </url><url>
     <loc>https://limanling.github.io/patent_bak/</loc>
+    <changefreq>weekly</changefreq>
+  </url><url>
+    <loc>https://limanling.github.io/projects/</loc>
     <changefreq>weekly</changefreq>
   </url><url>
     <loc>https://limanling.github.io/publication/</loc>
