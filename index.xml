@@ -363,7 +363,7 @@ data.head()
 
 
 
-&lt;div id=&#34;chart-128673495&#34; class=&#34;chart&#34;&gt;&lt;/div&gt;
+&lt;div id=&#34;chart-615247389&#34; class=&#34;chart&#34;&gt;&lt;/div&gt;
 &lt;script&gt;
   (function() {
     let a = setInterval( function() {
@@ -373,7 +373,7 @@ data.head()
       clearInterval( a );
 
       Plotly.d3.json(&#34;./line-chart.json&#34;, function(chart) {
-        Plotly.plot(&#39;chart-128673495&#39;, chart.data, chart.layout, {responsive: true});
+        Plotly.plot(&#39;chart-615247389&#39;, chart.data, chart.layout, {responsive: true});
       });
     }, 500 );
   })();
@@ -895,15 +895,6 @@ $$&lt;/p&gt;
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       <guid>https://limanling.github.io/admin/config.yml</guid>
       <description></description>
-    </item>
-    
-    <item>
-      <title>Embodied Eval</title>
-      <link>https://limanling.github.io/projects/embodied-eval/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>https://limanling.github.io/projects/embodied-eval/</guid>
-      <description>&lt;p&gt;This page is redirecting to &lt;a href=&#34;https://embodied-agent-eval.github.io/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Embodied Agent Eval&lt;/a&gt;.&lt;/p&gt;
-</description>
     </item>
     
   </channel>
