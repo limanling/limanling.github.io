@@ -164,6 +164,9 @@
     <loc>https://limanling.github.io/teaching/</loc>
     <changefreq>weekly</changefreq>
   </url><url>
+    <loc>https://limanling.github.io/authors_bak/emma-hamel/</loc>
+    <changefreq>weekly</changefreq>
+  </url><url>
     <loc>https://limanling.github.io/talk/</loc>
     <changefreq>weekly</changefreq>
   </url><url>
@@ -171,6 +174,12 @@
     <changefreq>weekly</changefreq>
   </url><url>
     <loc>https://limanling.github.io/publication/</loc>
+    <changefreq>weekly</changefreq>
+  </url><url>
+    <loc>https://limanling.github.io/authors_bak/revanth-gangi-reddy/</loc>
+    <changefreq>weekly</changefreq>
+  </url><url>
+    <loc>https://limanling.github.io/authors_bak/stuti-agrawal/</loc>
     <changefreq>weekly</changefreq>
   </url>
 </urlset>
