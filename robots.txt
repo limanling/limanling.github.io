@@ -1,3 +1,0 @@
-User-agent: *
-
-Sitemap: https://limanling.github.io/sitemap.xml
