@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Application | Manling Li</title>
+    <link>https://limanling.github.io/tag/application/</link>
+      <atom:link href="https://limanling.github.io/tag/application/index.xml" rel="self" type="application/rss+xml" />
+    <description>Application</description>
+    <generator>Wowchemy (https://wowchemy.com)</generator><language>en-us</language><lastBuildDate>Sun, 01 May 2022 00:00:00 +0000</lastBuildDate>
+    <image>
+      <url>https://limanling.github.io/media/icon_hu437e05b1b543de801281f81b261d0785_1145_512x512_fill_lanczos_center_3.png</url>
+      <title>Application</title>
+      <link>https://limanling.github.io/tag/application/</link>
+    </image>
+    
+    <item>
+      <title>Timeline Summarization based on Event Graph Compression via Time-Aware Optimal Transport</title>
+      <link>https://limanling.github.io/researchhighlights/timeline/</link>
+      <pubDate>Mon, 01 Nov 2021 00:00:00 +0000</pubDate>
+      <guid>https://limanling.github.io/researchhighlights/timeline/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Keep Meeting Summaries on Topic: Abstractive Multi-Modal Meeting Summarization</title>
+      <link>https://limanling.github.io/researchhighlights/meetingsum/</link>
+      <pubDate>Wed, 01 May 2019 00:00:00 +0000</pubDate>
+      <guid>https://limanling.github.io/researchhighlights/meetingsum/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>COVID-19 Claim Radar: A Structured Claim Extraction and Tracking System</title>
+      <link>https://limanling.github.io/researchhighlights/covidclaimradar/</link>
+      <pubDate>Sun, 01 May 2022 00:00:00 +0000</pubDate>
+      <guid>https://limanling.github.io/researchhighlights/covidclaimradar/</guid>
+      <description></description>
+    </item>
+    
+  </channel>
+</rss>

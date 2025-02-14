@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Knowledge-Driven Applications | Manling Li</title>
+    <link>https://limanling.github.io/tag/knowledge-driven-applications/</link>
+      <atom:link href="https://limanling.github.io/tag/knowledge-driven-applications/index.xml" rel="self" type="application/rss+xml" />
+    <description>Knowledge-Driven Applications</description>
+    <generator>Wowchemy (https://wowchemy.com)</generator><language>en-us</language><lastBuildDate>Wed, 27 Apr 2016 00:00:00 +0000</lastBuildDate>
+    <image>
+      <url>https://limanling.github.io/media/icon_hu437e05b1b543de801281f81b261d0785_1145_512x512_fill_lanczos_center_3.png</url>
+      <title>Knowledge-Driven Applications</title>
+      <link>https://limanling.github.io/tag/knowledge-driven-applications/</link>
+    </image>
+    
+    <item>
+      <title>Write: Truthfully</title>
+      <link>https://limanling.github.io/researchsummary/smartbook/</link>
+      <pubDate>Wed, 27 Apr 2016 00:00:00 +0000</pubDate>
+      <guid>https://limanling.github.io/researchsummary/smartbook/</guid>
+      <description>&lt;p&gt;One of the main bottlenecks of large corpora analysis is the multi-document encoding. Whereas existing
+studies have built text graphs by augmenting text sequences with different hidden structural information,
+they are typically entity-centric and overlook the events’ intra-structures (arguments) and inter-structures
+(event-event connections).&lt;/p&gt;
+&lt;p&gt;My solution is using event graphs to provide a new comprehensive representation and necessary
+inductive bias. I propose to define the multi-document joint representation as the contextualized
+embeddings of the nodes on the event graph and collectively model events and arguments. These event
+graphs can then be used to address the massive unstructured data challenge in real-world applications:
+(1) Timeline Summarization is formulated as an event graph compression problem and then I
+design time-aware optimal transport to obtain the summary graph. (2) Meeting Summarization
+leverages agenda-based topics to segment meeting transcripts, and takes advantage of multi-modal
+sensing of the meeting environment, such as cameras to capture each participant’s head pose and eye
+gaze. (3) Multimedia News Question Answering employs multimedia event graphs to condition
+synthetic question-answer generation, and to automatically augment data via weak supervision.&lt;/p&gt;
+&lt;p&gt;My work is the first study to use event graph representations to overcome fundamental challenges in
+handling massive unstructured data that exist in various applications. It provides tangible guidelines to
+use event structural knowledge in practice, and shows positive results on long-standing open problems
+in event tracking&lt;/p&gt;
+</description>
+    </item>
+    
+  </channel>
+</rss>

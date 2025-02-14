@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Knowledge Reasoning | Manling Li</title>
+    <link>https://limanling.github.io/tag/knowledge-reasoning/</link>
+      <atom:link href="https://limanling.github.io/tag/knowledge-reasoning/index.xml" rel="self" type="application/rss+xml" />
+    <description>Knowledge Reasoning</description>
+    <generator>Wowchemy (https://wowchemy.com)</generator><language>en-us</language><lastBuildDate>Wed, 27 Apr 2016 00:00:00 +0000</lastBuildDate>
+    <image>
+      <url>https://limanling.github.io/media/icon_hu437e05b1b543de801281f81b261d0785_1145_512x512_fill_lanczos_center_3.png</url>
+      <title>Knowledge Reasoning</title>
+      <link>https://limanling.github.io/tag/knowledge-reasoning/</link>
+    </image>
+    
+    <item>
+      <title>Think: Long-Horizon Dynamics</title>
+      <link>https://limanling.github.io/researchsummary/reasoning/</link>
+      <pubDate>Wed, 27 Apr 2016 00:00:00 +0000</pubDate>
+      <guid>https://limanling.github.io/researchsummary/reasoning/</guid>
+      <description>&lt;p&gt;Event extraction from massive multimedia data enables us to obtain a large number of historical events.
+These historical events imply knowledge about event interactions, which guides our predictions as to
+what might happen next and what events are missing. For example, after an ATTACK event there will
+usually be ARREST and SENTENCE events. We refer to this knowledge as Event Schemas, which can
+be viewed as &amp;ldquo;complex event templates&amp;rdquo; that encode knowledge of stereotypical event structures and
+show the progression of event evolution. However, previous event schema induction work has been
+oversimplified to be local and sequential, rendering them incapable of dealing with real-world events
+with numerous participants, complicated timelines, and various alternative outcomes.&lt;/p&gt;
+&lt;p&gt;My research tackles this issue with a new paradigm of event schema knowledge: an Event Graph
+Schema, which is a graph-based schema representation that encompasses events, arguments,
+temporal connections and argument relations. Figure 1 shows an example schema of the complex event
+type car-bombing: a person learns to make bombs, purchasing materials and a vehicle; a bomb is fixed to
+the vehicle; and the attacker drives the vehicle to attack people. In this scenario, people can be hurt by
+the vehicle or by the bomb’s explosion. It is the first application of graph generation to induce event
+schemas and predict future events.&lt;/p&gt;
+&lt;p&gt;My work is a new step towards the semantic understanding of inter-event connections. Different from
+traditional methods using one-hop relations as connections between events, I learn a complicated graph
+including temporal dynamics and multiple paths involving entities (coreferential or related arguments)
+that play important roles in a coherent story. Compared to traditional schemas, my new paradigm of Models as Schemas add predictive power to produce multiple hypotheses with probabilities, along
+with structural justifications for participant-specific and attribute-specific connections.&lt;/p&gt;
+</description>
+    </item>
+    
+  </channel>
+</rss>

@@ -164,10 +164,8 @@ in event tracking&lt;/p&gt;
       <link>https://limanling.github.io/talk/example-talk/</link>
       <pubDate>Sat, 01 Jun 2030 13:00:00 +0000</pubDate>
       <guid>https://limanling.github.io/talk/example-talk/</guid>
-      <description>&lt;div class=&#34;alert alert-note&#34;&gt;
-  &lt;div&gt;
-    Click on the &lt;strong&gt;Slides&lt;/strong&gt; button above to view the built-in slides feature.
-  &lt;/div&gt;
+      <description>&lt;div class=&#34;callout &#34;&gt;
+&lt;p&gt;Click on the &lt;strong&gt;Slides&lt;/strong&gt; button above to view the built-in slides feature.&lt;/p&gt;
 &lt;/div&gt;
 &lt;p&gt;Slides can be added in a few ways:&lt;/p&gt;
 &lt;ul&gt;
@@ -363,7 +361,7 @@ data.head()
 
 
 
-&lt;div id=&#34;chart-176349528&#34; class=&#34;chart&#34;&gt;&lt;/div&gt;
+&lt;div id=&#34;chart-935471286&#34; class=&#34;chart&#34;&gt;&lt;/div&gt;
 &lt;script&gt;
   (function() {
     let a = setInterval( function() {
@@ -373,7 +371,7 @@ data.head()
       clearInterval( a );
 
       Plotly.d3.json(&#34;./line-chart.json&#34;, function(chart) {
-        Plotly.plot(&#39;chart-176349528&#39;, chart.data, chart.layout, {responsive: true});
+        Plotly.plot(&#39;chart-935471286&#39;, chart.data, chart.layout, {responsive: true});
       });
     }, 500 );
   })();
@@ -621,10 +619,8 @@ Crash --&gt; [*]
 &lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;A Markdown aside is useful for displaying notices, hints, or definitions to your readers.
 &lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;{{% /callout %}}
 &lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;p&gt;renders as&lt;/p&gt;
-&lt;div class=&#34;alert alert-note&#34;&gt;
-  &lt;div&gt;
-    A Markdown aside is useful for displaying notices, hints, or definitions to your readers.
-  &lt;/div&gt;
+&lt;div class=&#34;callout &#34;&gt;
+&lt;p&gt;A Markdown aside is useful for displaying notices, hints, or definitions to your readers.&lt;/p&gt;
 &lt;/div&gt;
 &lt;h3 id=&#34;spoilers&#34;&gt;Spoilers&lt;/h3&gt;
 &lt;p&gt;Add a spoiler to a page to reveal text, such as an answer to a question, after a button is clicked.&lt;/p&gt;
