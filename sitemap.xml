@@ -26,6 +26,9 @@
     <lastmod>2020-05-01T00:00:00+00:00</lastmod>
     <changefreq>weekly</changefreq>
   </url><url>
+    <loc>https://limanling.github.io/authors_bak/baiqiao-yin/</loc>
+    <changefreq>weekly</changefreq>
+  </url><url>
     <loc>https://limanling.github.io/researchhighlights/covidkg/</loc>
     <lastmod>2021-11-01T00:00:00+00:00</lastmod>
     <changefreq>weekly</changefreq>
@@ -40,6 +43,9 @@
   </url><url>
     <loc>https://limanling.github.io/researchhighlights/vidil/</loc>
     <lastmod>2022-12-01T00:00:00+00:00</lastmod>
+    <changefreq>weekly</changefreq>
+  </url><url>
+    <loc>https://limanling.github.io/authors_bak/tianwei-bao/</loc>
     <changefreq>weekly</changefreq>
   </url><url>
     <loc>https://limanling.github.io/researchhighlights/timeline/</loc>
@@ -167,9 +173,6 @@
     <loc>https://limanling.github.io/teaching/</loc>
     <changefreq>weekly</changefreq>
   </url><url>
-    <loc>https://limanling.github.io/authors_bak/emma-hamel/</loc>
-    <changefreq>weekly</changefreq>
-  </url><url>
     <loc>https://limanling.github.io/talk/</loc>
     <changefreq>weekly</changefreq>
   </url><url>
@@ -177,12 +180,6 @@
     <changefreq>weekly</changefreq>
   </url><url>
     <loc>https://limanling.github.io/publication/</loc>
-    <changefreq>weekly</changefreq>
-  </url><url>
-    <loc>https://limanling.github.io/authors_bak/revanth-gangi-reddy/</loc>
-    <changefreq>weekly</changefreq>
-  </url><url>
-    <loc>https://limanling.github.io/authors_bak/stuti-agrawal/</loc>
     <changefreq>weekly</changefreq>
   </url>
 </urlset>
