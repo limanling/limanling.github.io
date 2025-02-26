@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Projects | Manling Li</title>
+    <link>https://limanling.github.io/projects/</link>
+      <atom:link href="https://limanling.github.io/projects/index.xml" rel="self" type="application/rss+xml" />
+    <description>Projects</description>
+    <generator>Wowchemy (https://wowchemy.com)</generator><language>en-us</language>
+    <image>
+      <url>https://limanling.github.io/media/icon_hu437e05b1b543de801281f81b261d0785_1145_512x512_fill_lanczos_center_3.png</url>
+      <title>Projects</title>
+      <link>https://limanling.github.io/projects/</link>
+    </image>
+    
+    <item>
+      <title>Embodied Eval</title>
+      <link>https://limanling.github.io/projects/embodied-eval/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>https://limanling.github.io/projects/embodied-eval/</guid>
+      <description>&lt;p&gt;This page is redirecting to &lt;a href=&#34;https://embodied-agent-eval.github.io/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Embodied Agent Eval&lt;/a&gt;.&lt;/p&gt;
+</description>
+    </item>
+    
+  </channel>
+</rss>
