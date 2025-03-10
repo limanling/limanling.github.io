@@ -5,12 +5,27 @@
     <link>https://limanling.github.io/teaching/</link>
       <atom:link href="https://limanling.github.io/teaching/index.xml" rel="self" type="application/rss+xml" />
     <description>Manling Li</description>
-    <generator>Wowchemy (https://wowchemy.com)</generator><language>en-us</language>
+    <generator>Wowchemy (https://wowchemy.com)</generator><language>en-us</language><lastBuildDate>Mon, 06 Jan 2025 00:00:00 +0000</lastBuildDate>
     <image>
       <url>https://limanling.github.io/media/icon_hu437e05b1b543de801281f81b261d0785_1145_512x512_fill_lanczos_center_3.png</url>
       <title>Manling Li</title>
       <link>https://limanling.github.io/teaching/</link>
     </image>
+    
+    <item>
+      <title>COMP SCI 396 Reasoning and Planning in the Foundation Model Era</title>
+      <link>https://limanling.github.io/teaching/winter2025_reasoningplanning/</link>
+      <pubDate>Mon, 06 Jan 2025 00:00:00 +0000</pubDate>
+      <guid>https://limanling.github.io/teaching/winter2025_reasoningplanning/</guid>
+      <description>&lt;p&gt;&lt;strong&gt;Time&lt;/strong&gt;: Monday and Wednesday 9:30am-10:50am
+&lt;strong&gt;Location&lt;/strong&gt;: Technological Institute M164
+&lt;strong&gt;Instructor&lt;/strong&gt;: Prof. Manling Li (Email: &lt;a href=&#34;mailto:manling.li@northwestern.edu&#34;&gt;manling.li@northwestern.edu&lt;/a&gt;)
+&lt;strong&gt;TA&lt;/strong&gt;: Shang Wu (Email: &lt;a href=&#34;mailto:ShangWu2028@u.northwestern.edu&#34;&gt;ShangWu2028@u.northwestern.edu&lt;/a&gt;)
+&lt;strong&gt;Instructor and TA Office Hours&lt;/strong&gt;: Instructor Monday 4:45pm-5pm in-person, Thursday 5pm-5:30pm over zoom, Friday 4:45pm-5pm in-person, TAs Thursday 1pm-2pm over zoom (Instructor and TA zoom links and office hour sign-up sheets are in google folder to be sent to class mailing list)
+&lt;strong&gt;Course Google Folder&lt;/strong&gt;: to be announced at mailing list.
+&lt;strong&gt;Assignment Submission&lt;/strong&gt;: on Canvas: &lt;a href=&#34;https://canvas.illinois.edu/courses/47781&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;https://canvas.illinois.edu/courses/47781&lt;/a&gt;&lt;/p&gt;
+</description>
+    </item>
     
   </channel>
 </rss>

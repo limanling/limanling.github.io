@@ -178,6 +178,21 @@ in event tracking&lt;/p&gt;
     </item>
     
     <item>
+      <title>COMP SCI 396 Reasoning and Planning in the Foundation Model Era</title>
+      <link>https://limanling.github.io/teaching/winter2025_reasoningplanning/</link>
+      <pubDate>Mon, 06 Jan 2025 00:00:00 +0000</pubDate>
+      <guid>https://limanling.github.io/teaching/winter2025_reasoningplanning/</guid>
+      <description>&lt;p&gt;&lt;strong&gt;Time&lt;/strong&gt;: Monday and Wednesday 9:30am-10:50am
+&lt;strong&gt;Location&lt;/strong&gt;: Technological Institute M164
+&lt;strong&gt;Instructor&lt;/strong&gt;: Prof. Manling Li (Email: &lt;a href=&#34;mailto:manling.li@northwestern.edu&#34;&gt;manling.li@northwestern.edu&lt;/a&gt;)
+&lt;strong&gt;TA&lt;/strong&gt;: Shang Wu (Email: &lt;a href=&#34;mailto:ShangWu2028@u.northwestern.edu&#34;&gt;ShangWu2028@u.northwestern.edu&lt;/a&gt;)
+&lt;strong&gt;Instructor and TA Office Hours&lt;/strong&gt;: Instructor Monday 4:45pm-5pm in-person, Thursday 5pm-5:30pm over zoom, Friday 4:45pm-5pm in-person, TAs Thursday 1pm-2pm over zoom (Instructor and TA zoom links and office hour sign-up sheets are in google folder to be sent to class mailing list)
+&lt;strong&gt;Course Google Folder&lt;/strong&gt;: to be announced at mailing list.
+&lt;strong&gt;Assignment Submission&lt;/strong&gt;: on Canvas: &lt;a href=&#34;https://canvas.illinois.edu/courses/47781&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;https://canvas.illinois.edu/courses/47781&lt;/a&gt;&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
       <title>Welcome to Wowchemy, the website builder for Hugo</title>
       <link>https://limanling.github.io/post/getting-started/</link>
       <pubDate>Sun, 13 Dec 2020 00:00:00 +0000</pubDate>
@@ -361,7 +376,7 @@ data.head()
 
 
 
-&lt;div id=&#34;chart-953481672&#34; class=&#34;chart&#34;&gt;&lt;/div&gt;
+&lt;div id=&#34;chart-138264975&#34; class=&#34;chart&#34;&gt;&lt;/div&gt;
 &lt;script&gt;
   (function() {
     let a = setInterval( function() {
@@ -371,7 +386,7 @@ data.head()
       clearInterval( a );
 
       Plotly.d3.json(&#34;./line-chart.json&#34;, function(chart) {
-        Plotly.plot(&#39;chart-953481672&#39;, chart.data, chart.layout, {responsive: true});
+        Plotly.plot(&#39;chart-138264975&#39;, chart.data, chart.layout, {responsive: true});
       });
     }, 500 );
   })();
