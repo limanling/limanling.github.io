@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Homes | Manling Li</title>
+    <link>https://limanling.github.io/home/</link>
+      <atom:link href="https://limanling.github.io/home/index.xml" rel="self" type="application/rss+xml" />
+    <description>Homes</description>
+    <generator>Wowchemy (https://wowchemy.com)</generator><language>en-us</language>
+    <image>
+      <url>https://limanling.github.io/media/icon_hu127f241f63a982cda73a1c1b15888e16_9623_512x512_fill_lanczos_center_3.png</url>
+      <title>Homes</title>
+      <link>https://limanling.github.io/home/</link>
+    </image>
+    
+    <item>
+      <title></title>
+      <link>https://limanling.github.io/home/portfoliovideo/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>https://limanling.github.io/home/portfoliovideo/</guid>
+      <description>&lt;h1 id=&#34;contenthomeportfoliovideomd&#34;&gt;content/home/portfoliovideo.md&lt;/h1&gt;
+&lt;hr&gt;
+&lt;h1 id=&#34;a-custom-portfolio-section-created-with-the-portfolio-widget&#34;&gt;A custom Portfolio section created with the Portfolio widget&lt;/h1&gt;
+&lt;p&gt;widget: portfolio&lt;/p&gt;
+&lt;h1 id=&#34;this-file-represents-a-page-section&#34;&gt;This file represents a page section.&lt;/h1&gt;
+&lt;p&gt;headless: true&lt;/p&gt;
+&lt;h1 id=&#34;order-that-this-section-appears-on-the-page&#34;&gt;Order that this section appears on the page.&lt;/h1&gt;
+&lt;p&gt;weight: 50&lt;/p&gt;
+&lt;h1 id=&#34;section-title&#34;&gt;Section title&lt;/h1&gt;
+&lt;p&gt;title: &#39;&#39;&lt;/p&gt;
+&lt;h1 id=&#34;section-subtitle&#34;&gt;Section subtitle&lt;/h1&gt;
+&lt;p&gt;subtitle: &#39;&#39;&lt;/p&gt;
+&lt;p&gt;content:&lt;/p&gt;
+&lt;h1 id=&#34;page-type-to-display-eg-project&#34;&gt;Page type to display. E.g. project.&lt;/h1&gt;
+&lt;p&gt;page_type: project&lt;/p&gt;
+&lt;h1 id=&#34;default-filter-index-eg-0-corresponds-to-the-first-filter_button-instance-below&#34;&gt;Default filter index (e.g. 0 corresponds to the first &lt;code&gt;filter_button&lt;/code&gt; instance below).&lt;/h1&gt;
+&lt;p&gt;filter_default: 0&lt;/p&gt;
+&lt;h1 id=&#34;filter-toolbar-optional&#34;&gt;Filter toolbar (optional).&lt;/h1&gt;
+&lt;h1 id=&#34;add-or-remove-as-many-filters-filter_button-instances-as-you-like&#34;&gt;Add or remove as many filters (&lt;code&gt;filter_button&lt;/code&gt; instances) as you like.&lt;/h1&gt;
+&lt;h1 id=&#34;to-show-all-items-set-tag-to-&#34;&gt;To show all items, set &lt;code&gt;tag&lt;/code&gt; to &amp;ldquo;*&amp;rdquo;.&lt;/h1&gt;
+&lt;h1 id=&#34;to-filter-by-a-specific-tag-set-tag-to-an-existing-tag-name&#34;&gt;To filter by a specific tag, set &lt;code&gt;tag&lt;/code&gt; to an existing tag name.&lt;/h1&gt;
+&lt;h1 id=&#34;to-remove-the-toolbar-delete-the-entire-filter_button-block&#34;&gt;To remove the toolbar, delete the entire &lt;code&gt;filter_button&lt;/code&gt; block.&lt;/h1&gt;
+&lt;h1 id=&#34;for-your-specific-requirements&#34;&gt;For your specific requirements:&lt;/h1&gt;
+&lt;p&gt;sort_ascending: true&lt;/p&gt;
+&lt;h1 id=&#34;filter-only-content-in-specific-folders&#34;&gt;Filter only content in specific folders&lt;/h1&gt;
+&lt;p&gt;folders:
+- researchsummary&lt;/p&gt;
+&lt;p&gt;design:&lt;/p&gt;
+&lt;h1 id=&#34;choose-how-many-columns-the-section-has-valid-values-1-or-2&#34;&gt;Choose how many columns the section has. Valid values: &amp;lsquo;1&amp;rsquo; or &amp;lsquo;2&amp;rsquo;.&lt;/h1&gt;
+&lt;p&gt;columns: &amp;lsquo;1&amp;rsquo;&lt;/p&gt;
+&lt;h1 id=&#34;for-showcase-view-flip-alternate-rows&#34;&gt;For Showcase view, flip alternate rows?&lt;/h1&gt;
+&lt;p&gt;flip_alt_rows: true&lt;/p&gt;
+&lt;h1 id=&#34;choose-a-view-for-the-listings&#34;&gt;Choose a view for the listings:&lt;/h1&gt;
+&lt;p&gt;view: masonry&lt;/p&gt;
+&lt;h1 id=&#34;background-colorimage-options&#34;&gt;Background color/image options&lt;/h1&gt;
+&lt;p&gt;background: {}&lt;/p&gt;
+&lt;h1 id=&#34;spacing-custom-padding&#34;&gt;Spacing (custom padding)&lt;/h1&gt;
+&lt;h2 id=&#34;padding-0-0-0-0&#34;&gt;spacing:
+padding: [0, 0, 0, 0]&lt;/h2&gt;
+</description>
+    </item>
+    
+  </channel>
+</rss>

@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Projects | Manling Li</title>
+    <link>https://limanling.github.io/project/</link>
+      <atom:link href="https://limanling.github.io/project/index.xml" rel="self" type="application/rss+xml" />
+    <description>Projects</description>
+    <generator>Wowchemy (https://wowchemy.com)</generator><language>en-us</language><lastBuildDate>Sun, 01 Jan 2023 00:00:00 +0000</lastBuildDate>
+    <image>
+      <url>https://limanling.github.io/media/icon_hu127f241f63a982cda73a1c1b15888e16_9623_512x512_fill_lanczos_center_3.png</url>
+      <title>Projects</title>
+      <link>https://limanling.github.io/project/</link>
+    </image>
+    
+    <item>
+      <title>Your Video Project Title</title>
+      <link>https://limanling.github.io/project/video-project-name/</link>
+      <pubDate>Sun, 01 Jan 2023 00:00:00 +0000</pubDate>
+      <guid>https://limanling.github.io/project/video-project-name/</guid>
+      <description>&lt;!-- 
+&lt;div style=&#34;position: relative; padding-bottom: 56.25%; height: 0; overflow: hidden;&#34;&gt;
+  &lt;iframe src=&#34;https://www.youtube.com/embed/w7Ft2ymGmfc&#34; style=&#34;position: absolute; top: 0; left: 0; width: 100%; height: 100%; border:0;&#34; allowfullscreen title=&#34;YouTube Video&#34;&gt;&lt;/iframe&gt;
+&lt;/div&gt;
+ --&gt;
+
+&lt;div style=&#34;position: relative; padding-bottom: 56.25%; height: 0; overflow: hidden;&#34;&gt;
+  &lt;iframe src=&#34;https://www.youtube.com/embed/w7Ft2ymGmfc&#34; style=&#34;position: absolute; top: 0; left: 0; width: 100%; height: 100%; border:0;&#34; allowfullscreen title=&#34;My Video Title&#34;&gt;&lt;/iframe&gt;
+&lt;/div&gt;
+
+&lt;!-- &lt;video src=&#34;featured.mp4&#34; controls width=&#34;100%&#34;&gt;&lt;/video&gt; --&gt;
+&lt;h2 id=&#34;project-description&#34;&gt;Project Description&lt;/h2&gt;
+&lt;p&gt;This video showcases my work on [project name]. The main objectives were to [describe objectives].&lt;/p&gt;
+&lt;h2 id=&#34;process&#34;&gt;Process&lt;/h2&gt;
+&lt;p&gt;I created this video using [tools/software] and focused on [specific techniques]. Some key challenges included [challenges] which I resolved by [solutions].&lt;/p&gt;
+&lt;h2 id=&#34;impact&#34;&gt;Impact&lt;/h2&gt;
+&lt;p&gt;This project was viewed by [number] people and resulted in [outcomes].&lt;/p&gt;
+</description>
+    </item>
+    
+  </channel>
+</rss>

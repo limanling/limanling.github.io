@@ -83,15 +83,35 @@
     <lastmod>2025-01-06T00:00:00+00:00</lastmod>
     <changefreq>weekly</changefreq>
   </url><url>
+    <loc>https://limanling.github.io/categories/</loc>
+    <lastmod>2023-01-01T00:00:00+00:00</lastmod>
+    <changefreq>weekly</changefreq>
+  </url><url>
+    <loc>https://limanling.github.io/category/portfolio/</loc>
+    <lastmod>2023-01-01T00:00:00+00:00</lastmod>
+    <changefreq>weekly</changefreq>
+  </url><url>
+    <loc>https://limanling.github.io/project/</loc>
+    <lastmod>2023-01-01T00:00:00+00:00</lastmod>
+    <changefreq>weekly</changefreq>
+  </url><url>
+    <loc>https://limanling.github.io/tags/</loc>
+    <lastmod>2023-01-01T00:00:00+00:00</lastmod>
+    <changefreq>weekly</changefreq>
+  </url><url>
+    <loc>https://limanling.github.io/tag/video/</loc>
+    <lastmod>2023-01-01T00:00:00+00:00</lastmod>
+    <changefreq>weekly</changefreq>
+  </url><url>
+    <loc>https://limanling.github.io/project/video-project-name/</loc>
+    <lastmod>2023-01-01T00:00:00+00:00</lastmod>
+    <changefreq>weekly</changefreq>
+  </url><url>
     <loc>https://limanling.github.io/tag/reasoning/</loc>
     <lastmod>2022-12-01T00:00:00+00:00</lastmod>
     <changefreq>weekly</changefreq>
   </url><url>
     <loc>https://limanling.github.io/researchhighlights/</loc>
-    <lastmod>2022-12-01T00:00:00+00:00</lastmod>
-    <changefreq>weekly</changefreq>
-  </url><url>
-    <loc>https://limanling.github.io/tags/</loc>
     <lastmod>2022-12-01T00:00:00+00:00</lastmod>
     <changefreq>weekly</changefreq>
   </url><url>
@@ -108,10 +128,6 @@
     <changefreq>weekly</changefreq>
   </url><url>
     <loc>https://limanling.github.io/tag/academic/</loc>
-    <lastmod>2020-12-13T00:00:00+00:00</lastmod>
-    <changefreq>weekly</changefreq>
-  </url><url>
-    <loc>https://limanling.github.io/categories/</loc>
     <lastmod>2020-12-13T00:00:00+00:00</lastmod>
     <changefreq>weekly</changefreq>
   </url><url>
@@ -176,16 +192,28 @@
     <loc>https://limanling.github.io/award/</loc>
     <changefreq>weekly</changefreq>
   </url><url>
+    <loc>https://limanling.github.io/home/portfoliovideo/</loc>
+    <changefreq>weekly</changefreq>
+  </url><url>
     <loc>https://limanling.github.io/news/</loc>
     <changefreq>weekly</changefreq>
   </url><url>
     <loc>https://limanling.github.io/opensource/</loc>
     <changefreq>weekly</changefreq>
   </url><url>
+    <loc>https://limanling.github.io/researchsummary/test/</loc>
+    <changefreq>weekly</changefreq>
+  </url><url>
     <loc>https://limanling.github.io/service/</loc>
     <changefreq>weekly</changefreq>
   </url><url>
     <loc>https://limanling.github.io/authors_bak/emma-hamel/</loc>
+    <changefreq>weekly</changefreq>
+  </url><url>
+    <loc>https://limanling.github.io/service/demotrack/</loc>
+    <changefreq>weekly</changefreq>
+  </url><url>
+    <loc>https://limanling.github.io/home/</loc>
     <changefreq>weekly</changefreq>
   </url><url>
     <loc>https://limanling.github.io/talk/</loc>

@@ -716,6 +716,31 @@ This course will explore the core challenge of reasoning and planning in AI, and
     </item>
     
     <item>
+      <title>Your Video Project Title</title>
+      <link>https://limanling.github.io/project/video-project-name/</link>
+      <pubDate>Sun, 01 Jan 2023 00:00:00 +0000</pubDate>
+      <guid>https://limanling.github.io/project/video-project-name/</guid>
+      <description>&lt;!-- 
+&lt;div style=&#34;position: relative; padding-bottom: 56.25%; height: 0; overflow: hidden;&#34;&gt;
+  &lt;iframe src=&#34;https://www.youtube.com/embed/w7Ft2ymGmfc&#34; style=&#34;position: absolute; top: 0; left: 0; width: 100%; height: 100%; border:0;&#34; allowfullscreen title=&#34;YouTube Video&#34;&gt;&lt;/iframe&gt;
+&lt;/div&gt;
+ --&gt;
+
+&lt;div style=&#34;position: relative; padding-bottom: 56.25%; height: 0; overflow: hidden;&#34;&gt;
+  &lt;iframe src=&#34;https://www.youtube.com/embed/w7Ft2ymGmfc&#34; style=&#34;position: absolute; top: 0; left: 0; width: 100%; height: 100%; border:0;&#34; allowfullscreen title=&#34;My Video Title&#34;&gt;&lt;/iframe&gt;
+&lt;/div&gt;
+
+&lt;!-- &lt;video src=&#34;featured.mp4&#34; controls width=&#34;100%&#34;&gt;&lt;/video&gt; --&gt;
+&lt;h2 id=&#34;project-description&#34;&gt;Project Description&lt;/h2&gt;
+&lt;p&gt;This video showcases my work on [project name]. The main objectives were to [describe objectives].&lt;/p&gt;
+&lt;h2 id=&#34;process&#34;&gt;Process&lt;/h2&gt;
+&lt;p&gt;I created this video using [tools/software] and focused on [specific techniques]. Some key challenges included [challenges] which I resolved by [solutions].&lt;/p&gt;
+&lt;h2 id=&#34;impact&#34;&gt;Impact&lt;/h2&gt;
+&lt;p&gt;This project was viewed by [number] people and resulted in [outcomes].&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
       <title>Welcome to Wowchemy, the website builder for Hugo</title>
       <link>https://limanling.github.io/post/getting-started/</link>
       <pubDate>Sun, 13 Dec 2020 00:00:00 +0000</pubDate>
@@ -899,7 +924,7 @@ data.head()
 
 
 
-&lt;div id=&#34;chart-785129643&#34; class=&#34;chart&#34;&gt;&lt;/div&gt;
+&lt;div id=&#34;chart-317269845&#34; class=&#34;chart&#34;&gt;&lt;/div&gt;
 &lt;script&gt;
   (function() {
     let a = setInterval( function() {
@@ -909,7 +934,7 @@ data.head()
       clearInterval( a );
 
       Plotly.d3.json(&#34;./line-chart.json&#34;, function(chart) {
-        Plotly.plot(&#39;chart-785129643&#39;, chart.data, chart.layout, {responsive: true});
+        Plotly.plot(&#39;chart-317269845&#39;, chart.data, chart.layout, {responsive: true});
       });
     }, 500 );
   })();
@@ -1377,6 +1402,167 @@ $$&lt;/p&gt;
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       <guid>https://limanling.github.io/admin/config.yml</guid>
       <description></description>
+    </item>
+    
+    <item>
+      <title></title>
+      <link>https://limanling.github.io/home/portfoliovideo/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>https://limanling.github.io/home/portfoliovideo/</guid>
+      <description>&lt;h1 id=&#34;contenthomeportfoliovideomd&#34;&gt;content/home/portfoliovideo.md&lt;/h1&gt;
+&lt;hr&gt;
+&lt;h1 id=&#34;a-custom-portfolio-section-created-with-the-portfolio-widget&#34;&gt;A custom Portfolio section created with the Portfolio widget&lt;/h1&gt;
+&lt;p&gt;widget: portfolio&lt;/p&gt;
+&lt;h1 id=&#34;this-file-represents-a-page-section&#34;&gt;This file represents a page section.&lt;/h1&gt;
+&lt;p&gt;headless: true&lt;/p&gt;
+&lt;h1 id=&#34;order-that-this-section-appears-on-the-page&#34;&gt;Order that this section appears on the page.&lt;/h1&gt;
+&lt;p&gt;weight: 50&lt;/p&gt;
+&lt;h1 id=&#34;section-title&#34;&gt;Section title&lt;/h1&gt;
+&lt;p&gt;title: &#39;&#39;&lt;/p&gt;
+&lt;h1 id=&#34;section-subtitle&#34;&gt;Section subtitle&lt;/h1&gt;
+&lt;p&gt;subtitle: &#39;&#39;&lt;/p&gt;
+&lt;p&gt;content:&lt;/p&gt;
+&lt;h1 id=&#34;page-type-to-display-eg-project&#34;&gt;Page type to display. E.g. project.&lt;/h1&gt;
+&lt;p&gt;page_type: project&lt;/p&gt;
+&lt;h1 id=&#34;default-filter-index-eg-0-corresponds-to-the-first-filter_button-instance-below&#34;&gt;Default filter index (e.g. 0 corresponds to the first &lt;code&gt;filter_button&lt;/code&gt; instance below).&lt;/h1&gt;
+&lt;p&gt;filter_default: 0&lt;/p&gt;
+&lt;h1 id=&#34;filter-toolbar-optional&#34;&gt;Filter toolbar (optional).&lt;/h1&gt;
+&lt;h1 id=&#34;add-or-remove-as-many-filters-filter_button-instances-as-you-like&#34;&gt;Add or remove as many filters (&lt;code&gt;filter_button&lt;/code&gt; instances) as you like.&lt;/h1&gt;
+&lt;h1 id=&#34;to-show-all-items-set-tag-to-&#34;&gt;To show all items, set &lt;code&gt;tag&lt;/code&gt; to &amp;ldquo;*&amp;rdquo;.&lt;/h1&gt;
+&lt;h1 id=&#34;to-filter-by-a-specific-tag-set-tag-to-an-existing-tag-name&#34;&gt;To filter by a specific tag, set &lt;code&gt;tag&lt;/code&gt; to an existing tag name.&lt;/h1&gt;
+&lt;h1 id=&#34;to-remove-the-toolbar-delete-the-entire-filter_button-block&#34;&gt;To remove the toolbar, delete the entire &lt;code&gt;filter_button&lt;/code&gt; block.&lt;/h1&gt;
+&lt;h1 id=&#34;for-your-specific-requirements&#34;&gt;For your specific requirements:&lt;/h1&gt;
+&lt;p&gt;sort_ascending: true&lt;/p&gt;
+&lt;h1 id=&#34;filter-only-content-in-specific-folders&#34;&gt;Filter only content in specific folders&lt;/h1&gt;
+&lt;p&gt;folders:
+- researchsummary&lt;/p&gt;
+&lt;p&gt;design:&lt;/p&gt;
+&lt;h1 id=&#34;choose-how-many-columns-the-section-has-valid-values-1-or-2&#34;&gt;Choose how many columns the section has. Valid values: &amp;lsquo;1&amp;rsquo; or &amp;lsquo;2&amp;rsquo;.&lt;/h1&gt;
+&lt;p&gt;columns: &amp;lsquo;1&amp;rsquo;&lt;/p&gt;
+&lt;h1 id=&#34;for-showcase-view-flip-alternate-rows&#34;&gt;For Showcase view, flip alternate rows?&lt;/h1&gt;
+&lt;p&gt;flip_alt_rows: true&lt;/p&gt;
+&lt;h1 id=&#34;choose-a-view-for-the-listings&#34;&gt;Choose a view for the listings:&lt;/h1&gt;
+&lt;p&gt;view: masonry&lt;/p&gt;
+&lt;h1 id=&#34;background-colorimage-options&#34;&gt;Background color/image options&lt;/h1&gt;
+&lt;p&gt;background: {}&lt;/p&gt;
+&lt;h1 id=&#34;spacing-custom-padding&#34;&gt;Spacing (custom padding)&lt;/h1&gt;
+&lt;h2 id=&#34;padding-0-0-0-0&#34;&gt;spacing:
+padding: [0, 0, 0, 0]&lt;/h2&gt;
+</description>
+    </item>
+    
+    <item>
+      <title></title>
+      <link>https://limanling.github.io/researchsummary/test/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>https://limanling.github.io/researchsummary/test/</guid>
+      <description>&lt;h1 id=&#34;contenthomeportfoliomemd&#34;&gt;content/home/portfoliome.md&lt;/h1&gt;
+&lt;hr&gt;
+&lt;h1 id=&#34;a-custom-portfolio-section-created-with-the-portfolio-widget&#34;&gt;A custom Portfolio section created with the Portfolio widget&lt;/h1&gt;
+&lt;p&gt;widget: portfolio&lt;/p&gt;
+&lt;h1 id=&#34;this-file-represents-a-page-section&#34;&gt;This file represents a page section.&lt;/h1&gt;
+&lt;p&gt;headless: true&lt;/p&gt;
+&lt;h1 id=&#34;order-that-this-section-appears-on-the-page&#34;&gt;Order that this section appears on the page.&lt;/h1&gt;
+&lt;p&gt;weight: 50&lt;/p&gt;
+&lt;h1 id=&#34;section-title&#34;&gt;Section title&lt;/h1&gt;
+&lt;p&gt;title: &#39;&#39;&lt;/p&gt;
+&lt;h1 id=&#34;section-subtitle&#34;&gt;Section subtitle&lt;/h1&gt;
+&lt;p&gt;subtitle: &#39;&#39;&lt;/p&gt;
+&lt;p&gt;content:&lt;/p&gt;
+&lt;h1 id=&#34;page-type-to-display-eg-project&#34;&gt;Page type to display. E.g. project.&lt;/h1&gt;
+&lt;p&gt;page_type: project&lt;/p&gt;
+&lt;h1 id=&#34;default-filter-index-eg-0-corresponds-to-the-first-filter_button-instance-below&#34;&gt;Default filter index (e.g. 0 corresponds to the first &lt;code&gt;filter_button&lt;/code&gt; instance below).&lt;/h1&gt;
+&lt;p&gt;filter_default: 0&lt;/p&gt;
+&lt;h1 id=&#34;filter-toolbar-optional&#34;&gt;Filter toolbar (optional).&lt;/h1&gt;
+&lt;h1 id=&#34;add-or-remove-as-many-filters-filter_button-instances-as-you-like&#34;&gt;Add or remove as many filters (&lt;code&gt;filter_button&lt;/code&gt; instances) as you like.&lt;/h1&gt;
+&lt;h1 id=&#34;to-show-all-items-set-tag-to-&#34;&gt;To show all items, set &lt;code&gt;tag&lt;/code&gt; to &amp;ldquo;*&amp;rdquo;.&lt;/h1&gt;
+&lt;h1 id=&#34;to-filter-by-a-specific-tag-set-tag-to-an-existing-tag-name&#34;&gt;To filter by a specific tag, set &lt;code&gt;tag&lt;/code&gt; to an existing tag name.&lt;/h1&gt;
+&lt;h1 id=&#34;to-remove-the-toolbar-delete-the-entire-filter_button-block&#34;&gt;To remove the toolbar, delete the entire &lt;code&gt;filter_button&lt;/code&gt; block.&lt;/h1&gt;
+&lt;h1 id=&#34;for-your-specific-requirements&#34;&gt;For your specific requirements:&lt;/h1&gt;
+&lt;p&gt;sort_ascending: true&lt;/p&gt;
+&lt;h1 id=&#34;filter-only-content-in-specific-folders&#34;&gt;Filter only content in specific folders&lt;/h1&gt;
+&lt;p&gt;folders:
+- researchsummary&lt;/p&gt;
+&lt;p&gt;design:&lt;/p&gt;
+&lt;h1 id=&#34;choose-how-many-columns-the-section-has-valid-values-1-or-2&#34;&gt;Choose how many columns the section has. Valid values: &amp;lsquo;1&amp;rsquo; or &amp;lsquo;2&amp;rsquo;.&lt;/h1&gt;
+&lt;p&gt;columns: &amp;lsquo;1&amp;rsquo;&lt;/p&gt;
+&lt;h1 id=&#34;for-showcase-view-flip-alternate-rows&#34;&gt;For Showcase view, flip alternate rows?&lt;/h1&gt;
+&lt;p&gt;flip_alt_rows: true&lt;/p&gt;
+&lt;h1 id=&#34;choose-a-view-for-the-listings&#34;&gt;Choose a view for the listings:&lt;/h1&gt;
+&lt;p&gt;view: masonry&lt;/p&gt;
+&lt;h1 id=&#34;background-colorimage-options&#34;&gt;Background color/image options&lt;/h1&gt;
+&lt;p&gt;background: {}&lt;/p&gt;
+&lt;h1 id=&#34;spacing-custom-padding&#34;&gt;Spacing (custom padding)&lt;/h1&gt;
+&lt;h2 id=&#34;padding-0-0-0-0&#34;&gt;spacing:
+padding: [0, 0, 0, 0]&lt;/h2&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>EMNLP 2024 Demo Track Summary</title>
+      <link>https://limanling.github.io/service/demotrack/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>https://limanling.github.io/service/demotrack/</guid>
+      <description>&lt;h2 id=&#34;tasksroles&#34;&gt;Tasks/Roles:&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;Before submission:
+&lt;ul&gt;
+&lt;li&gt;Call for papers of the demo track&lt;/li&gt;
+&lt;li&gt;Openreview set up and operations, including submission form including all the submission field (video link, demo link, etc), the review form, meta review form, decision option, camera ready form, etc&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;During Submission:
+&lt;ul&gt;
+&lt;li&gt;Hire reviewers, area chairs, chasing reviews and area chairs&lt;/li&gt;
+&lt;li&gt;Making the final decision (we assign chairs as SACs)&lt;/li&gt;
+&lt;li&gt;Composing Award Committee, voting for Best Paper Awards&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;After submission:
+&lt;ul&gt;
+&lt;li&gt;Proceedings, checking whether the format is correct and contact authors to revise, will take a long time&lt;/li&gt;
+&lt;li&gt;Underline coordination&lt;/li&gt;
+&lt;li&gt;Registration tracking &amp;amp; on-site demo coordination&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;Publicize about the demo track&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2 id=&#34;recommendationslessons-learned&#34;&gt;Recommendations/Lessons learned:&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;Most importantly: We recommend to split the task at the beginning, set up timeline for each task (that is why we give a complete list of the tasks)&lt;/li&gt;
+&lt;li&gt;The length of the demo paper (6 pages) and main paper (8 pages) is different. Should we change it? If not, please highlight this.&lt;/li&gt;
+&lt;li&gt;We set Appendix page limitation, which may not be very useful, as demo tends to need more space for visualizations&lt;/li&gt;
+&lt;li&gt;Ask area chairs to hire emergency reviewers to ensure there are no less than 3 reviews when they write a meta review. Some area chairs do not chase reviewers.&lt;/li&gt;
+&lt;li&gt;Give more time for reviewers and meta reviewers&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2 id=&#34;openreview-settings&#34;&gt;OpenReview Settings:&lt;/h2&gt;
+&lt;div class=&#34;doc-container&#34;&gt;
+        &lt;iframe 
+            class=&#34;fullsize-iframe&#34;
+            src=&#34;https://docs.google.com/document/d/e/2PACX-1vQSRQhsdaf7soXBMSCmjPscnscqAALeG0PlRliL8yNqaRpHCPZTH1DVbVezdMdUZUKRVt_xGP3jKVzj/pub?embedded=true&#34;
+            frameborder=&#34;0&#34;
+            scrolling=&#34;auto&#34;&gt;
+        &lt;/iframe&gt;
+    &lt;/div&gt;
+&lt;style&gt;
+        body, html {
+            margin: 0;
+            padding: 0;
+            height: 100%;
+        }
+        .doc-container {
+            width: 100%;
+            height: 100%;
+        }
+        .fullsize-iframe {
+            width: 100%;
+            height: 100%;
+            min-height: 10000px; /* This ensures a minimum height */
+            border: 0;
+        }
+    &lt;/style&gt;&lt;blockquote&gt;
+&lt;/blockquote&gt;
+</description>
     </item>
     
   </channel>

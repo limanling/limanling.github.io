@@ -12,5 +12,72 @@
       <link>https://limanling.github.io/service/</link>
     </image>
     
+    <item>
+      <title>EMNLP 2024 Demo Track Summary</title>
+      <link>https://limanling.github.io/service/demotrack/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>https://limanling.github.io/service/demotrack/</guid>
+      <description>&lt;h2 id=&#34;tasksroles&#34;&gt;Tasks/Roles:&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;Before submission:
+&lt;ul&gt;
+&lt;li&gt;Call for papers of the demo track&lt;/li&gt;
+&lt;li&gt;Openreview set up and operations, including submission form including all the submission field (video link, demo link, etc), the review form, meta review form, decision option, camera ready form, etc&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;During Submission:
+&lt;ul&gt;
+&lt;li&gt;Hire reviewers, area chairs, chasing reviews and area chairs&lt;/li&gt;
+&lt;li&gt;Making the final decision (we assign chairs as SACs)&lt;/li&gt;
+&lt;li&gt;Composing Award Committee, voting for Best Paper Awards&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;After submission:
+&lt;ul&gt;
+&lt;li&gt;Proceedings, checking whether the format is correct and contact authors to revise, will take a long time&lt;/li&gt;
+&lt;li&gt;Underline coordination&lt;/li&gt;
+&lt;li&gt;Registration tracking &amp;amp; on-site demo coordination&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;Publicize about the demo track&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2 id=&#34;recommendationslessons-learned&#34;&gt;Recommendations/Lessons learned:&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;Most importantly: We recommend to split the task at the beginning, set up timeline for each task (that is why we give a complete list of the tasks)&lt;/li&gt;
+&lt;li&gt;The length of the demo paper (6 pages) and main paper (8 pages) is different. Should we change it? If not, please highlight this.&lt;/li&gt;
+&lt;li&gt;We set Appendix page limitation, which may not be very useful, as demo tends to need more space for visualizations&lt;/li&gt;
+&lt;li&gt;Ask area chairs to hire emergency reviewers to ensure there are no less than 3 reviews when they write a meta review. Some area chairs do not chase reviewers.&lt;/li&gt;
+&lt;li&gt;Give more time for reviewers and meta reviewers&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2 id=&#34;openreview-settings&#34;&gt;OpenReview Settings:&lt;/h2&gt;
+&lt;div class=&#34;doc-container&#34;&gt;
+        &lt;iframe 
+            class=&#34;fullsize-iframe&#34;
+            src=&#34;https://docs.google.com/document/d/e/2PACX-1vQSRQhsdaf7soXBMSCmjPscnscqAALeG0PlRliL8yNqaRpHCPZTH1DVbVezdMdUZUKRVt_xGP3jKVzj/pub?embedded=true&#34;
+            frameborder=&#34;0&#34;
+            scrolling=&#34;auto&#34;&gt;
+        &lt;/iframe&gt;
+    &lt;/div&gt;
+&lt;style&gt;
+        body, html {
+            margin: 0;
+            padding: 0;
+            height: 100%;
+        }
+        .doc-container {
+            width: 100%;
+            height: 100%;
+        }
+        .fullsize-iframe {
+            width: 100%;
+            height: 100%;
+            min-height: 10000px; /* This ensures a minimum height */
+            border: 0;
+        }
+    &lt;/style&gt;&lt;blockquote&gt;
+&lt;/blockquote&gt;
+</description>
+    </item>
+    
   </channel>
 </rss>
