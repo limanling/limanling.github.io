@@ -215,7 +215,7 @@ Prerequisites&lt;/p&gt;
     &lt;/tr&gt;
     &lt;tr&gt;
         &lt;td&gt;Week 1&lt;/td&gt;
-        &lt;td&gt;Introduction to Agent AI&lt;/td&gt;
+        &lt;td&gt;Introduction to Agent AI (based on MDP)&lt;/td&gt;
         &lt;td&gt;
             &lt;ul&gt;
                 &lt;li&gt;Definition and Overview of Agents&lt;/li&gt;
@@ -223,15 +223,18 @@ Prerequisites&lt;/p&gt;
                 &lt;li&gt;Agent Formulation based on MDP&lt;/li&gt;
                 &lt;li&gt;Role of Large Language Models (LLMs)&lt;/li&gt;
                 &lt;ul&gt;
-                    &lt;li&gt;Different roles of LLMs in perception and interaction with environments.&lt;/li&gt;
-                    &lt;li&gt;LLMs as reasoning engines for decision-making.&lt;/li&gt;
+                    &lt;li&gt;Goal Interpretation&lt;/li&gt;
+                    &lt;li&gt;State Estimation&lt;/li&gt;
+                    &lt;li&gt;MDP Policy&lt;/li&gt;
+                    &lt;li&gt;Reward Modeling&lt;/li&gt;
+                    &lt;li&gt;World Modeling&lt;/li&gt;
                 &lt;/ul&gt;
             &lt;/ul&gt;
         &lt;/td&gt;
     &lt;/tr&gt;
     &lt;tr&gt;
         &lt;td&gt;Week 2&lt;/td&gt;
-        &lt;td&gt;Agent Learning Mechanisms&lt;/td&gt;
+        &lt;td&gt;LLM Agent&lt;/td&gt;
         &lt;td&gt;
             &lt;ul&gt;
                 &lt;li&gt;Agent Architectures&lt;/li&gt;
@@ -924,7 +927,7 @@ data.head()
 
 
 
-&lt;div id=&#34;chart-317269845&#34; class=&#34;chart&#34;&gt;&lt;/div&gt;
+&lt;div id=&#34;chart-148963527&#34; class=&#34;chart&#34;&gt;&lt;/div&gt;
 &lt;script&gt;
   (function() {
     let a = setInterval( function() {
@@ -934,7 +937,7 @@ data.head()
       clearInterval( a );
 
       Plotly.d3.json(&#34;./line-chart.json&#34;, function(chart) {
-        Plotly.plot(&#39;chart-317269845&#39;, chart.data, chart.layout, {responsive: true});
+        Plotly.plot(&#39;chart-148963527&#39;, chart.data, chart.layout, {responsive: true});
       });
     }, 500 );
   })();
