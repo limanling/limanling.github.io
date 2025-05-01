@@ -927,7 +927,7 @@ data.head()
 
 
 
-&lt;div id=&#34;chart-321549678&#34; class=&#34;chart&#34;&gt;&lt;/div&gt;
+&lt;div id=&#34;chart-356178492&#34; class=&#34;chart&#34;&gt;&lt;/div&gt;
 &lt;script&gt;
   (function() {
     let a = setInterval( function() {
@@ -937,7 +937,7 @@ data.head()
       clearInterval( a );
 
       Plotly.d3.json(&#34;./line-chart.json&#34;, function(chart) {
-        Plotly.plot(&#39;chart-321549678&#39;, chart.data, chart.layout, {responsive: true});
+        Plotly.plot(&#39;chart-356178492&#39;, chart.data, chart.layout, {responsive: true});
       });
     }, 500 );
   })();
@@ -1596,6 +1596,40 @@ padding: [0, 0, 0, 0]&lt;/h2&gt;
 &lt;li&gt;Handbook meta data&lt;/li&gt;
 &lt;/ul&gt;
 &lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2 id=&#34;proceeding-list&#34;&gt;Proceeding list&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;Proceedings of the 2025 Conference of the Nations of the Americas Chapter of the Association for Computational Linguistics: Human Language Technologies (Volume 1: Long Papers)&lt;/li&gt;
+&lt;li&gt;Proceedings of the 2025 Conference of the Nations of the Americas Chapter of the Association for Computational Linguistics: Human Language Technologies (Volume 2: Short Papers)&lt;/li&gt;
+&lt;li&gt;Proceedings of the 2025 Conference of the Nations of the Americas Chapter of the Association for Computational Linguistics: Human Language Technologies (Volume 3: System Demonstrations)&lt;/li&gt;
+&lt;li&gt;Proceedings of the 2025 Conference of the Nations of the Americas Chapter of the Association for Computational Linguistics: Human Language Technologies (Volume 4: Student Research Workshop)&lt;/li&gt;
+&lt;li&gt;Proceedings of the 2025 Conference of the Nations of the Americas Chapter of the Association for Computational Linguistics: Human Language Technologies (Volume 5: Tutorial Abstracts)&lt;/li&gt;
+&lt;li&gt;Proceedings of the 2025 Conference of the Nations of the Americas Chapter of the Association for Computational Linguistics: Human Language Technologies (Volume 6: Industry Track)&lt;/li&gt;
+&lt;li&gt;Findings of the Association for Computational Linguistics: NAACL 2025&lt;/li&gt;
+&lt;li&gt;Proceeding of the First Workshop on AI and Scientific Discovery: Directions and Opportunities&lt;/li&gt;
+&lt;li&gt;Proceedings of the 7th Workshop on Computational Approaches to Linguistic Code-Switching&lt;/li&gt;
+&lt;li&gt;Proceedings of the 10th Workshop on Computational Linguistics and Clinical Psychology (CLPsych 2025)&lt;/li&gt;
+&lt;li&gt;Proceedings of the Workshop on Cognitive Modeling and Computational Linguistics (CMCL 2025)&lt;/li&gt;
+&lt;li&gt;Proceedings of the Fifth Workshop on Speech and Language Technologies for Dravidian Languages&lt;/li&gt;
+&lt;li&gt;Proceedings of the 4th Workshop on Knowledge-Augmentation for Language Models and NLP Methods&lt;/li&gt;
+&lt;li&gt;Proceedings of the Eighth Workshop on Technologies for Machine Translation of Low-Resource Languages (LoResMT 2025)&lt;/li&gt;
+&lt;li&gt;Proceedings of the 22nd SIGMORPHON Workshop on Computational Morphology, Phonology, and Phonetics&lt;/li&gt;
+&lt;li&gt;Proceedings of the Tenth Workshop on Noisy and User-generated Text (W-NUT 2025)&lt;/li&gt;
+&lt;li&gt;Proceedings of the 5th Workshop on Trustworthy NLP (TrustNLP 2024)&lt;/li&gt;
+&lt;li&gt;Proceedings of the 5th International Conference on Natural Language Processing for Digital Humanities&lt;/li&gt;
+&lt;li&gt;Proceedings of the 2nd Workshop on Ancient Language Processing (ALP 2025)&lt;/li&gt;
+&lt;li&gt;Proceedings of the Fifth Workshop on NLP for Indigenous Languages of the Americas (AmericasNLP)&lt;/li&gt;
+&lt;li&gt;Proceedings of the 3rd Workshop on Cross-Cultural Considerations in NLP (C3NLP 2025)&lt;/li&gt;
+&lt;li&gt;Proceedings of the 2nd Workshop on Patient-oriented Language Processing (CL4Health 2025)&lt;/li&gt;
+&lt;li&gt;Proceedings of the Fourth Workshop on Intelligent and Interactive Writing Assistants (in2writing 2025)&lt;/li&gt;
+&lt;li&gt;Proceedings of the Sixth Workshop on Insights from Negative Results in NLP (Insights 2025)&lt;/li&gt;
+&lt;li&gt;Proceedings of the Ninth Joint SIGHUM Workshop on Computational Linguistics for Cultural Heritage, Social Sciences, Humanities and Literature (LaTeCH-CLfL 2025)&lt;/li&gt;
+&lt;li&gt;Proceedings of the 1st Workshop on Language Models for Underserved Communities (LM4UC 2025)&lt;/li&gt;
+&lt;li&gt;Proceedings of the 21st Workshop on Multiword Expressions (MWE 2025)&lt;/li&gt;
+&lt;li&gt;Proceedings of the Queer in AI workshop&lt;/li&gt;
+&lt;li&gt;Proceedings of the 10th Workshop on Representation Learning for NLP (RepL4NLP-2025)&lt;/li&gt;
+&lt;li&gt;Proceedings of the Sixth Workshop on Privacy in Natural Language Processing&lt;/li&gt;
+&lt;li&gt;Proceedings of the Seventh Workshop on Narrative Understanding&lt;/li&gt;
 &lt;/ul&gt;
 &lt;h2 id=&#34;workshop-settings&#34;&gt;Workshop Settings:&lt;/h2&gt;
 &lt;div class=&#34;doc-container&#34;&gt;
