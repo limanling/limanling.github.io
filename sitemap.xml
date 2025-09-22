@@ -234,7 +234,10 @@
     <loc>https://limanling.github.io/publication/</loc>
     <changefreq>weekly</changefreq>
   </url><url>
-    <loc>https://limanling.github.io/publication/all_backup/</loc>
+    <loc>https://limanling.github.io/publication/all/</loc>
+    <changefreq>weekly</changefreq>
+  </url><url>
+    <loc>https://limanling.github.io/publication/selected/</loc>
     <changefreq>weekly</changefreq>
   </url><url>
     <loc>https://limanling.github.io/authors_bak/revanth-gangi-reddy/</loc>
