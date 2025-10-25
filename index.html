@@ -51,6 +51,9 @@
     <link rel="alternate" href="/index.xml" type="application/rss+xml" title="Manling Li" />
   <title>Manling Li</title>
   <style>
+    :root {
+      --section-heading-size: 1.65rem;
+    }
     #about .about-main,
     #publications .section-body,
     #talks .section-body,
@@ -135,14 +138,8 @@
       line-height: 1.4;
       margin-top: 0.15rem;
     }
-    #alumni .past-members-list {
-      list-style: disc;
-      margin: 0;
-      padding-left: 1.2rem;
-    }
-    #alumni .past-members-list li {
-      margin-bottom: 0.35rem;
-      line-height: 1.6;
+    #students .section-heading p {
+      font-size: 0.9rem;
     }
     #students .student-columns {
       display: block;
@@ -153,7 +150,15 @@
       margin-bottom: 0.6rem;
     }
     #students .student-group {
-      margin-bottom: 1.75rem;
+      margin-bottom: 1.6rem;
+      width: 100%;
+    }
+    #students .student-group.student-past-members {
+      margin-top: 0;
+      display: block;
+    }
+    #students .student-group + .student-group {
+      margin-top: 1.6rem;
     }
     #students .student-list {
       list-style: none;
@@ -192,6 +197,56 @@
     #students .student-list a:hover {
       color: #6a5cd2;
       text-decoration: underline;
+    }
+    #students .student-cta {
+      display: inline-flex;
+      align-items: center;
+      justify-content: center;
+      gap: 0.35rem;
+      padding: 0.35rem 0.9rem;
+      border-radius: 999px;
+      border: 1px solid #6a5cd2;
+      font-weight: 600;
+      font-size: 1.05rem;
+      color: #6a5cd2;
+      background: transparent;
+      text-decoration: none;
+      cursor: pointer;
+      transition: background 0.2s ease, color 0.2s ease;
+      height: auto;
+    }
+    #students .student-group.student-past-members .student-cta {
+      margin-left: 0.5rem;
+    }
+    #students .student-cta:hover,
+    #students .student-cta:focus {
+      background: #6a5cd2;
+      color: #fff;
+      text-decoration: none;
+      outline: none;
+    }
+    #students .student-past-members-list {
+      font-size: 0.95rem;
+      line-height: 1.6;
+      margin: 0;
+      padding-left: 0;
+    }
+    #students .student-past-members-list p {
+      margin-bottom: 0;
+    }
+    #students .student-past-members-list .past-member-icon {
+      display: inline-block;
+      width: 1.35rem;
+      text-align: center;
+      color: #6a5cd2;
+      margin-right: 0.25rem;
+    }
+    #publications .article-style {
+      font-size: 0.95rem;
+      line-height: 1.65;
+    }
+    .site-content > .home-section:not(#about) .section-heading h1 {
+      font-size: var(--section-heading-size);
     }
     .site-profile .avatar {
       width: 100%;
@@ -285,6 +340,42 @@
       .site-content > .home-section {
         padding: 2rem 0;
       }
+    }
+  </style>
+
+  <style id="codex-footer-style">
+    .site-footer {
+      margin-top: 3rem;
+      border-top: 1px solid #e6e6e6;
+      background-color: #fafafa;
+      padding: 2rem 1rem 2.5rem;
+      text-align: center;
+      font-size: 0.95rem;
+      color: #4b4b4b;
+    }
+    .site-footer .footer-inner {
+      max-width: 820px;
+      margin: 0 auto;
+    }
+    .site-footer .footer-title {
+      font-weight: 600;
+      color: #2c2c2c;
+    }
+    .site-footer p {
+      margin: 0.35rem 0;
+    }
+    .site-footer .footer-meta {
+      font-size: 0.85rem;
+      color: #6d6d6d;
+    }
+    .site-footer a {
+      color: #5b4dd6;
+      font-weight: 600;
+      text-decoration: none;
+    }
+    .site-footer a:hover,
+    .site-footer a:focus {
+      text-decoration: underline;
     }
   </style>
 
@@ -706,21 +797,24 @@
                    <p class="profile-primary">
                      <a href="https://www.mccormick.northwestern.edu/computer-science/" target="_blank" rel="noopener">Computer Science</a>
                    </p>
-                   <p class="profile-affiliation">
+                   <!-- <p class="profile-affiliation">
                      <a href="https://cogsci.northwestern.edu" target="_blank" rel="noopener">Cognitive Science Program</a>
                      <span>(Affiliated)</span>
-                   </p>
+                   </p> -->
                    <p class="profile-affiliation">
                      <a href="https://robotics.northwestern.edu" target="_blank" rel="noopener">Center for Robotics and Biosystems</a>
                      <span>(Affiliated)</span>
                    </p>
                  </div>
-
-                 <div class="profile-tagline">
-                   <p class="profile-primary">
-                     <a href="https://www.amazon.com" target="_blank" rel="noopener">Amazon Scholar @ Amazon</a>
-                   </p>
-                 </div>
+                 <!-- <div class="profile-tagline"> -->
+ 
+                 <!-- </div> -->
+                <div class="profile-tagline">
+                  <p class="profile-role">
+                    Amazon Scholar
+                  </p>
+                  <a href="https://www.amazon.science/scholars" target="_blank" rel="noopener">Amazon</a>
+                </div>
 
                  <div class="profile-contact">
                    <p class="profile-contact-text">manling.li <span>AT northwestern.edu</span></p>
@@ -895,12 +989,12 @@
      
  
      <p><!-- In the meantime, I am visiting [Stanford University](http://vision.stanford.edu/), working with Prof [Jiajun Wu](https://jiajunwu.com/), Prof [Fei-Fei Li](https://profiles.stanford.edu/fei-fei-li/), and Prof [Monica Lam](https://oval.cs.stanford.edu).  -->
-<p>Hi, there! I&rsquo;m <strong>Manling</strong>. I am an assistant professor of <a href="https://www.mccormick.northwestern.edu/computer-science/" target="_blank" rel="noopener">Computer Science</a> at <a href="https://www.northwestern.edu/" target="_blank" rel="noopener">Northwestern University</a>, affiliated with <a href="https://cogsci.northwestern.edu" target="_blank" rel="noopener">Cognitive Science</a> and <a href="https://robotics.northwestern.edu" target="_blank" rel="noopener">Center for Robotics and Biosystems</a>. I direct the <a href="http://www.mll.lab.northwestern.edu" target="_blank" rel="noopener">Machine Learning and Language (MLL) Lab</a>. I am also an <a href='https://www.amazon.science/scholars'>Amazon Scholar</a> working on conversational agents.
+<p>Hi, there! I&rsquo;m <strong>Manling</strong>. I am an assistant professor of <a href="https://www.mccormick.northwestern.edu/computer-science/" target="_blank" rel="noopener">Computer Science</a> at <a href="https://www.northwestern.edu/" target="_blank" rel="noopener">Northwestern University</a>, affiliated with <a href="https://robotics.northwestern.edu" target="_blank" rel="noopener">Center for Robotics and Biosystems</a> and <a href="https://cogsci.northwestern.edu" target="_blank" rel="noopener">Cognitive Science</a>. I direct the <a href="http://www.mll.lab.northwestern.edu" target="_blank" rel="noopener">Machine Learning and Language (MLL) Lab</a>. I am also an <a href='https://www.amazon.science/scholars'>Amazon Scholar</a> working on conversational agents.
 Prior to this, I was a postdoc at <a href="https://hai.stanford.edu" target="_blank" rel="noopener">Stanford University</a> (2024), working with <a href="https://jiajunwu.com/" target="_blank" rel="noopener">Jiajun Wu</a> and mentored by <a href="https://profiles.stanford.edu/fei-fei-li/" target="_blank" rel="noopener">Fei-Fei Li</a>.
-I obtained my PhD at <a href="https://siebelschool.illinois.edu" target="_blank" rel="noopener">UIUC</a> (2023), advised by <a href="http://blender.cs.illinois.edu/hengji.html" target="_blank" rel="noopener">Heng Ji</a> and mentored by <a href="https://www.engineering.columbia.edu/faculty/shih-fu-chang" target="_blank" rel="noopener">Shih-Fu Chang</a>, <a href="https://kyunghyuncho.me/" target="_blank" rel="noopener">Kyunghyun Cho</a> and <a href="https://hanj.cs.illinois.edu/" target="_blank" rel="noopener">Jiawei Han</a>.</p>
+I obtained my PhD at <a href="https://siebelschool.illinois.edu" target="_blank" rel="noopener">UIUC</a> (2023), advised by <a href="http://blender.cs.illinois.edu/hengji.html" target="_blank" rel="noopener">Heng Ji</a> and mentored by <a href="https://www.engineering.columbia.edu/faculty/shih-fu-chang" target="_blank" rel="noopener">Shih-Fu Chang</a>, <a href="https://kyunghyuncho.me/" target="_blank" rel="noopener">Kyunghyun Cho</a> and <a href="https://hanj.cs.illinois.edu/" target="_blank" rel="noopener">Jiawei Han</a>. I am a recipient of <a href="https://www.innovatorsunder35.com" target="_blank" rel="noopener">MIT Tech Review 35 Under 35</a> in 2025, <a href="https://aclweb.org/aclwiki/ACL_Computational_Linguistics_Doctoral_Dissertation_Award" target="_blank" rel="noopener">ACL Inaugural Best Desseratation Award Hornorable Mention</a> in 2025,  <a href="https://forward.darpa.mil/Risers" target="_blank" rel="noopener">DARPA Riser</a> in 2022, and a <a href="https://risingstars.utexas.edu" target="_blank" rel="noopener">EECS Rising Star</a> in 2022, <a href="https://www.microsoft.com/en-us/research/academic-program/phd-fellowship/" target="_blank" rel="noopener">Microsoft Research PhD Fellowship</a> in 2021, etc. Our work on multimodal reasoning was awarded <a href="https://lm-steer.github.io" target="_blank" rel="noopener">ACL'24 Outstanding Paper Award</a>, <a href="http://blender.cs.illinois.edu/software/gaia-ie/gaia.mp4" target="_blank" rel="noopener">ACL'20 Best Demo Paper Award</a>, <a href="http://blender.cs.illinois.edu/covid19/" target="_blank" rel="noopener">NAACL'21 Best Demo Paper Award</a>, etc. I served as organizing committee of <a href="https://2025.aclweb.org/" target="_blank" rel="noopener">ACL'25</a> (virtual co-chairs), <a href="https://2025.naacl.org/" target="_blank" rel="noopener">NAACL'25</a> (publication co-chairs), <a href="https://2024.emnlp.org/" target="_blank" rel="noopener">EMNLP'24</a> (demo co-chairs), etc.</p>
 
 <!-- <p>I am a recipient of <strong><a href="https://www.innovatorsunder35.com" target="_blank" rel="noopener">MIT Tech Review 35 Under 35</a></strong>, <strong><a href="https://aclweb.org/aclwiki/ACL_Computational_Linguistics_Doctoral_Dissertation_Award" target="_blank" rel="noopener">ACL Inaugural Best Desseratation Award Hornorable Mention</a></strong> in 2025,  <strong><a href="https://forward.darpa.mil/Risers" target="_blank" rel="noopener">DARPA Riser</a></strong> in 2022, and a <strong><a href="https://risingstars.utexas.edu" target="_blank" rel="noopener">EE CS Rising Star</a></strong> in 2022, <strong><a href="https://www.microsoft.com/en-us/research/academic-program/phd-fellowship/" target="_blank" rel="noopener">Microsoft Research PhD Fellowship</a></strong> in 2021, etc. Our work on multimodal reasoning was awarded <strong><a href="https://lm-steer.github.io" target="_blank" rel="noopener">ACL'24 Outstanding Paper Award</a></strong>, <strong><a href="http://blender.cs.illinois.edu/software/gaia-ie/gaia.mp4" target="_blank" rel="noopener">ACL'20 Best Demo Paper Award</a></strong>, <strong><a href="http://blender.cs.illinois.edu/covid19/" target="_blank" rel="noopener">NAACL'21 Best Demo Paper Award</a></strong>, etc. I served as organizing committee of ACL'25 (virtual co-chairs), NAACL'25 (publication co-chairs), EMNLP'24 (demo co-chairs), etc, and organized the Workshops/Challenges on <a href="https://foundation-models-meet-embodied-agents.github.io/" target="_blank" rel="noopener">Foundation Models Meet Embodied Agents</a> at NeurIPS'25, CVPR'25, etc, the Workshops on <a href="https://knowledgeable-lm.github.io/" target="_blank" rel="noopener">Knowledgeable Foundation Models</a> at ACL'25, ACL'24, AAAI'25, etc.</p> -->
-<p>I am a recipient of <a href="https://www.innovatorsunder35.com" target="_blank" rel="noopener">MIT Tech Review 35 Under 35</a>, <a href="https://aclweb.org/aclwiki/ACL_Computational_Linguistics_Doctoral_Dissertation_Award" target="_blank" rel="noopener">ACL Inaugural Best Desseratation Award Hornorable Mention</a> in 2025,  <a href="https://forward.darpa.mil/Risers" target="_blank" rel="noopener">DARPA Riser</a> in 2022, and a <a href="https://risingstars.utexas.edu" target="_blank" rel="noopener">EECS Rising Star</a> in 2022, <a href="https://www.microsoft.com/en-us/research/academic-program/phd-fellowship/" target="_blank" rel="noopener">Microsoft Research PhD Fellowship</a> in 2021, etc. Our work on multimodal reasoning was awarded <a href="https://lm-steer.github.io" target="_blank" rel="noopener">ACL'24 Outstanding Paper Award</a>, <a href="http://blender.cs.illinois.edu/software/gaia-ie/gaia.mp4" target="_blank" rel="noopener">ACL'20 Best Demo Paper Award</a>, <a href="http://blender.cs.illinois.edu/covid19/" target="_blank" rel="noopener">NAACL'21 Best Demo Paper Award</a>, etc. I served as organizing committee of <a href="https://2025.aclweb.org/" target="_blank" rel="noopener">ACL'25</a> (virtual co-chairs), <a href="https://2025.naacl.org/" target="_blank" rel="noopener">NAACL'25</a> (publication co-chairs), <a href="https://2024.emnlp.org/" target="_blank" rel="noopener">EMNLP'24</a> (demo co-chairs), etc.</p>
+<p></p>
 
 
 <h3>Research (Not Done Yet)</h3>
@@ -950,9 +1044,11 @@ Her work on multimodal reasoning won the **[ACL Inaugural Best Desseratation Awa
 <!-- She serves as a senior PC member at IJCAI and PC members for ARR, ACL, EMNLP, NAACL, COLING, IJCAI, AAAI, etc.  -->
 <!-- <span style="color:blue"><b>I will join [CS @ Northwestern](https://www.mccormick.northwestern.edu/computer-science/) as an assistant professor in Fall 2024. Before that, I will be a postdoc working on multimodal research at [Stanford Vision and Learning Lab](http://vision.stanford.edu/) with Prof. [Jiajun Wu](https://jiajunwu.com/). </b></span><br> -->
 <!-- <i class="fas fa-download"></i> Download my [CV](uploads/cv_limanling.pdf),   [ResearchStatement](uploads/ResearchStatement_ManlingLi.pdf),  [TeachingStatement](uploads/TeachingStatement_ManlingLi.pdf),  [DiversityStatement](uploads/DiversityStatement_ManlingLi.pdf)<br> -->
-<p><i class="fas fa-envelope"></i> Prospective students: I have <b>several PhD positions</b> in Fall 2026 and intern positions. We have <b>amazing new faculty</b> at NU working on robotics and foundation models, please check out <a href="https://ai.stanford.edu/~zharu/">Ruohan</a>! He also has several PhD positions in Fall 2026.
+<p><i class="fas fa-envelope"></i> Prospective students: I have <b>several PhD positions</b> in Fall 2026 and intern positions. 
 <a class="btn btn-sm btn-outline-primary ml-2" data-toggle="collapse" href="#prospective-details" role="button" aria-expanded="false" aria-controls="prospective-details">&raquo; Show details</a></p>
 <div id="prospective-details" class="collapse mt-2">
+>> We have <b>amazing new faculty</b> at NU working on robotics and foundation models, please check out <a href="https://ai.stanford.edu/~zharu/">Ruohan</a>! He also has several PhD positions in Fall 2026.
+<br>
 >> If you are interested in PhD at Northwestern, please apply to <a href="https://www.mccormick.northwestern.edu/computer-science/academics/graduate/admissions">NorthwesternCS</a>. Due to the large amount of emails, <b>I aplogize that I will not able to reply to individual emails</b> (Please note that <b>non-reply does NOT indicate non-interesting</b>, largely means emails got missed or I unfortunately did not get time to check such emails before applications). Please <b>choose me as a potential advisor in the application</b>, and I will <b>check every application carefully</b> in late Dec and do interviews in Jan-Mar. 
 <br>
 >> If you are interested in doing research internship with our group, please feel free to talk to any of the PhD students to join their projects, and many of them are looking for collaborators. The best way is to submit this <a href="https://forms.gle/unVqpW97bGwQsrRz5">form</a> and drop an email to <a href="mailto:limanling.ai@gmail.com">limanling.ai@gmail.com</a>. This mailbox has been checked more frequently.
@@ -980,6 +1076,20 @@ Her work on multimodal reasoning won the **[ACL Inaugural Best Desseratation Awa
 
   </div>
 </section>
+<script>
+function togglePastMembers(btn) {
+  var container = document.getElementById('past-members-inline');
+  if (!container) return;
+  var isHidden = container.hasAttribute('hidden');
+  if (isHidden) {
+    container.removeAttribute('hidden');
+    btn.textContent = 'Hide Past Members';
+  } else {
+    container.setAttribute('hidden', '');
+    btn.textContent = 'View Past Members';
+  }
+}
+</script>
 
 
   
@@ -1861,24 +1971,48 @@ Her work on multimodal reasoning won the **[ACL Inaugural Best Desseratation Awa
     </div>
   </div>
 
-    <div class="student-columns">
+  <div class="student-columns">
     <div class="student-group">
       <h4>PhD Students</h4>
       <ul class="student-list">
-        <li><a href="https://zihanwang314.github.io">Zihan Wang</a> (2024)</li>
-        <li><a href="https://qinengwang-aiden.github.io">Qineng Wang</a> (2024)</li>
-        <li><a href="https://jameskrw.github.io">Kangrui Wang</a> (2024)</li>
-        <li><a href="https://williamzhangsjtu.github.io">Pingyue Zhang</a> (2024)</li>
-        <li><a href="https://canyuchen.com">Canyu Chen</a> (2025)</li>
-        <li><a href="https://sterzhang.github.io/">Jianshu Zhang</a> (2025; co-advised with Han Liu)</li>
+        <li><a href="https://zihanwang314.github.io">Zihan Wang</a> (2024-)</li>
+        <li><a href="https://qinengwang-aiden.github.io">Qineng Wang</a> (2024-)</li>
+        <li><a href="https://jameskrw.github.io">Kangrui Wang</a> (2024-)</li>
+        <li><a href="https://williamzhangsjtu.github.io">Pingyue Zhang</a> (2024-)</li>
+        <li><a href="https://canyuchen.com">Canyu Chen</a> (2025-)</li>
+        <li><a href="https://sterzhang.github.io/">Jianshu Zhang</a> (2025-; with <a href="https://www.mccormick.northwestern.edu/research-faculty/directory/profiles/liu-han.html" target="_blank" rel="noopener">Han Liu</a>)</li>
       </ul>
     </div>
     <div class="student-group">
       <h4>Visiting PhD Students</h4>
       <ul class="student-list">
-        <li><a href="https://shiqichen17.github.io">Shiqi Chen</a> (2024)</li>
-        <li><a href="https://yusalei.github.io">Lei (Max) Zhang</a> (2025)</li>
+        <li><a href="https://shiqichen17.github.io">Shiqi Chen</a> (2024-)</li>
+        <li><a href="https://yusalei.github.io">Lei (Max) Zhang</a> (2025-)</li>
       </ul>
+    </div>
+    <div class="student-group student-past-members">
+      <div class="d-flex flex-wrap align-items-center gap-3 mb-2">
+        <h4 class="mb-0">Past Members</h4>
+        <button class="student-cta" type="button" onclick="togglePastMembers(this)">View Past Members</button>
+      </div>
+      <div id="past-members-inline" class="student-past-members-list" hidden>
+        <p><span class="far fa-smile past-member-icon"></span>Shiyu Zhao, 2024, Master @ Stanford  <br>
+<span class="far fa-smile past-member-icon"></span>Gasol Sun, 2024, Master @ Xiamen → PhD @ UIUC <br>
+<span class="far fa-smile past-member-icon"></span>Yihe Wang, 2024, Undergraduate @ Tsinghua, now exchange at UCLA <br>
+<span class="far fa-smile past-member-icon"></span>Jinhui Ye, 2024, Master @ HKUST-GZ → PhD @ HKUST <br>
+<span class="far fa-smile past-member-icon"></span>Zhengyu Hu, 2024, Master @ HKUST-GZ  <br>
+<span class="far fa-smile past-member-icon"></span>Yu (Bryan) Zhou, 2022/2024, Undergraduate @ UCLA → PhD @ UCLA  <br>
+<span class="far fa-smile past-member-icon"></span>Hanning Zhang, 2023, Undergraduate @ HKUST → Master @ UIUC  <br>
+<span class="far fa-smile past-member-icon"></span>Guang Yang, 2022, Undergraduate @ Tsinghua → PhD @ UW  <br>
+<span class="far fa-smile past-member-icon"></span>Ke Yang, 2022, Undergraduate @ Tsinghua → PhD @ UIUC  <br>
+<span class="far fa-smile past-member-icon"></span>Feng Wang, 2022, Master @ Tsinghua → PhD @ JHU  <br>
+<span class="far fa-smile past-member-icon"></span>Jialiang Xu, 2022, Undergraduate @ UIUC → Master @ Stanford  <br>
+<span class="far fa-smile past-member-icon"></span>Ruining Zhao, 2022, Undergraduate @ UIUC, published her first paper at ACL 2023  <br>
+<span class="far fa-smile past-member-icon"></span>Jiateng Liu, 2022, Undergraduate @ ZJU → Master @ UIUC  <br>
+<span class="far fa-smile past-member-icon"></span>Xilin Rui, 2021, Undergraduate @ Tsinghua, published her first paper at AAAI 2022  <br>
+<span class="far fa-smile past-member-icon"></span>Zhiying Zhu, 2021, Undergraduate @ ZJU → Master @ CMU  <br>
+<span class="far fa-smile past-member-icon"></span>Zhenhailong Wang, 2020-2022, Master @ UIUC → PhD @ UIUC  <br></p>
+      </div>
     </div>
     <!-- <div class="student-group">
       <h4>Masters</h4>
@@ -1901,195 +2035,22 @@ Her work on multimodal reasoning won the **[ACL Inaugural Best Desseratation Awa
     </div> -->
   </div>
 
-  
-
-  </div>
 </section>
 
+      </div> <!-- /.container -->
+    </div> <!-- /.site-content -->
+  </div> <!-- /.row -->
+</div> <!-- /.site-layout container-xl -->
+</div> <!-- /.page-body -->
+
+<div class="page-footer">
+  <footer class="site-footer" role="contentinfo">
+    <div class="footer-inner">
+      <p class="footer-title">Copyright © 2025 Manling Li</p>
+  </footer>
+</div>
 
-  
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-<section id="alumni" class="home-section wg-markdownme  "  >
- <div class="home-section-bg " >
-   
- </div>
-  <div class="container">
-
-  
-
-    
-
-
-
-
-
-
-
-
-
-
-
-
-
-  <div class="col-12">
-    <h3 style="text-align:center;">Past Members</h3>
-    <ul class="past-members-list">
-      <li>Shiyu Zhao, 2024, Master @ Stanford</li>
-      <li>Gasol Sun, 2024, Master @ Xiamen → PhD @ UIUC</li>
-      <li>Yihe Wang, 2024, Undergraduate @ Tsinghua, now exchange at UCLA</li>
-      <li>Jinhui Ye, 2024, Master @ HKUST-GZ → PhD @ HKUST</li>
-      <li>Zhengyu Hu, 2024, Master @ HKUST-GZ</li>
-      <li>Yu (Bryan) Zhou, 2022/2024, Undergraduate @ UCLA → PhD @ UCLA</li>
-      <li>Hanning Zhang, 2023, Undergraduate @ HKUST → Master @ UIUC</li>
-      <li>Guang Yang, 2022, Undergraduate @ Tsinghua → PhD @ UW</li>
-      <li>Ke Yang, 2022, Undergraduate @ Tsinghua → PhD @ UIUC</li>
-      <li>Feng Wang, 2022, Master @ Tsinghua → PhD @ JHU</li>
-      <li>Jialiang Xu, 2022, Undergraduate @ UIUC → Master @ Stanford</li>
-      <li>Ruining Zhao, 2022, Undergraduate @ UIUC, published her first paper at ACL 2023</li>
-      <li>Jiateng Liu, 2022, Undergraduate @ ZJU → Master @ UIUC</li>
-      <li>Xilin Rui, 2021, Undergraduate @ Tsinghua, published her first paper at AAAI 2022</li>
-      <li>Zhiying Zhu, 2021, Undergraduate @ ZJU → Master @ CMU</li>
-      <li>Zhenhailong Wang, 2020-2022, Master @ UIUC → PhD @ UIUC</li>
-    </ul>
-<!-- <i class="fa-li far fa-smile"></i>Cheng Li, 2024, Master @ UCAS  <br> -->
-
-  </div>
-
-
-  
-
-  </div>
-</section>
-
-
-
-
-      </div>
-    </div>
-  </div>
-
-  </div>
-  <div class="page-footer">
-    
-    
-    <div class="container">
-      <footer class="site-footer">
-
-  
-
-
-
-
-
-
-
-
-
-
-
-
-  
-  
-  
-  
-  
-
-
-
-
-
-
-
-
-
-
-
-
-
-  
-  <p class="powered-by copyright-license-text">
-    Copyright © Manling Li. Updated 2025.
-  </p>
-  
-
-
-
-
-
-  <p class="powered-by">
-    
-    
-    
-      
-      
-      
-      
-      
-      
-      Published with <a href="https://wowchemy.com/?utm_campaign=poweredby" target="_blank" rel="noopener">Wowchemy</a> — the free, <a href="https://github.com/wowchemy/wowchemy-hugo-themes" target="_blank" rel="noopener">open source</a> website builder that empowers creators.
-    
-  </p>
-</footer>
-
-    </div>
-    
-  </div>
 
   
 
