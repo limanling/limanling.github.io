@@ -2,81 +2,6 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
-    <loc>https://limanling.github.io/researchhighlights/clip-event/</loc>
-    <lastmod>2022-07-01T00:00:00+00:00</lastmod>
-    <changefreq>weekly</changefreq>
-  </url><url>
-    <loc>https://limanling.github.io/researchsummary/extraction/</loc>
-    <lastmod>2016-04-27T00:00:00+00:00</lastmod>
-    <changefreq>weekly</changefreq>
-  </url><url>
-    <loc>https://limanling.github.io/researchsummary/reasoning/</loc>
-    <lastmod>2016-04-27T00:00:00+00:00</lastmod>
-    <changefreq>weekly</changefreq>
-  </url><url>
-    <loc>https://limanling.github.io/researchhighlights/m2e2/</loc>
-    <lastmod>2020-05-01T00:00:00+00:00</lastmod>
-    <changefreq>weekly</changefreq>
-  </url><url>
-    <loc>https://limanling.github.io/researchsummary/smartbook/</loc>
-    <lastmod>2016-04-27T00:00:00+00:00</lastmod>
-    <changefreq>weekly</changefreq>
-  </url><url>
-    <loc>https://limanling.github.io/researchhighlights/gaia/</loc>
-    <lastmod>2020-05-01T00:00:00+00:00</lastmod>
-    <changefreq>weekly</changefreq>
-  </url><url>
-    <loc>https://limanling.github.io/authors_bak/baiqiao-yin/</loc>
-    <changefreq>weekly</changefreq>
-  </url><url>
-    <loc>https://limanling.github.io/researchhighlights/covidkg/</loc>
-    <lastmod>2021-11-01T00:00:00+00:00</lastmod>
-    <changefreq>weekly</changefreq>
-  </url><url>
-    <loc>https://limanling.github.io/researchhighlights/schemagraph/</loc>
-    <lastmod>2021-11-01T00:00:00+00:00</lastmod>
-    <changefreq>weekly</changefreq>
-  </url><url>
-    <loc>https://limanling.github.io/researchhighlights/schemapathlm/</loc>
-    <lastmod>2020-11-01T00:00:00+00:00</lastmod>
-    <changefreq>weekly</changefreq>
-  </url><url>
-    <loc>https://limanling.github.io/researchhighlights/vidil/</loc>
-    <lastmod>2022-12-01T00:00:00+00:00</lastmod>
-    <changefreq>weekly</changefreq>
-  </url><url>
-    <loc>https://limanling.github.io/authors_bak/tianwei-bao/</loc>
-    <changefreq>weekly</changefreq>
-  </url><url>
-    <loc>https://limanling.github.io/researchhighlights/timeline/</loc>
-    <lastmod>2021-11-01T00:00:00+00:00</lastmod>
-    <changefreq>weekly</changefreq>
-  </url><url>
-    <loc>https://limanling.github.io/researchhighlights/meetingsum/</loc>
-    <lastmod>2019-05-01T00:00:00+00:00</lastmod>
-    <changefreq>weekly</changefreq>
-  </url><url>
-    <loc>https://limanling.github.io/researchhighlights/covidclaimradar/</loc>
-    <lastmod>2022-05-01T00:00:00+00:00</lastmod>
-    <changefreq>weekly</changefreq>
-  </url><url>
-    <loc>https://limanling.github.io/authors_bak/how-yeh-wan/</loc>
-    <changefreq>weekly</changefreq>
-  </url><url>
-    <loc>https://limanling.github.io/authors_bak/gasol-sun/</loc>
-    <changefreq>weekly</changefreq>
-  </url><url>
-    <loc>https://limanling.github.io/authors_bak/zhuofan-xia/</loc>
-    <changefreq>weekly</changefreq>
-  </url><url>
-    <loc>https://limanling.github.io/talk/example-talk/</loc>
-    <lastmod>2030-06-01T13:00:00+00:00</lastmod>
-    <changefreq>weekly</changefreq>
-  </url><url>
-    <loc>https://limanling.github.io/event/</loc>
-    <lastmod>2030-06-01T13:00:00+00:00</lastmod>
-    <changefreq>weekly</changefreq>
-  </url><url>
     <loc>https://limanling.github.io/teaching/</loc>
     <lastmod>2025-03-06T00:00:00+00:00</lastmod>
     <changefreq>weekly</changefreq>
@@ -87,14 +12,6 @@
   </url><url>
     <loc>https://limanling.github.io/teaching/cs396-reasoning-planning/</loc>
     <lastmod>2025-01-06T00:00:00+00:00</lastmod>
-    <changefreq>weekly</changefreq>
-  </url><url>
-    <loc>https://limanling.github.io/categories/</loc>
-    <lastmod>2023-01-01T00:00:00+00:00</lastmod>
-    <changefreq>weekly</changefreq>
-  </url><url>
-    <loc>https://limanling.github.io/category/portfolio/</loc>
-    <lastmod>2023-01-01T00:00:00+00:00</lastmod>
     <changefreq>weekly</changefreq>
   </url><url>
     <loc>https://limanling.github.io/project/</loc>
@@ -125,70 +42,6 @@
     <lastmod>2022-10-24T00:00:00+00:00</lastmod>
     <changefreq>weekly</changefreq>
   </url><url>
-    <loc>https://limanling.github.io/tag/extraction/</loc>
-    <lastmod>2022-07-01T00:00:00+00:00</lastmod>
-    <changefreq>weekly</changefreq>
-  </url><url>
-    <loc>https://limanling.github.io/tag/application/</loc>
-    <lastmod>2022-05-01T00:00:00+00:00</lastmod>
-    <changefreq>weekly</changefreq>
-  </url><url>
-    <loc>https://limanling.github.io/tag/academic/</loc>
-    <lastmod>2020-12-13T00:00:00+00:00</lastmod>
-    <changefreq>weekly</changefreq>
-  </url><url>
-    <loc>https://limanling.github.io/category/demo/</loc>
-    <lastmod>2020-12-13T00:00:00+00:00</lastmod>
-    <changefreq>weekly</changefreq>
-  </url><url>
-    <loc>https://limanling.github.io/post/</loc>
-    <lastmod>2020-12-13T00:00:00+00:00</lastmod>
-    <changefreq>weekly</changefreq>
-  </url><url>
-    <loc>https://limanling.github.io/post/getting-started/</loc>
-    <lastmod>2020-12-13T00:00:00+00:00</lastmod>
-    <changefreq>weekly</changefreq>
-  </url><url>
-    <loc>https://limanling.github.io/tag/%E5%BC%80%E6%BA%90/</loc>
-    <lastmod>2020-12-13T00:00:00+00:00</lastmod>
-    <changefreq>weekly</changefreq>
-  </url><url>
-    <loc>https://limanling.github.io/category/%E6%95%99%E7%A8%8B/</loc>
-    <lastmod>2020-12-13T00:00:00+00:00</lastmod>
-    <changefreq>weekly</changefreq>
-  </url><url>
-    <loc>https://limanling.github.io/post/writing-technical-content/</loc>
-    <lastmod>2019-07-12T00:00:00+00:00</lastmod>
-    <changefreq>weekly</changefreq>
-  </url><url>
-    <loc>https://limanling.github.io/post/jupyter/</loc>
-    <lastmod>2019-09-05T00:00:00+00:00</lastmod>
-    <changefreq>weekly</changefreq>
-  </url><url>
-    <loc>https://limanling.github.io/slides/</loc>
-    <lastmod>2019-02-05T00:00:00+00:00</lastmod>
-    <changefreq>weekly</changefreq>
-  </url><url>
-    <loc>https://limanling.github.io/slides/example/</loc>
-    <lastmod>2019-02-05T00:00:00+00:00</lastmod>
-    <changefreq>weekly</changefreq>
-  </url><url>
-    <loc>https://limanling.github.io/tag/knowledge-extraction/</loc>
-    <lastmod>2016-04-27T00:00:00+00:00</lastmod>
-    <changefreq>weekly</changefreq>
-  </url><url>
-    <loc>https://limanling.github.io/tag/knowledge-reasoning/</loc>
-    <lastmod>2016-04-27T00:00:00+00:00</lastmod>
-    <changefreq>weekly</changefreq>
-  </url><url>
-    <loc>https://limanling.github.io/tag/knowledge-driven-applications/</loc>
-    <lastmod>2016-04-27T00:00:00+00:00</lastmod>
-    <changefreq>weekly</changefreq>
-  </url><url>
-    <loc>https://limanling.github.io/researchsummary/</loc>
-    <lastmod>2016-04-27T00:00:00+00:00</lastmod>
-    <changefreq>weekly</changefreq>
-  </url><url>
     <loc>https://limanling.github.io/admin/</loc>
     <changefreq>weekly</changefreq>
   </url><url>
@@ -210,16 +63,7 @@
     <loc>https://limanling.github.io/prospective/</loc>
     <changefreq>weekly</changefreq>
   </url><url>
-    <loc>https://limanling.github.io/researchsummary/test/</loc>
-    <changefreq>weekly</changefreq>
-  </url><url>
     <loc>https://limanling.github.io/service/</loc>
-    <changefreq>weekly</changefreq>
-  </url><url>
-    <loc>https://limanling.github.io/authors_bak/emma-hamel/</loc>
-    <changefreq>weekly</changefreq>
-  </url><url>
-    <loc>https://limanling.github.io/service/demotrack/</loc>
     <changefreq>weekly</changefreq>
   </url><url>
     <loc>https://limanling.github.io/home/</loc>
@@ -243,16 +87,8 @@
     <loc>https://limanling.github.io/publication/selected/</loc>
     <changefreq>weekly</changefreq>
   </url><url>
-    <loc>https://limanling.github.io/authors_bak/revanth-gangi-reddy/</loc>
-    <changefreq>weekly</changefreq>
-  </url><url>
-    <loc>https://limanling.github.io/authors_bak/stuti-agrawal/</loc>
-    <changefreq>weekly</changefreq>
-  </url><url>
-    <loc>https://limanling.github.io/authors_bak/xilin-rui/</loc>
-    <changefreq>weekly</changefreq>
-  </url><url>
-    <loc>https://limanling.github.io/authors_bak/yuzhou/</loc>
+    <loc>https://limanling.github.io/projects/mind-cube/</loc>
+    <lastmod>2025-10-26T00:00:00+00:00</lastmod>
     <changefreq>weekly</changefreq>
   </url>
 </urlset>
