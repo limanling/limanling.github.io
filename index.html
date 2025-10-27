@@ -382,7 +382,7 @@
 </head>
 <body id="top" data-spy="scroll" data-offset="70" data-target="#navbar-main" class="page-wrapper   " data-wc-page-id="3976528693a0108357f4928017600865" >
   <script src="/js/wowchemy-init.min.fe8634e7d00f14d07fb33caf14cc8e55.js"></script>
-<aside class="search-modal" id="search">
+<!-- <aside class="search-modal" id="search">
   <div class="container">
     <section class="search-header">
       <div class="row no-gutters justify-content-between mb-3">
@@ -404,7 +404,7 @@
       <div id="search-hits">
       </div>
     </section>
-  </div>
+  </div> -->
 </aside>
   <div class="page-header header--fixed">
 <header>
@@ -1079,7 +1079,7 @@ I am a recipient of <a href="https://ter.li/ogu4h0" target="_blank" rel="noopene
       <li>
         <strong>Factualness, Trustworthiness</strong>. 
         <br>
-        - NLP + Social (theory of mind, debiasing, propoganda): 
+        - NLP + Human/Social (theory of mind, debiasing, propoganda, knowledge graph, information extraction): 
         <a href="https://arxiv.org/abs/2303.14337" target="_blank" rel="noopener">SmartBook</a>, 
         <a href="https://arxiv.org/abs/2402.07401" target="_blank" rel="noopener">Explainable Fact Checking</a>, 
         <a href="https://aclanthology.org/2021.emnlp-main.519" target="_blank" rel="noopener">Timeline Summarization</a>, 
@@ -1087,7 +1087,7 @@ I am a recipient of <a href="https://ter.li/ogu4h0" target="_blank" rel="noopene
         <a href="https://blender.cs.illinois.edu/software/gaia-ie/" target="_blank" rel="noopener">GAIA IE</a>, 
         <a href="https://arxiv.org/abs/2311.15642.pdf" target="_blank" rel="noopener">Info Propagation Pattern</a>, 
         <a href="https://arxiv.org/abs/2211.05414" target="_blank" rel="noopener">DebiasPrompt</a>, 
-        <a href="https://aclanthology.org/N19-4019" target="_blank" rel="noopener">Multilingual</a>, 
+        <a href="https://aclanthology.org/N19-4019" target="_blank" rel="noopener">Multilingual KG</a>, 
         <a href="https://arxiv.org/pdf/2310.01779.pdf" target="_blank" rel="noopener">Object Hallucination</a>. 
         <br>
         - AI for Science, claim feasibility verification, figure/chart editing, paper/review generation: 
@@ -1236,81 +1236,93 @@ function togglePastMembers(btn) {
     <div class="row">
       <div class="col-12">
         <div class="section-heading mb-3 d-flex flex-column align-items-center align-items-lg-start">
-          <h1 class="mb-0">Talks</h1>
+          <h1 class="mb-0">Invited Talks</h1>
         </div>
         <div class="section-body">
           <div class="talks-videos mb-4" style="display: flex; flex-wrap: wrap; gap: 1.5rem;">
             <div class="talks-video" style="flex: 1 1 320px; position: relative; padding-bottom: 30%; height: 0; overflow: hidden; border-radius: 12px; box-shadow: 0 0 20px rgba(0,0,0,0.08);">
               <iframe src="https://www.youtube.com/embed/jyB5LcEQyCI" title="Recent talk: Manling Li" style="position: absolute; top: 0; left: 0; width: 100%; height: 100%; border: 0;" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
             </div>
-            <div class="talks-video" style="flex: 1 1 320px; position: relative; padding-bottom: 30%; height: 0; overflow: hidden; border-radius: 12px; box-shadow: 0 0 20px rgba(0,0,0,0.08);">
+            <div class="talks-video" style="flex: 1 1 320px; position: relative; padding-bottom: 30%; overflow: hidden; border-radius: 12px; box-shadow: 0 0 20px rgba(0,0,0,0.08);">
               <iframe src="https://www.youtube.com/embed/1N4RP9tuM_I" title="Recent talk: AAAI Tutorial" style="position: absolute; top: 0; left: 0; width: 100%; height: 100%; border: 0;" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
             </div>
           </div>
           <ul id="talks-list" class="talks-list">
-            <li>[2025/10] Invited Talk at Columbia University.</li>
-            <li>[2025/10] Invited Talk at University of Pennsylvania.</li>
-            <li>[2025/10] Invited Talk at ICCV 2025 Workshop on Multimodal Reasoning for Agentic Intelligence.</li>
-            <li>[2025/10] Invited Talk at ICCV 2025 Workshop on Multimodal Spatial Intelligence.</li>
-            <li>[2025/10] Invited Talk at ICCV 2025 Workshop on Structural Priors for Vision.</li>
-            <li>[2025/10] Invited Talk at ICCV 2025 Workshop on LongVid-Foundations.</li>
-            <li>[2025/09] Invited Talk at <a href='https://www.chai.ac.uk/seminar-series' target='_blank' rel='noopener'>University of Edinburgh CHAI Seminar Series</a> with "RAGEN: Training Agents by Reinforcing Reasoning".</li>
-            <li>[2025/09] Invited Talk at <a href='https://agentic-ai-frontier-seminar.github.io' target='_blank' rel='noopener'>Agentic AI Frontier Seminar</a> with "RAGEN: Training Agents by Reinforcing Reasoning".</li>
-            <li>[2025/08] Invited Talk at <a href='https://rdi.berkeley.edu/events/agentic-ai-summit' target='_blank' rel='noopener'>Agent AI Summit at Berkeley</a> with "RAGEN: Training Agents by Reinforcing Reasoning".</li>
-            <li>[2025/07] Invited Talk at <a href='https://www.cross-future.com' target='_blank' rel='noopener'>Cross Future AI Summit</a> with "See, Think, Act: Agent Training By Reinforcement Reasoning".</li>
-            <li>[2025/07] Invited Talk at CVPR 2025 Workshop on <a href='https://sites.google.com/stanford.edu/visual-concepts-workshops/home' target='_blank' rel='noopener'>Visual Concepts</a> with "Why is Spatial Concept Learning Hard?".</li>
-            <li>[2025/07] Invited Talk at Apple Workshop on Reasoning and Planning with "Training Agents with World Model Reasoning".</li>
-            <li>[2025/07] Invited Talk at ACC 2025 Workshop on <a href='https://agi4engineering.github.io/workshopllm4control/' target='_blank' rel='noopener'>LLMs in Control Design and Decision Making</a> with "LLMs for Embodied Decision Making".</li>
-            <li>[2025/05] Invited Talk at Google DeepMind with "RAGEN: Training Agents by Reinforcing Reasoning".</li>
-            <li>[2025/04] Invited Talk at UIUC NLP Seminar with "RAGEN: Training Agents by Reinforcing Reasoning".</li>
-            <li>[2025/04] Guest Lecture at UMich EECS 692 Advanced Artificial Intelligence with "Reasoning and Planning with Physical World".</li>
-            <li>[2025/02] Invited Talk at AAAI 2025 New Faculty Highlights with "Agent Training Under a MDP Formulation".</li>
-            <li>[2025/02] Invited Talk at AAAI 2025 Workshop on LM4Plan with "Agent Training Under a MDP Formulation".</li>
-            <li>[2025/02] Invited Talk at AAAI 2025 Bridge on Foundation Models and Planning with "Agent Training Under a MDP Formulation".</li>
-            <li>[2025/02] Giving Tutorial at AAAI 2025 on Foundation Models Meet Embodied Agents <a href='https://foundation-models-meet-embodied-agents.github.io' target='_blank' rel='noopener'>[Website/Slides]</a>.</li>
-            <li>[2025/02] Giving Tutorial at AAAI 2025 on Lifecycle of Knowledge in LLMs: Memorization, Editing, and Beyond <a href='https://llmknowledgelifecycle.github.io/AAAI2025_Tutorial_LLMKnowledge/' target='_blank' rel='noopener'>[Website/Slides]</a>.</li>
-            <li>[2024/12] Invited Talk at SFU @ NeurIPS 2024 with "Embodied Agent Interface: LLMs and VLMs for Embodied Reasoning and Planning".</li>
-            <li>[2024/11] Invited Talk at EMNLP 2024 Birds of a Feather with "LLMs for Embodied Agents".</li>
-            <li>[2024/11] Invited Talk at EMNLP 2024 CustomNLP4U Workshop with "Customizing Large Language Models to Embodied Agents".</li>
-            <li>[2024/10] Giving Tutorial at ICCV 2025 on Foundation Models Meet Embodied Agents <a href='https://foundation-models-meet-embodied-agents.github.io' target='_blank' rel='noopener'>[Website/Slides]</a>.</li>
-            <li>[2024/09] Keynote at <a href='https://aice.illinois.edu/events' target='_blank' rel='noopener'>Amazon-Illinois Center on AI for Interactive Conversational Experiences Fall Research Symposium 2024</a> with "From Large Language Models to Large Agent Models".</li>
-            <li>[2024/09] Invited Talk at <a href='https://allerton.csl.illinois.edu/' target='_blank' rel='noopener'>2024 Allerton Conference on Communication, Control, and Computing</a> with "Reasoning and Planning with Physical World Knowledge".</li>
-            <li>[2024/08] Invited Talk at <a href='https://sites.google.com/view/multimodal-ai-ttic-2024/home' target='_blank' rel='noopener'>TTIC Multimodal AI Workshop 2024</a> with "Embodied Agent Interface: LLMs for Embodied Decision Making".</li>
-            <li>[2024/08] Invited Talk at <a href='https://sicss.io' target='_blank' rel='noopener'>Summer Institute in Computational Social Science 2024</a> with "Multimodal Knowledge for Social Good".</li>
-            <li>[2024/08] Giving Tutorial at IJCAI 2024 on Beyond Human Creativity: A Tutorial on Advancements in AI Generated Content (AIGC) <a href='https://sites.google.com/view/aigc-tutorial/home?authuser=0' target='_blank' rel='noopener'>[Website/Slides]</a>.</li>
-            <li>[2024/07] Invited Talk at <a href='https://splu-robonlp-2024.github.io' target='_blank' rel='noopener'>SpLU-RoboNLP 2024</a> Workshop with "Reasoning, Planning and Compositionality in Multimodality".</li>
-            <li>[2024/07] Invited Talk at Adobe Research with "Visually Descriptive Language Modeling for Document Intelligence".</li>
-            <li>[2024/06] Invited Talk at <a href='https://machinelearning.apple.com/updates/nlu-workshop-2023' target='_blank' rel='noopener'>Apple NLU Workshop 2024</a> with "From Large Language Models to Large Agent Models".</li>
-            <li>[2024/06] Invited Talk at UIUC NLP Seminar with "From Words to Worlds: A Close Look to Diffusion Models (through an NLP Lens)".</li>
-            <li>[2024/05] Invited Talk at <a href='https://midwest-ml.org/2024/' target='_blank' rel='noopener'>Midwest Machine Learning Symposium 2024</a> with "The Missing Knowledge in LLMs to Interact with the Physical World".</li>
-            <li>[2024/05] Giving Tutorial at NAACL 2025 on Foundation Models Meet Embodied Agents <a href='https://foundation-models-meet-embodied-agents.github.io' target='_blank' rel='noopener'>[Website/Slides]</a>.</li>
-            <li>[2023/12] Keynote at <a href='https://glfrontiers.github.io/2023/speakers/' target='_blank' rel='noopener'>NeurIPS 2023 Workshop on New Frontiers in Graph Learning</a> with "Beyond the Beaten Path: Exploring the Role of Graphs in Multimodal Foundation Models".</li>
-            <li>[2023/11] Giving Tutorial at ICAIF 2023 on Large Language Models for NLP in Finance <a href='uploads/slides/LargeLanguageModelsforNLPinFinance.pdf'>[Slides]</a>.</li>
-            <li>[2023/10] Invited Talk at Stanford Vision and Learning Seminar with "LLMs for robotics: Modeling the Knowledge of the Physical World".</li>
-            <li>[2023/10] Invited Talk at Adobe Research with "Knowledge Foundation Models".</li>
-            <li>[2023/06] Invited Talk at Stanford CogAI with "Modeling the Semantics of the Physical World".</li>
-            <li>[2023/06] Giving Tutorial at CVPR 2023 on Knowledge-Driven Vision-Language Encoding <a href='https://blender.cs.illinois.edu/tutorial/KnowledgeVLP/' target='_blank' rel='noopener'>[Website/Slides/Videos]</a> <a href='https://github.com/limanling/KnowledgeVL-Reading' target='_blank' rel='noopener'>[Reading List]</a>.</li>
-            <li>[2023/04] Invited Talk "Towards Factuality in Information Access: Multimodal Knowledge Acquisition and Reasoning" at UCLA ECE.</li>
-            <li>[2023/03] Invited Talk "Towards Factuality in Information Access: Multimodal Knowledge Acquisition and Reasoning" at University of Virginia CS; MBZUAI; Washington University in St. Louis CS; University of Toronto CS+ECE; UC Davis CS.</li>
-            <li>[2023/02] Invited Talk "Towards Factuality in Information Access: Multimodal Knowledge Acquisition and Reasoning" at Carnegie Mellon University LTI; Northwestern University CS; Northeastern University ECE; Purdue University CS; Rice University CS; Virginia Tech CS; Max Planck Institute; UC San Diego ECE.</li>
-            <li>[2023/02] Giving Tutorial at AAAI 2023 on Knowledge-Driven Vision-Language Pretraining <a href='https://blender.cs.illinois.edu/tutorial/knowledgeVLP/' target='_blank' rel='noopener'>[Website/Slides/Videos]</a> <a href='https://github.com/limanling/KnowledgeVL-Reading' target='_blank' rel='noopener'>[Reading List]</a>.</li>
-            <li>[2022/10] Invited Talk "From Entity-Centric to Event-Centric Multimodal Event Knowledge Acquisition" at EECS Rising Stars, University of Texas at Austin.</li>
-            <li>[2022/10] Invited Talk "Towards Accurate Intelligent Analysis: Event-Centric Multimedia Knowledge Extraction" at DARPA Forward (Invite-Only).</li>
-            <li>[2022/10] Invited Talk "Event-Centric Multimedia Data Understanding" at Ohio State University; Singapore Management University; George Mason University; North Carolina State University.</li>
-            <li>[2022/09] Invited Talk "Multimedia Event Extraction: From Object-Centric to Event-Centric" at Virginia Tech.</li>
-            <li>[2022/08] Invited Talk "Event Knowledge Graph Construction" at LOGS Graph Reasoning Seminar.</li>
-            <li>[2022/07] Giving Tutorial at NAACL 2022 on New Frontiers of Information Extraction <a href='https://cogcomp.seas.upenn.edu/page/tutorial.202207/' target='_blank' rel='noopener'>[Website/Slides/Videos]</a> <a href='https://aclanthology.org/2022.naacl-tutorials.3/' target='_blank' rel='noopener'>[PDF]</a>.</li>
-            <li>[2022/06] Invited Talk "Event Graph Structures in Vision-Language Understanding" at DataFun.</li>
-            <li>[2022/04] Invited Talk "Connecting Vision and Text using Event Structures" at NewsBreak.</li>
-            <li>[2022/02] Invited Talk "Memories as Repositories of Events: Structural Event Knowledge Acquisition" at University of Notre Dame.</li>
-            <li>[2021/12] Invited Talk "Comprehensive Event Understanding in Multimedia Data" at USC ISI.</li>
-            <li>[2021/11] Invited Talk "Structural Event Knowledge Acquisition from Multimedia Data" at UIUC NLP Seminar.</li>
-            <li>[2021/11] Invited Talk "Event Extraction and Reasoning in Multimedia News Data" at Microsoft Research.</li>
-            <li>[2021/08] Invited Talk "Improving Visual Event and Argument Role Understanding with Contrastive Image-Language Pretraining" at Microsoft Research.</li>
-            <li>[2021/08] Giving Tutorial at ACL 2021 on Event-centric Natural Language Understanding <a href='https://cogcomp.seas.upenn.edu/page/tutorial.202108/' target='_blank' rel='noopener'>[Website/Slides/Videos]</a> <a href='https://aclanthology.org/2021.acl-tutorials.2/' target='_blank' rel='noopener'>[PDF]</a>.</li>
-            <li>[2021/02] Giving Tutorial at AAAI 2021 on Event-centric Natural Language Processing <a href='https://cogcomp.seas.upenn.edu/page/tutorial.202102/' target='_blank' rel='noopener'>[Website/Slides/Videos]</a> <a href='https://muhaochen.github.io/index_files/AAAI_2021_event.pdf' target='_blank' rel='noopener'>[PDF]</a>.</li>
-            <li>[2020/10] Invited Talk "Fine-Grained Knowledge Extraction System from Multimedia Data" at ai.science.</li>
-            <li>[2020/05] Invited Talk "Event Understanding and Narration for Multimedia Data" at Intel MDI Research Lab.</li>
+            <li>[2025/10] Talk at <a href='https://www.columbia.edu' target='_blank' rel='noopener'>Columbia University</a> NLP Seminar on <a href='https://www.columbia.edu' target='_blank' rel='noopener'>From Large Language Models to Large Agent Models: Reasoning Interface with World Modeling.</a></li>
+            <li>[2025/10] Talk at <a href='https://www.upenn.edu' target='_blank' rel='noopener'>University of Pennsylvania</a> NLP Seminar on "From Large Language Models to Large Agent Models: Reasoning Interface with World Modeling".</li>
+            <li>[2025/10] Talk at <a href='https://www.capitalone.com' target='_blank' rel='noopener'>Capital One</a> on "Conversational Agent Training".</li>
+            <li>[2025/10] Talk at <a href='https://www.amazon.com' target='_blank' rel='noopener'>Amazon</a> on "Conversational Agent Training".</li>
+            <li>[2025/10] Interview by <a href='https://www.amazon.com' target='_blank' rel='noopener'>MIT Tech Review</a> on Deepseek-OCR.</li>
+            <li>[2025/10] Invited by <a href='https://dreamforce2025aifacultyexperience.splashthat.com/?utm_campaign=FY26+AIR+Faculty@Dreamforce' target='_blank' rel='noopener'>Dreamforce 2025</a> as a panelist on AI Research Faculty Panel.</li>
+            <li>[2025/10] Tutorial at ICCV 2025 on <a href='https://foundation-models-meet-embodied-agents.github.io' target='_blank' rel='noopener'>Foundation Models Meet Embodied Agents</a>.</li>
+            <li>[2025/10] Tutorial at ICCV 2025 on <a href='https://sites.google.com/view/safe-multi-modal-learning' target='_blank' rel='noopener'>Safe Multi-Modal Learning</a>.</li>
+            <li>[2025/10] Talk at ICCV 2025 Workshop on <a href='https://agent-intelligence.github.io/agent-intelligence/' target='_blank' rel='noopener'>Multimodal Reasoning for Agentic Intelligence (MMRAgI)</a>.</li>
+            <li>[2025/10] Talk at ICCV 2025 Workshop on <a href='https://musi-workshop.github.io/' target='_blank' rel='noopener'>Multimodal Spatial Intelligence (MUSI)</a>.</li>
+            <li>[2025/10] Talk at ICCV 2025 Workshop on <a href='https://sites.google.com/view/memvis-iccv2025-workshop/home' target='_blank' rel='noopener'>Memory and Vision (MemVis)</a>.</li>
+            <li>[2025/10] Talk at ICCV 2025 Workshop on <a href='https://ramoscsv.github.io/longvid_foundations' target='_blank' rel='noopener'>Long Multi-Scene Video Foundations (LongVid-Foundations)</a> on "Re-thinking Temporal Search for Long-Form Video Understanding".</li>
+            <li>[2025/10] Talk at ICCV 2025 Workshop on <a href='https://sp4v.github.io/index.html' target='_blank' rel='noopener'>Structural Priors for Vision (SP4V)</a> for the Best Paper Award on <a href='' target='_blank' rel='noopener'>Spatial Mental Modeling from Limited Views</a>.</li>
+            <li>[2025/09] Talk at <a href='https://www.chai.ac.uk/seminar-series' target='_blank' rel='noopener'>University of Edinburgh</a> CHAI Seminar Series on "RAGEN: Training Agents by Reinforcing Reasoning".</li>
+            <li>[2025/09] Talk at <a href='https://stanford.edu' target='_blank' rel='noopener'>Stanford University</a> on "Theory of Space: How LLMs develop spatial internal beliefs".</li>
+            <li>[2025/09] Talk at <a href='https://agentic-ai-frontier-seminar.github.io' target='_blank' rel='noopener'>Agentic AI Frontier Seminar</a> on "RAGEN: Training Agents by Reinforcing Reasoning".</li>
+            <li>[2025/08] Talk at <a href='https://rdi.berkeley.edu/events/agentic-ai-summit' target='_blank' rel='noopener'>Agent AI Summit at UC Berkeley</a> on "RAGEN: Training Agents by Reinforcing Reasoning".</li>
+            <li>[2025/08] Talk at <a href='' target='_blank' rel='noopener'>Stanford University</a> on "LLM Alignment with Control Barrier Functions".</li>
+            <li>[2025/07] Talk at <a href='https://www.cross-future.com' target='_blank' rel='noopener'>Cross Future AI Summit</a> on "See, Think, Act: Agent Training By Reinforcement Reasoning".</li>
+            <li>[2025/07] Talk at CVPR 2025 Workshop on <a href='https://sites.google.com/stanford.edu/visual-concepts-workshops/home' target='_blank' rel='noopener'>Visual Concepts</a> on "Why is Spatial Concept Learning Hard?".</li>
+            <li>[2025/07] Talk at <a href='https://apple.com' target='_blank' rel='noopener'>Apple</a> Workshop on Reasoning and Planning on "Training Agents with World Model Reasoning".</li>
+            <li>[2025/07] Talk at ACC 2025 Workshop on <a href='https://agi4engineering.github.io/workshopllm4control/' target='_blank' rel='noopener'>LLMs in Control Design and Decision Making</a> on "LLMs for Embodied Decision Making".</li>
+            <li>[2025/06] Talk at <a href='' target='_blank' rel='noopener'>Midwest Machine Learning Symposium 2025</a> on "RAGEN: Training Agents by Reinforcing Reasoning".</li>
+            <li>[2025/05] Talk at <a href='' target='_blank' rel='noopener'>Google DeepMind</a> on "RAGEN: Training Agents by Reinforcing Reasoning".</li>
+            <li>[2025/05] Talk at NAACL 2025 Workshop on<a href='https://knowledge-nlp.github.io/naacl2025' target='_blank' rel='noopener'>Knowledge-Augmentation for Language Models and NLP Methods</a> on "RAGEN: Training Agents by Reinforcing Reasoning".</li>
+            <li>[2025/05] Tutorial at NAACL 2025 on <a href='https://foundation-models-meet-embodied-agents.github.io/naacl2025/' target='_blank' rel='noopener'>Foundation Models Meet Embodied Agents</a>.</li>
+            <li>[2025/04] Talk at <a href='https://nlp.illinois.edu/' target='_blank' rel='noopener'>UIUC NLP Seminar</a> on "RAGEN: Training Agents by Reinforcing Reasoning".</li>
+            <li>[2025/04] Guest Lecture at <a href='https://eecs.umich.edu/people/faculty/692' target='_blank' rel='noopener'>University of Michigan</a> EECS 692 Advanced Artificial Intelligence on "Reasoning and Planning with Physical World".</li>
+            <li>[2025/02] Talk at AAAI 2025 <a href='https://aaai.org/Conferences/AAAI-25/AAAI-25-Highlights/' target='_blank' rel='noopener'>New Faculty Highlights</a> on "Agent Training Under a MDP Formulation".</li>
+            <li>[2025/02] Talk at AAAI 2025 <a href='https://aaai.org/Conferences/AAAI-25/AAAI-25-Workshops/' target='_blank' rel='noopener'>Workshop on LM4Plan</a> on "Agent Training Under a MDP Formulation".</li>
+            <li>[2025/02] Talk at AAAI 2025 <a href='https://aaai.org/Conferences/AAAI-25/AAAI-25-Bridge/' target='_blank' rel='noopener'>Bridge on Foundation Models and Planning</a> on "Agent Training Under a MDP Formulation".</li>
+            <li>[2025/02] Tutorial at AAAI 2025 on <a href='https://foundation-models-meet-embodied-agents.github.io/aaai2025' target='_blank' rel='noopener'>Foundation Models Meet Embodied Agents [Website/Slides]</a>.</li>
+            <li>[2025/02] Tutorial at AAAI 2025 on <a href='https://llmknowledgelifecycle.github.io/AAAI2025_Tutorial_LLMKnowledge/' target='_blank' rel='noopener'>Lifecycle of Knowledge in LLMs: Memorization, Editing, and Beyond [Website/Slides]</a>.</li>
+            <li>[2024/12] Talk at SFU @ NeurIPS 2024 on "Embodied Agent Interface: LLMs and VLMs for Embodied Reasoning and Planning".</li>
+            <li>[2024/11] Talk at EMNLP 2024 Birds of a Feather on "LLMs for Embodied Agents".</li>
+            <li>[2024/11] Talk at EMNLP 2024 CustomNLP4U Workshop on "Customizing Large Language Models to Embodied Agents".</li>
+            <li>[2024/10] Talk at <a href='https://foundation-models-meet-embodied-agents.github.io/iccv2025/' target='_blank' rel='noopener'>Adobe Research</a> on "Chart Reasoning Agents".</li>
+            <li>[2024/09] Keynote at <a href='https://aice.illinois.edu/events' target='_blank' rel='noopener'>Amazon-Illinois Center on AI for Interactive Conversational Experiences Fall Research Symposium 2024</a> on "From Large Language Models to Large Agent Models".</li>
+            <li>[2024/09] Talk at <a href='https://allerton.csl.illinois.edu/' target='_blank' rel='noopener'>2024 Allerton Conference on Communication, Control, and Computing</a> on "Reasoning and Planning with Physical World Knowledge".</li>
+            <li>[2024/08] Talk at <a href='https://sites.google.com/view/multimodal-ai-ttic-2024/home' target='_blank' rel='noopener'>TTIC Multimodal AI Workshop 2024</a> on "Embodied Agent Interface: LLMs for Embodied Decision Making".</li>
+            <li>[2024/08] Talk at <a href='https://sicss.io' target='_blank' rel='noopener'>Summer Institute in Computational Social Science 2024</a> on "Multimodal Knowledge for Social Good".</li>
+            <li>[2024/08] Tutorial at IJCAI 2024 on Beyond Human Creativity: A Tutorial on Advancements in AI Generated Content (AIGC) <a href='https://sites.google.com/view/aigc-tutorial/home?authuser=0' target='_blank' rel='noopener'>[Website/Slides]</a>.</li>
+            <li>[2024/07] Talk at <a href='https://splu-robonlp-2024.github.io' target='_blank' rel='noopener'>SpLU-RoboNLP 2024</a> Workshop on "Reasoning, Planning and Compositionality in Multimodality".</li>
+            <li>[2024/07] Talk at Adobe Research on "Visually Descriptive Language Modeling for Document Intelligence".</li>
+            <li>[2024/06] Talk at <a href='https://machinelearning.apple.com/updates/nlu-workshop-2023' target='_blank' rel='noopener'>Apple NLU Workshop 2024</a> on "From Large Language Models to Large Agent Models".</li>
+            <li>[2024/06] Talk at UIUC NLP Seminar on "From Words to Worlds: A Close Look to Diffusion Models (through an NLP Lens)".</li>
+            <li>[2024/05] Talk at <a href='https://midwest-ml.org/2024/' target='_blank' rel='noopener'>Midwest Machine Learning Symposium 2024</a> on "The Missing Knowledge in LLMs to Interact with the Physical World".</li>
+            <li>[2024/05] Tutorial at NAACL 2025 on Foundation Models Meet Embodied Agents <a href='https://foundation-models-meet-embodied-agents.github.io' target='_blank' rel='noopener'>[Website/Slides]</a>.</li>
+            <li>[2023/12] Keynote at <a href='https://glfrontiers.github.io/2023/speakers/' target='_blank' rel='noopener'>NeurIPS 2023 Workshop on New Frontiers in Graph Learning</a> on "Beyond the Beaten Path: Exploring the Role of Graphs in Multimodal Foundation Models".</li>
+            <li>[2023/11] Tutorial at ICAIF 2023 on Large Language Models for NLP in Finance <a href='uploads/slides/LargeLanguageModelsforNLPinFinance.pdf'>[Slides]</a>.</li>
+            <li>[2023/10] Talk at Stanford Vision and Learning Seminar on "LLMs for robotics: Modeling the Knowledge of the Physical World".</li>
+            <li>[2023/10] Talk at Adobe Research on "Knowledge Foundation Models".</li>
+            <li>[2023/06] Talk at Stanford CogAI on "Modeling the Semantics of the Physical World".</li>
+            <li>[2023/06] Tutorial at CVPR 2023 on Knowledge-Driven Vision-Language Encoding <a href='https://blender.cs.illinois.edu/tutorial/KnowledgeVLP/' target='_blank' rel='noopener'>[Website/Slides/Videos]</a> <a href='https://github.com/limanling/KnowledgeVL-Reading' target='_blank' rel='noopener'>[Reading List]</a>.</li>
+            <li>[2023/04] Talk "Towards Factuality in Information Access: Multimodal Knowledge Acquisition and Reasoning" at UCLA ECE.</li>
+            <li>[2023/03] Talk "Towards Factuality in Information Access: Multimodal Knowledge Acquisition and Reasoning" at University of Virginia CS; MBZUAI; Washington University in St. Louis CS; University of Toronto CS+ECE; UC Davis CS.</li>
+            <li>[2023/02] Talk "Towards Factuality in Information Access: Multimodal Knowledge Acquisition and Reasoning" at Carnegie Mellon University LTI; Northwestern University CS; Northeastern University ECE; Purdue University CS; Rice University CS; Virginia Tech CS; Max Planck Institute; UC San Diego ECE.</li>
+            <li>[2023/02] Tutorial at AAAI 2023 on Knowledge-Driven Vision-Language Pretraining <a href='https://blender.cs.illinois.edu/tutorial/knowledgeVLP/' target='_blank' rel='noopener'>[Website/Slides/Videos]</a> <a href='https://github.com/limanling/KnowledgeVL-Reading' target='_blank' rel='noopener'>[Reading List]</a>.</li>
+            <li>[2022/10] Talk "From Entity-Centric to Event-Centric Multimodal Event Knowledge Acquisition" at EECS Rising Stars, University of Texas at Austin.</li>
+            <li>[2022/10] Talk "Towards Accurate Intelligent Analysis: Event-Centric Multimedia Knowledge Extraction" at DARPA Forward (Invite-Only).</li>
+            <li>[2022/10] Talk "Event-Centric Multimedia Data Understanding" at Ohio State University; Singapore Management University; George Mason University; North Carolina State University.</li>
+            <li>[2022/09] Talk "Multimedia Event Extraction: From Object-Centric to Event-Centric" at Virginia Tech.</li>
+            <li>[2022/08] Talk "Event Knowledge Graph Construction" at LOGS Graph Reasoning Seminar.</li>
+            <li>[2022/07] Tutorial at NAACL 2022 on New Frontiers of Information Extraction <a href='https://cogcomp.seas.upenn.edu/page/tutorial.202207/' target='_blank' rel='noopener'>[Website/Slides/Videos]</a> <a href='https://aclanthology.org/2022.naacl-tutorials.3/' target='_blank' rel='noopener'>[PDF]</a>.</li>
+            <li>[2022/06] Talk "Event Graph Structures in Vision-Language Understanding" at DataFun.</li>
+            <li>[2022/04] Talk "Connecting Vision and Text using Event Structures" at NewsBreak.</li>
+            <li>[2022/02] Talk "Memories as Repositories of Events: Structural Event Knowledge Acquisition" at University of Notre Dame.</li>
+            <li>[2021/12] Talk "Comprehensive Event Understanding in Multimedia Data" at USC ISI.</li>
+            <li>[2021/11] Talk "Structural Event Knowledge Acquisition from Multimedia Data" at UIUC NLP Seminar.</li>
+            <li>[2021/11] Talk "Event Extraction and Reasoning in Multimedia News Data" at Microsoft Research.</li>
+            <li>[2021/08] Talk "Improving Visual Event and Argument Role Understanding with Contrastive Image-Language Pretraining" at Microsoft Research.</li>
+            <li>[2021/08] Tutorial at ACL 2021 on Event-centric Natural Language Understanding <a href='https://cogcomp.seas.upenn.edu/page/tutorial.202108/' target='_blank' rel='noopener'>[Website/Slides/Videos]</a> <a href='https://aclanthology.org/2021.acl-tutorials.2/' target='_blank' rel='noopener'>[PDF]</a>.</li>
+            <li>[2021/02] Tutorial at AAAI 2021 on Event-centric Natural Language Processing <a href='https://cogcomp.seas.upenn.edu/page/tutorial.202102/' target='_blank' rel='noopener'>[Website/Slides/Videos]</a> <a href='https://muhaochen.github.io/index_files/AAAI_2021_event.pdf' target='_blank' rel='noopener'>[PDF]</a>.</li>
+            <li>[2020/10] Talk "Fine-Grained Knowledge Extraction System from Multimedia Data" at ai.science.</li>
+            <li>[2020/05] Talk "Event Understanding and Narration for Multimedia Data" at Intel MDI Research Lab.</li>
           </ul>
           <button id="talks-toggle" class="btn btn-sm btn-outline-primary mt-3" type="button" aria-expanded="false" aria-controls="talks-list">Show more</button>
         </div>
