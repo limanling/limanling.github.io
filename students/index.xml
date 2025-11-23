@@ -1,0 +1,176 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Manling Li</title>
+    <link>https://limanling.github.io/service/</link>
+      <atom:link href="https://limanling.github.io/service/index.xml" rel="self" type="application/rss+xml" />
+    <description>Manling Li</description>
+    <generator>Wowchemy (https://wowchemy.com)</generator><language>en-us</language>
+    <image>
+      <url>https://limanling.github.io/media/icon_hu127f241f63a982cda73a1c1b15888e16_9623_512x512_fill_lanczos_center_3.png</url>
+      <title>Manling Li</title>
+      <link>https://limanling.github.io/service/</link>
+    </image>
+    
+    <item>
+      <title>EMNLP 2024 Demo Track Summary</title>
+      <link>https://limanling.github.io/service/demotrack/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>https://limanling.github.io/service/demotrack/</guid>
+      <description>&lt;h2 id=&#34;tasksroles&#34;&gt;Tasks/Roles:&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;Before submission:
+&lt;ul&gt;
+&lt;li&gt;Call for papers of the demo track&lt;/li&gt;
+&lt;li&gt;Openreview set up and operations, including submission form including all the submission field (video link, demo link, etc), the review form, meta review form, decision option, camera ready form, etc&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;During Submission:
+&lt;ul&gt;
+&lt;li&gt;Hire reviewers, area chairs, chasing reviews and area chairs&lt;/li&gt;
+&lt;li&gt;Making the final decision (we assign chairs as SACs)&lt;/li&gt;
+&lt;li&gt;Composing Award Committee, voting for Best Paper Awards&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;After submission:
+&lt;ul&gt;
+&lt;li&gt;Proceedings, checking whether the format is correct and contact authors to revise, will take a long time&lt;/li&gt;
+&lt;li&gt;Underline coordination&lt;/li&gt;
+&lt;li&gt;Registration tracking &amp;amp; on-site demo coordination&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;Publicize about the demo track&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2 id=&#34;recommendationslessons-learned&#34;&gt;Recommendations/Lessons learned:&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;Most importantly: We recommend to split the task at the beginning, set up timeline for each task (that is why we give a complete list of the tasks)&lt;/li&gt;
+&lt;li&gt;The length of the demo paper (6 pages) and main paper (8 pages) is different. Should we change it? If not, please highlight this.&lt;/li&gt;
+&lt;li&gt;We set Appendix page limitation, which may not be very useful, as demo tends to need more space for visualizations&lt;/li&gt;
+&lt;li&gt;Ask area chairs to hire emergency reviewers to ensure there are no less than 3 reviews when they write a meta review. Some area chairs do not chase reviewers.&lt;/li&gt;
+&lt;li&gt;Give more time for reviewers and meta reviewers&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2 id=&#34;openreview-settings&#34;&gt;OpenReview Settings:&lt;/h2&gt;
+&lt;div class=&#34;doc-container&#34;&gt;
+        &lt;iframe 
+            class=&#34;fullsize-iframe&#34;
+            src=&#34;https://docs.google.com/document/d/e/2PACX-1vQSRQhsdaf7soXBMSCmjPscnscqAALeG0PlRliL8yNqaRpHCPZTH1DVbVezdMdUZUKRVt_xGP3jKVzj/pub?embedded=true&#34;
+            frameborder=&#34;0&#34;
+            scrolling=&#34;auto&#34;&gt;
+        &lt;/iframe&gt;
+    &lt;/div&gt;
+&lt;style&gt;
+        body, html {
+            margin: 0;
+            padding: 0;
+            height: 100%;
+        }
+        .doc-container {
+            width: 100%;
+            height: 100%;
+        }
+        .fullsize-iframe {
+            width: 100%;
+            height: 100%;
+            min-height: 10000px; /* This ensures a minimum height */
+            border: 0;
+        }
+    &lt;/style&gt;&lt;blockquote&gt;
+&lt;/blockquote&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>NAACL 2025 Publication Co-Chair Summary</title>
+      <link>https://limanling.github.io/service/publicationchair/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>https://limanling.github.io/service/publicationchair/</guid>
+      <description>&lt;h2 id=&#34;tasksroles&#34;&gt;Tasks/Roles:&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;Before submission:
+&lt;ul&gt;
+&lt;li&gt;Apply for ISBN&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;During Submission:
+&lt;ul&gt;
+&lt;li&gt;Cooridnating the camera-ready date&lt;/li&gt;
+&lt;li&gt;Cooridnating the workshop camera-ready date&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;After submission:
+&lt;ul&gt;
+&lt;li&gt;Main / Findings Proceedings, checking whether the format is correct and contact authors to revise, will take a long time&lt;/li&gt;
+&lt;li&gt;Workshop proceedings&lt;/li&gt;
+&lt;li&gt;Industry proceedings&lt;/li&gt;
+&lt;li&gt;Demo proceedings&lt;/li&gt;
+&lt;li&gt;Tutorial proceedings, Student Mentoring Proceedings, etc&lt;/li&gt;
+&lt;li&gt;Handbook meta data&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2 id=&#34;proceeding-list&#34;&gt;Proceeding list&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;Proceedings of the 2025 Conference of the Nations of the Americas Chapter of the Association for Computational Linguistics: Human Language Technologies (Volume 1: Long Papers)&lt;/li&gt;
+&lt;li&gt;Proceedings of the 2025 Conference of the Nations of the Americas Chapter of the Association for Computational Linguistics: Human Language Technologies (Volume 2: Short Papers)&lt;/li&gt;
+&lt;li&gt;Proceedings of the 2025 Conference of the Nations of the Americas Chapter of the Association for Computational Linguistics: Human Language Technologies (Volume 3: System Demonstrations)&lt;/li&gt;
+&lt;li&gt;Proceedings of the 2025 Conference of the Nations of the Americas Chapter of the Association for Computational Linguistics: Human Language Technologies (Volume 4: Student Research Workshop)&lt;/li&gt;
+&lt;li&gt;Proceedings of the 2025 Conference of the Nations of the Americas Chapter of the Association for Computational Linguistics: Human Language Technologies (Volume 5: Tutorial Abstracts)&lt;/li&gt;
+&lt;li&gt;Proceedings of the 2025 Conference of the Nations of the Americas Chapter of the Association for Computational Linguistics: Human Language Technologies (Volume 6: Industry Track)&lt;/li&gt;
+&lt;li&gt;Findings of the Association for Computational Linguistics: NAACL 2025&lt;/li&gt;
+&lt;li&gt;Proceeding of the First Workshop on AI and Scientific Discovery: Directions and Opportunities&lt;/li&gt;
+&lt;li&gt;Proceedings of the 7th Workshop on Computational Approaches to Linguistic Code-Switching&lt;/li&gt;
+&lt;li&gt;Proceedings of the 10th Workshop on Computational Linguistics and Clinical Psychology (CLPsych 2025)&lt;/li&gt;
+&lt;li&gt;Proceedings of the Workshop on Cognitive Modeling and Computational Linguistics (CMCL 2025)&lt;/li&gt;
+&lt;li&gt;Proceedings of the Fifth Workshop on Speech and Language Technologies for Dravidian Languages&lt;/li&gt;
+&lt;li&gt;Proceedings of the 4th Workshop on Knowledge-Augmentation for Language Models and NLP Methods&lt;/li&gt;
+&lt;li&gt;Proceedings of the Eighth Workshop on Technologies for Machine Translation of Low-Resource Languages (LoResMT 2025)&lt;/li&gt;
+&lt;li&gt;Proceedings of the 22nd SIGMORPHON Workshop on Computational Morphology, Phonology, and Phonetics&lt;/li&gt;
+&lt;li&gt;Proceedings of the Tenth Workshop on Noisy and User-generated Text (W-NUT 2025)&lt;/li&gt;
+&lt;li&gt;Proceedings of the 5th Workshop on Trustworthy NLP (TrustNLP 2024)&lt;/li&gt;
+&lt;li&gt;Proceedings of the 5th International Conference on Natural Language Processing for Digital Humanities&lt;/li&gt;
+&lt;li&gt;Proceedings of the 2nd Workshop on Ancient Language Processing (ALP 2025)&lt;/li&gt;
+&lt;li&gt;Proceedings of the Fifth Workshop on NLP for Indigenous Languages of the Americas (AmericasNLP)&lt;/li&gt;
+&lt;li&gt;Proceedings of the 3rd Workshop on Cross-Cultural Considerations in NLP (C3NLP 2025)&lt;/li&gt;
+&lt;li&gt;Proceedings of the 2nd Workshop on Patient-oriented Language Processing (CL4Health 2025)&lt;/li&gt;
+&lt;li&gt;Proceedings of the Fourth Workshop on Intelligent and Interactive Writing Assistants (in2writing 2025)&lt;/li&gt;
+&lt;li&gt;Proceedings of the Sixth Workshop on Insights from Negative Results in NLP (Insights 2025)&lt;/li&gt;
+&lt;li&gt;Proceedings of the Ninth Joint SIGHUM Workshop on Computational Linguistics for Cultural Heritage, Social Sciences, Humanities and Literature (LaTeCH-CLfL 2025)&lt;/li&gt;
+&lt;li&gt;Proceedings of the 1st Workshop on Language Models for Underserved Communities (LM4UC 2025)&lt;/li&gt;
+&lt;li&gt;Proceedings of the 21st Workshop on Multiword Expressions (MWE 2025)&lt;/li&gt;
+&lt;li&gt;Proceedings of the Queer in AI workshop&lt;/li&gt;
+&lt;li&gt;Proceedings of the 10th Workshop on Representation Learning for NLP (RepL4NLP-2025)&lt;/li&gt;
+&lt;li&gt;Proceedings of the Sixth Workshop on Privacy in Natural Language Processing&lt;/li&gt;
+&lt;li&gt;Proceedings of the Seventh Workshop on Narrative Understanding&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2 id=&#34;workshop-settings&#34;&gt;Workshop Settings:&lt;/h2&gt;
+&lt;div class=&#34;doc-container&#34;&gt;
+        &lt;iframe 
+            class=&#34;fullsize-iframe&#34;
+            src=&#34;https://docs.google.com/document/d/e/2PACX-1vRd6HZCENArnhdeKT5yOyrlpAS6iFk-PTmApAwWi9gYP_ffnmj_Pho0fuewSwJcKlYDpK8uvbbYfpGx/pub?embedded=true&#34;
+            frameborder=&#34;0&#34;
+            scrolling=&#34;auto&#34;&gt;
+        &lt;/iframe&gt;
+    &lt;/div&gt;
+&lt;style&gt;
+        body, html {
+            margin: 0;
+            padding: 0;
+            height: 100%;
+        }
+        .doc-container {
+            width: 100%;
+            height: 100%;
+        }
+        .fullsize-iframe {
+            width: 100%;
+            height: 100%;
+            min-height: 10000px; /* This ensures a minimum height */
+            border: 0;
+        }
+    &lt;/style&gt;&lt;blockquote&gt;
+&lt;/blockquote&gt;
+</description>
+    </item>
+    
+  </channel>
+</rss>
