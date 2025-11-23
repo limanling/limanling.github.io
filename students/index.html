@@ -536,17 +536,6 @@
                       padding-left: 20px;
                       text-indent: -20px;
                   }
-                  .research-figure.full-bleed {
-                      width: 100vw;
-                      max-width: 100vw;
-                      margin-left: calc(50% - 50vw);
-                      margin-right: calc(50% - 50vw);
-                  }
-                  .research-figure.full-bleed img {
-                      width: 100%;
-                      height: auto;
-                      display: block;
-                  }
               
   </style>
 
@@ -1073,7 +1062,7 @@
                    
                  </ul>
            
-               </div>
+    </div>
       </div>
       <!-- SHARED SIDEBAR END -->
 
@@ -1136,7 +1125,7 @@
     <a href="https://sanjanasrivastava.github.io/rosetta-project/ROSETTA" target="_blank" rel="noopener">ROSETTA</a> with human feedback, etc)
     <br>
   </p>
-    <figure class="research-figure full-bleed text-center">
+    <figure class="research-figure text-center">
       <img src="/uploads/RL-pipeline.pdf"
            alt="Manling Li, foundation model, embodied agents"
            style="max-width:100%;height:auto;border-radius:12px;box-shadow:0 10px 30px rgba(0,0,0,0.12);">
@@ -1258,10 +1247,10 @@
               Join Us! ☕
           </p>
       </div>
-  
-    </div>      
 
+</div>
 
+      
                   <h2>Fun Projects</h2>
                   <div class="author-name">Manling Li</div>
                   
@@ -1285,9 +1274,9 @@
                               <p>I led the development of open-source multimodal knowledge reasoning system, ranked 1st in NIST SM-KBP evaluation in both 2019 and 2020. My work has been transferred to DARPA and Army Research Lab, and well recognized by the government (DARPA Riser with a featured presentation at the DARPA Forward Event 2022) and industry (Microsoft Research PhD Fellowship and Postdoc Fellowship).</p>
                               
                               <p>I lead the series of tutorials/workshops/challenges on <strong>Foundation Models Meet Embodied Agents</strong> [12], which attracted 300+ conference members at AAAI 2025, NAACL 2025, CVPR 2025, ICCV 2025, and NeurIPS 2025.</p>
-                          </div>
-                      </div>
-                      
+  </div>
+</div>
+
                       <div class="section-container">
                           <h2>The Spatial Reasoning Interface: From Semantic-Centric Priors to Spatial-Geometric Reasoning</h2>
                           
@@ -1353,8 +1342,8 @@
                           <p><strong>Trustworthiness</strong> is centered my research from the very beginning to ensure that reasoning remains grounded in verifiable knowledge. My doctoral thesis on event-centric multimodal knowledge acquisition [10] (ACL Inaugural Best Dissertation Award Honorable Mention) and <strong>CLIP-Event</strong> [18] (Oral at CVPR 2022) established event-centric multimodal grounding as a foundation for factual reasoning. With this foundation, my <strong>GAIA system</strong> [19, 15, 14] and my <strong>COVID-19 Claim Radar</strong> [17], demonstrate factual reliability at scale and achieve first place at the NIST SM-KBP evaluations in both 2019 and 2020.</p>
 
                           <p>Through these efforts, the Mechanistic Control Interface transforms agents from black boxes into safe, interpretable systems, closing the final gap between intelligent behavior and reliable alignment.</p>
-                      </div>
-
+      </div>
+    
                       <div class="future-research">
                           <h2>Future Research</h2>
 
@@ -1362,17 +1351,17 @@
 
                           <h3>Mechanistic interpretability of 3D-grounded VLMs and VLAs</h3>
                           <p>A key next step is to open the black box of 3D-aware foundation models and VLAs and understand how they internalize physics and affordances, probing how models trained on dynamic visual data form internal "physics circuits". I plan to study whether subnetworks or attention heads are causally responsible for predicting gravity, collision, and containment, and how concepts such as "graspable" emerge separately from visual identity. Activation patching and causal editing will allow us to test whether we can transfer the "is-graspable" property between objects or locate "pushing" circuits that map actions to predicted 3D outcomes. Through probing for geometric primitives, such as coordinates, orientation, and occlusion states, I will characterize how 3D world models are represented and manipulated within large vision–language systems.</p>
-
+      
                           <h3>From passive to active exploration like humans</h3>
                           <p>I aim to develop agents that represent what is known about a scene, quantify what remains unknown, and use that uncertainty to guide exploration [24, 25]. This involves building an internal belief state that integrates both geometric and semantic layers: a geometric representation such as in 3D space, overlaid with a semantic scene graph encoding abstraction of entities and relations. The agent will actively seek keyframes that reduce uncertainty and fuse new observations back into the belief state, transforming passive perception into curiosity-driven reasoning.</p>
 
                           <h3>Representation learning for space to create generalist embodied agents with spatial priors</h3>
                           <p>My research will focus on a new training paradigm to solve a critical flaw in current VLAs: fine-tuning for expert action often causes forgetting of the VLM's generalist language and reasoning priors. I aim to answer how do we best distill and collect spatial-geometric priors, and what is the optimal representation for space? This approach will use geometric consistency to stabilize learning in low-data regimes, and also will produce a unified agent that can act on, reason about, and explain its interactions with the physical world, closing the loop between perception, reasoning, and control.</p>
-
+      
                           <h3>Certifying the safety of embodied agents through control theory</h3>
                           <p>I plan to extend my previous work on Control Barrier Function into formal verification of embodied systems. This line of research aims to make embodied reasoning not only powerful but also provably safe. I will identify activation patterns that correspond to unsafe behaviors, design monitors that track them in real time, and implement intervention layers that can override dangerous trajectories. This CBF-driven study will redefine alignment as a mechanistic process that can be achieved through precise and interpretable control of internal activations.</p>
                       </div>
-
+        
                       <div class="references">
                           <h2>References</h2>
                           <div class="reference-item">[1] Keshigeyan Chandrasegaran, Agrim Gupta, Lea M. Hadzic, Taran Kota, Jimming He, Cristobal Eyzaguirre, Zane Durante, Manling Li, Jiajun Wu, and Fei-Fei Li. HourVideo: 1-Hour Video-Language Understanding. In NeurIPS D&B Track, 2024.</div>
@@ -1419,10 +1408,10 @@
 
   
 
-  
 
-        </div>
-      </div>
+      
+    </div>
+  </div>
 </div>
   </div>
 
