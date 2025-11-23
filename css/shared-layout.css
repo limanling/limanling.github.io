@@ -8,6 +8,18 @@
       background-color: #fff;
       box-shadow: 0 6px 18px rgba(0, 0, 0, 0.05);
     }
+    .page-header.header--fixed .container-xl {
+      max-width: 100%;
+      width: 100%;
+      padding-left: 2rem;
+      padding-right: 2rem;
+    }
+    @media (max-width: 575.98px) {
+      .page-header.header--fixed .container-xl {
+        padding-left: 1rem;
+        padding-right: 1rem;
+      }
+    }
     .page-header.header--fixed .navbar {
       padding-top: 0.6rem;
       padding-bottom: 0.6rem;
