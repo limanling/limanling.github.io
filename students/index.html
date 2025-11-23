@@ -396,12 +396,153 @@
     .site-footer a:focus {
       text-decoration: underline;
     }
+    
+                  body {
+                      font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif;
+                      line-height: 1.6;
+                      color: #333;
+                      max-width: 1200px;
+                      margin: 0 auto;
+                      padding: 20px;
+                      background-color: #fff;
+                  }
+                  
+                  .universal-wrapper {
+                      padding: 0 20px;
+                  }
+                  
+                  .article-style {
+                      font-size: 16px;
+                      line-height: 1.8;
+                  }
+                  
+                  h1 {
+                      font-size: 2.5rem;
+                      margin-bottom: 0.5rem;
+                      color: #2c3e50;
+                      border-bottom: 3px solid #3498db;
+                      padding-bottom: 10px;
+                  }
+                  
+                  h2 {
+                      font-size: 1.8rem;
+                      margin-top: 2rem;
+                      margin-bottom: 1rem;
+                      color: #34495e;
+                      border-bottom: 2px solid #e0e0e0;
+                      padding-bottom: 8px;
+                  }
+                  
+                  h3 {
+                      font-size: 1.4rem;
+                      margin-top: 1.5rem;
+                      margin-bottom: 0.8rem;
+                      color: #555;
+                  }
+                  
+                  .author-name {
+                      font-size: 1.2rem;
+                      color: #666;
+                      margin-bottom: 2rem;
+                  }
+                  
+                  .research-vision {
+                      background-color: #f8f9fa;
+                      padding: 20px;
+                      border-left: 4px solid #3498db;
+                      margin: 20px 0;
+                  }
+                  
+                  .section-container {
+                      margin: 30px 0;
+                  }
+                  
+                  ul {
+                      margin: 15px 0;
+                      padding-left: 30px;
+                  }
+                  
+                  li {
+                      margin: 8px 0;
+                  }
+                  
+                  .key-contributions {
+                      background-color: #fff;
+                      border: 1px solid #dee2e6;
+                      border-radius: 8px;
+                      padding: 20px;
+                      margin: 20px 0;
+                  }
+                  
+                  .highlight {
+                      background-color: #ffffcc;
+                      padding: 2px 4px;
+                  }
+                  
+                  .figure-caption {
+                      font-size: 0.9rem;
+                      color: #666;
+                      text-align: center;
+                      margin-top: 10px;
+                      font-style: italic;
+                  }
+                  
+                  .awards-section {
+                      background-color: #f0f8ff;
+                      padding: 15px;
+                      border-radius: 8px;
+                      margin: 20px 0;
+                  }
+                  
+                  .citation {
+                      font-size: 0.9rem;
+                      color: #555;
+                      padding-left: 20px;
+                      border-left: 3px solid #ddd;
+                      margin: 10px 0;
+                  }
+                  
+                  strong {
+                      color: #2c3e50;
+                      font-weight: 600;
+                  }
+                  
+                  .research-area {
+                      display: inline-block;
+                      background-color: #e3f2fd;
+                      padding: 4px 12px;
+                      border-radius: 4px;
+                      margin: 4px;
+                      font-size: 0.9rem;
+                  }
+                  
+                  .future-research {
+                      background-color: #f5f5f5;
+                      padding: 20px;
+                      border-radius: 8px;
+                      margin-top: 30px;
+                  }
+                  
+                  .references {
+                      font-size: 0.85rem;
+                      line-height: 1.4;
+                      margin-top: 40px;
+                      padding-top: 20px;
+                      border-top: 2px solid #e0e0e0;
+                  }
+                  
+                  .reference-item {
+                      margin: 8px 0;
+                      padding-left: 20px;
+                      text-indent: -20px;
+                  }
+              
   </style>
 
 </head>
 
 
-<body id="top" data-spy="scroll" data-offset="70" data-target="#TableOfContents" class="page-wrapper   " data-wc-page-id="2c778b35ac809d331bccf991419ec2ed" >
+<body id="top" data-spy="scroll" data-offset="70" data-target="#navbar-main" class="page-wrapper   " data-wc-page-id="2c778b35ac809d331bccf991419ec2ed" >
 
   
   
@@ -590,7 +731,6 @@
           <li class="nav-item">
             <a class="nav-link " href="/#publications" data-target="#publications"><span>Publications</span></a>
           </li>
-
           
           
 
@@ -624,7 +764,8 @@
             
           
 
-          
+
+
           
           
 
@@ -942,10 +1083,175 @@
 
 
 
+              
+              <div class="universal-wrapper">
+                  <h1>Research Statement</h1>
+                  <div class="author-name">Manling Li</div>
+                  
+                  <div class="article-style">
+                      <h2>Architecting the Reasoning Interface for Embodied Foundation Agents</h2>
+                      
+                      <div class="research-vision">
+                          <p><strong>My research vision is to fundamentally transform artificial intelligence models from passive observers into active, embodied agents.</strong> Today's foundation models, trained on static web-scale data, excel at semantic-centric reasoning, yet lack grounded interactions with the dynamic and partially observable physical world. For example, they fail at a task a young child masters: when instructed to "put the turkey on the table", they place the cooked turkey directly on the table, without thinking of using plates. This failure captures the core of my research: the <strong>reasoning gap between semantic-centric priors</strong> (turkey and table frequently co-occur in language) and <strong>embodied reasoning</strong> (a turkey requires a plate).</p>
+                          
+                          <p>I strive to architect this foundational bridge, which I term the <strong>Reasoning Interface</strong>, as a trainable structured reasoning protocol that connects foundation models to physical environments.</p>
+                      </div>
+                      
+                      <div class="section-container">
+                          <h3>Core Research Contributions</h3>
+                          <p>My solution addresses the core challenges in perception, policy and alignment:</p>
+                          
+                          <div class="key-contributions">
+                              <ul>
+                                  <li><strong>Seeing the unseen:</strong> My work was among the first to expose the limitations of geometric reasoning in VLMs [28, 1], and develop Spatial-Geometric Reasoning about 3D spatial geometry [26, 9] and 4D dynamics [6, 33] from partial, egocentric observations.</li>
+                                  
+                                  <li><strong>Exploring the world:</strong> My work designs Self-Evolving Policy Reasoning by enabling world-model exploration [24, 3, 25] and robust policy learning [30, 8] under sparse feedback, serving as the core engine for generalist embodied agents [23, 32, 25].</li>
+                                  
+                                  <li><strong>Steering the reasoning:</strong> My work pioneered both mechanism interpretability in spatial intelligence [4, 2] (first to open black box of VLMs and diagnose why they fail in spatial tasks) and cross-modal active intervention [34, 5, 35] (first to dynamically steer multimodal reasoning toward safe and aligned decisions) to build the Mechanistic Control Interface, ensuring trustworthy reasoning [19, 17, 10].</li>
+                              </ul>
+                          </div>
+                      </div>
+                      
+                      <div class="figure-caption">
+                          <em>Figure 1: My research transforms passive AI models to active embodied agents via trainable reasoning interfaces.</em>
+                      </div>
+                      
+                      <div class="section-container">
+                          <h3>Research Impact and Recognition</h3>
+                          <div class="awards-section">
+                              <p>My research probes the intersection between <span class="research-area">Embodied AI</span> <span class="research-area">Natural Language Processing</span> and <span class="research-area">Computer Vision</span>, recognized with honors such as:</p>
+                              <ul>
+                                  <li>ACL 2025 Inaugural Dissertation Award Honorable Mention (only awardee from the class of 2023)</li>
+                                  <li>ACL 2024 Outstanding Paper</li>
+                                  <li>NAACL 2021 Best Demo Paper</li>
+                                  <li>ACL 2020 Best Demo Paper</li>
+                                  <li>Oral and Spotlight presentations at NeurIPS and ICML</li>
+                                  <li>Best Paper Awards at ICCV and RSS workshops</li>
+                                  <li>MIT Technology Review's Innovators Under 35 Global List</li>
+                              </ul>
+                              
+                              <p>I led the development of open-source multimodal knowledge reasoning system, ranked 1st in NIST SM-KBP evaluation in both 2019 and 2020. My work has been transferred to DARPA and Army Research Lab, and well recognized by the government (DARPA Riser with a featured presentation at the DARPA Forward Event 2022) and industry (Microsoft Research PhD Fellowship and Postdoc Fellowship).</p>
+                              
+                              <p>I lead the series of tutorials/workshops/challenges on <strong>Foundation Models Meet Embodied Agents</strong> [12], which attracted 300+ conference members at AAAI 2025, NAACL 2025, CVPR 2025, ICCV 2025, and NeurIPS 2025.</p>
+                          </div>
+                      </div>
+                      
+                      <div class="section-container">
+                          <h2>The Spatial Reasoning Interface: From Semantic-Centric Priors to Spatial-Geometric Reasoning</h2>
+                          
+                          <p>Foundation models are pre-trained on the semantics of language and static 2D images rather than the geometry of the physical world. This creates a critical reasoning gap: models memorize semantic priors (e.g., "cup is on table") but remain blind to the underlying 3D spatial and temporal-causal structures. They cannot reason about what they have not seen.</p>
+                          
+                          <p>My <strong>ADAPTVIS</strong> [4] provides the first systematic diagnosis of this failure, showing that current VLMs behave as "style memorizers", attending to linguistically salient but spatially irrelevant regions rather than reasoning on true geometry. It is among first to expose the fundamental weakness in how cross-modal attention encodes spatial relations, motivating the need to integrate reasoning with vision-centric priors.</p>
+                          
+                          <div class="figure-caption">
+                              <em>Figure 2: Spatial Reasoning Interface bridging Semantic-Centric Priors to Spatial-Geometric Reasoning. My work diagnoses VLM reasoning failures and introduces new architectures for 3D/4D spatial and geometric reasoning.</em>
+                          </div>
+                          
+                          <p>To address this, my work introduces a cognitive map based reasoning interface that closes the gap between perception and VLMs. <strong>MindCube</strong> [26] (Best Paper Award at ICCV 2025 Workshop) demonstrates that true spatial intelligence requires an internal Spatial Mental Model. By reconstructing a top-down cognitive map from limited egocentric views, the model learns to reason about unseen perspectives and spatial relations.</p>
+                          
+                          <p>With these core architectures, my research expands the spatial reasoning interface along new dimensions of scale and modality:</p>
+                          <ul>
+                              <li><strong>LayoutVLM</strong> [9] optimizes 3D spatial layouts through differentiable vision–language reasoning</li>
+                              <li><strong>IKEA Manuals at Work</strong> [6] grounds 4D assembly instructions on real Internet videos</li>
+                              <li><strong>HourVideo</strong> [1] scales this paradigm to long-form temporal reasoning across hours of video</li>
+                              <li><strong>T*</strong> [33] explores temporal search as an additional dimension of spatial reasoning, unifying spatial, temporal, and semantic grounding within a single framework</li>
+                          </ul>
+                          
+                          <p>My work on Spatial Reasoning enables foundation agents to perceive and reason about the physical world, and has been invited as keynote speech at the first Spatial Intelligence workshop at ICCV 2025.</p>
+                      </div>
+                      
+                      <div class="section-container">
+                          <h2>The Self-Evolving Policy Reasoning Interface: From Exploitation to Exploration via World Modeling</h2>
+                          
+                          <p>My research on policy reasoning addresses a central challenge in embodied AI: adapting foundation models that were pre-trained on static, language-centric data to learn from sparse, delayed, and stochastic reinforcement signals. Standard reinforcement learning usually collapses under this out-of-distribution (OOD) environments.</p>
+                          
+                          <p>My work <strong>RAGEN</strong> [30] (Best Poster Award at MMLS 2025; 2.3k+ GitHub Stars) was the first to identify the key of this failure mode, which I call the <strong>Echo Trap</strong>. In this state, the agent's reasoning collapses into repetitive, self-reinforcing patterns and overfits to familiar thought trajectories instead of exploring new strategies. RAGEN establishes the foundation for stable and robust reinforcement learning with reasoning agents, with a Markov Decision Process (MDP) grounded <strong>State–Thinking–Action–Reward Policy Optimization (StarPO)</strong>. It later was widely adopted as the foundation for multi-turn RL with follow ups such as Search-R1, Agent-R1, etc.</p>
+                          
+                          <div class="figure-caption">
+                              <em>Figure 3: Policy Reasoning Interface with our State–Thinking–Action–Reward Optimization and World Modeling.</em>
+</div>
 
+                          <p>To encourage exploration over exploitation, we propose <strong>VAGEN</strong> [24] to learn an internal world model that grounds reinforcement learning in structured belief states to stabilize policy reasoning under partial observability (POMDP). VAGEN has been able to successfully support various environments such as robotic manipulation, games, and SVG figures.</p>
+                          
+                          <p>We further explore where is the best to inject world model knowledge in agentic RL:</p>
+                          <ul>
+                              <li>My <strong>Self-Play Agent</strong> [3] encourages foundation models to learn to self-play with the environment to learn world models</li>
+                              <li><strong>ROSETTA</strong> [8] (Best Paper Award at RSS 2025 workshop) further learns from human feedback with language-grounded reward modeling</li>
+                              <li><strong>ENACT</strong> [25] further expands this reasoning interface toward multi-step world modeling</li>
+                          </ul>
+                          
+                          <p>Our <strong>Embodied Agent Interface</strong> [23] (Oral Top 0.4% at NeurIPS, Best Paper at SoCal NLP 2024) and <strong>EmbodiedBench</strong> [32] (Oral Top 1% at ICML 2025) further serve as the core engine to provide feedback for embodied agents.</p>
+                          
+                          <p>Collectively, this line of research redefines the policy reasoning interface and transforms reinforcement learning from a low-level optimization procedure into a high-level reasoning framework that guides foundation models toward exploration, adaptation, and self-evolution.</p>
+  </div>
+    
+                      <div class="section-container">
+                          <h2>The Mechanistic Control Interface: From Black Boxes to Safe Agents</h2>
+    
+                          <p>My research on mechanistic control tackles the final challenge in building reasoning agents: transforming black-box models into safe, interpretable, and steerable systems. As foundation models scale, their reasoning processes become opaque, which makes it difficult to diagnose errors or enforce alignment. The Mechanistic Control Interface bridges this gap by enabling agents to reason not only about the external world but also about their own internal mechanisms.</p>
+                          
+                          <div class="figure-caption">
+                              <em>Figure 4: I work towards safe and controllable foundation models via improving mechanistic interpretability.</em>
+</div>
 
+                          <p>The first step toward this goal is to improve the <strong>reasoning controllability</strong>. <strong>LM-Steer</strong> [5] (ACL 2024, Outstanding Paper Award) and <strong>ODESteer</strong> [35] introduce a direct steering interface that manipulates activation vectors at inference time, providing fine-grained control over safety, style, and factuality without retraining. <strong>HallE-Control</strong> [34] is the first to control visual hallucination in multimodal models.</p>
+  
+                          <p><strong>Interpretability</strong> is well supported by this interface. My work to answer why is spatial reasoning hard [4] (ICML 2025) opens up VLMs analyzing attention mechanisms, the first to reveal the roots of spatial reasoning failure. <strong>Diffusion Transformer Grafting</strong> [2] (Oral Top 0.36% at NeurIPS 2025) shows how architectural components shape reasoning behavior by editing pretrained models.</p>
+    
+                          <p><strong>Trustworthiness</strong> is centered my research from the very beginning to ensure that reasoning remains grounded in verifiable knowledge. My doctoral thesis on event-centric multimodal knowledge acquisition [10] (ACL Inaugural Best Dissertation Award Honorable Mention) and <strong>CLIP-Event</strong> [18] (Oral at CVPR 2022) established event-centric multimodal grounding as a foundation for factual reasoning. With this foundation, my <strong>GAIA system</strong> [19, 15, 14] and my <strong>COVID-19 Claim Radar</strong> [17], demonstrate factual reliability at scale and achieve first place at the NIST SM-KBP evaluations in both 2019 and 2020.</p>
 
+                          <p>Through these efforts, the Mechanistic Control Interface transforms agents from black boxes into safe, interpretable systems, closing the final gap between intelligent behavior and reliable alignment.</p>
+                      </div>
 
+                      <div class="future-research">
+                          <h2>Future Research</h2>
+
+                          <p>My future research will extend the frontier of embodied and interpretable intelligence:</p>
+
+                          <h3>Mechanistic interpretability of 3D-grounded VLMs and VLAs</h3>
+                          <p>A key next step is to open the black box of 3D-aware foundation models and VLAs and understand how they internalize physics and affordances, probing how models trained on dynamic visual data form internal "physics circuits". I plan to study whether subnetworks or attention heads are causally responsible for predicting gravity, collision, and containment, and how concepts such as "graspable" emerge separately from visual identity. Activation patching and causal editing will allow us to test whether we can transfer the "is-graspable" property between objects or locate "pushing" circuits that map actions to predicted 3D outcomes. Through probing for geometric primitives, such as coordinates, orientation, and occlusion states, I will characterize how 3D world models are represented and manipulated within large vision–language systems.</p>
+
+                          <h3>From passive to active exploration like humans</h3>
+                          <p>I aim to develop agents that represent what is known about a scene, quantify what remains unknown, and use that uncertainty to guide exploration [24, 25]. This involves building an internal belief state that integrates both geometric and semantic layers: a geometric representation such as in 3D space, overlaid with a semantic scene graph encoding abstraction of entities and relations. The agent will actively seek keyframes that reduce uncertainty and fuse new observations back into the belief state, transforming passive perception into curiosity-driven reasoning.</p>
+
+                          <h3>Representation learning for space to create generalist embodied agents with spatial priors</h3>
+                          <p>My research will focus on a new training paradigm to solve a critical flaw in current VLAs: fine-tuning for expert action often causes forgetting of the VLM's generalist language and reasoning priors. I aim to answer how do we best distill and collect spatial-geometric priors, and what is the optimal representation for space? This approach will use geometric consistency to stabilize learning in low-data regimes, and also will produce a unified agent that can act on, reason about, and explain its interactions with the physical world, closing the loop between perception, reasoning, and control.</p>
+
+                          <h3>Certifying the safety of embodied agents through control theory</h3>
+                          <p>I plan to extend my previous work on Control Barrier Function into formal verification of embodied systems. This line of research aims to make embodied reasoning not only powerful but also provably safe. I will identify activation patterns that correspond to unsafe behaviors, design monitors that track them in real time, and implement intervention layers that can override dangerous trajectories. This CBF-driven study will redefine alignment as a mechanistic process that can be achieved through precise and interpretable control of internal activations.</p>
+                      </div>
+
+                      <div class="references">
+                          <h2>References</h2>
+                          <div class="reference-item">[1] Keshigeyan Chandrasegaran, Agrim Gupta, Lea M. Hadzic, Taran Kota, Jimming He, Cristobal Eyzaguirre, Zane Durante, Manling Li, Jiajun Wu, and Fei-Fei Li. HourVideo: 1-Hour Video-Language Understanding. In NeurIPS D&B Track, 2024.</div>
+                          
+                          <div class="reference-item">[2] Keshigeyan Chandrasegaran, Michael Poli, Daniel Y. Fu, Dongjun Kim, Lea M. Hadzic, Manling Li, Agrim Gupta, Stefano Massaroli, Azalia Mirhoseini, Juan Carlos Niebles, Stefano Ermon, and Fei-Fei Li. Exploring Diffusion Transformer Designs via Grafting. In NeurIPS Oral (Oral Presentation (Top 0.36%)), 2025.</div>
+                          
+                          <div class="reference-item">[3] Shiqi Chen, Tongyao Zhu, Zian Wang, Jinghan Zhang, Kangrui Wang, Siyang Gao, Teng Xiao, Yee Whye Teh, Junxian He, and Manling Li. Internalizing World Models via Self-Play Finetuning for Agentic RL. In Submission, 2025.</div>
+                          
+                          <div class="reference-item">[4] Shiqi Chen, Tongyao Zhu, Ruochen Zhou, Jinghan Zhang, Siyang Gao, Juan Carlos Niebles, Mor Geva, Junxian He, Jiajun Wu, and Manling Li. Why Is Spatial Reasoning Hard for VLMs? An Attention Mechanism Perspective on Focus Areas. In ICML, 2025.</div>
+                          
+                          <div class="reference-item">[5] Chi Han, Jialiang Xu, Manling Li, Yi Fung, Chenkai Sun, Nan Jiang, Tarek Abdelzaher, and Heng Ji. Word Embeddings Are Steers for Language Models. In ACL, 2024. Outstanding Paper Award at ACL 2024.</div>
+                          
+                          <div class="reference-item">[6] Yunong Liu, Cristobal Eyzaguirre, Manling Li, Shubh Khanna, Juan Carlos Niebles, Vineeth Ravi, Saumitra Mishra, Weiyu Liu, and Jiajun Wu. IKEA Manuals at Work: 4D Grounding of Assembly Instructions on Internet Videos. In NeurIPS D&B Track, 2024.</div>
+                          
+                          <div class="reference-item">[7] Tengfei Ma, Manling Li, Mo Yu, Gao Tian, and Achille Fokoue. Unsupervised Knowledge Graph Compression based on Optimal Transport. In U.S. Patent US20220335270A1, 2022.</div>
+                          
+                          <div class="reference-item">[8] Sanjana Srivastava*, Kangrui Wang*, Yung-Chieh Chan*, Tianyuan Dai, Manling Li, Ruohan Zhang, Mengdi Xu, Jiajun Wu, and Li Fei-Fei. ROSETTA: Constructing Code-Based Reward from Unconstrained Language Preference. In Submission, 2025. Best Paper Award at RSS 2025 workshop on Continual Robot Learning from Humans.</div>
+                          
+                          <div class="reference-item">[9] Fan-Yun Sun, Weiyu Liu, Siyi Gu, Dylan Lim, Goutam Bhat, Federico Tombari, Manling Li, Nick Haber, and Jiajun Wu. LayoutVLM: Differentiable Optimization of 3D Layout via Vision-Language Models. In CVPR, 2025.</div>
+                          
+                          <div class="reference-item">[10] Manling Li. Event-centric multimodal knowledge acquisition. PhD thesis, University of Illinois at Urbana-Champaign, 2023. ACL Inaugural Best Dissertation Award Honorable Mention.</div>
+                          
+                          <!-- Additional references continue in same format... -->
+                          <div class="reference-item">[30] Zihan Wang*, Kangrui Wang*, Qineng Wang*, Pingyue Zhang*, Linjie Li*, Zhengyuan Yang, Xing Jin, Kefan Yu, Minh Nhat Nguyen, Licheng Liu, Eli Gottlieb, Yiping Lu, Kyunghyun Cho, Jiajun Wu, Li Fei-Fei, Lijuan Wang, Yejin Choi, and Manling Li. RAGEN: Understanding Self-Evolution in LLM Agents via Multi-Turn Reinforcement Learning. In Submission, 2025. 2.4k Github Stars as an Open-Source RL Agent framework. Best Poster Award at MMLS 2025 (Midwest Machine Learning Symposium).</div>
+                          
+                          <p style="text-align: center; margin-top: 20px; font-size: 0.9rem; color: #666;">
+                              <em>Note: Complete reference list abbreviated for brevity. See full document for all 35 references.</em>
+                          </p>
+      </div>
+                  </div>
+              </div>
   
 
   
@@ -954,7 +1260,7 @@
     
   
 <div class="universal-wrapper pt-3">
-  <h1></h1>
+  <h1>Fun Projects</h1>
 
   
 
@@ -1117,7 +1423,7 @@
     correspond to unsafe behaviors, design monitors that track them in real time, and implement intervention
     layers that can override dangerous trajectories. This CBF-driven study will redefine alignment as a
     mechanistic process that can be achieved through precise and interpretable control of internal activations.</p>
-
+    
   </div>
 </div>
 
@@ -1129,7 +1435,7 @@
 
         </div>
       </div>
-    </div>
+</div>
   </div>
 
       <div class="page-footer">

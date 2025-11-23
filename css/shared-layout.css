@@ -1,6 +1,17 @@
 :root {
       --section-heading-size: 1.65rem;
     }
+    .page-header.header--fixed {
+      position: sticky;
+      top: 0;
+      z-index: 1050;
+      background-color: #fff;
+      box-shadow: 0 6px 18px rgba(0, 0, 0, 0.05);
+    }
+    .page-header.header--fixed .navbar {
+      padding-top: 0.6rem;
+      padding-bottom: 0.6rem;
+    }
     #about .about-main,
     #publications .section-body,
     #talks .section-body,
