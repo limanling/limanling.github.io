@@ -215,6 +215,7 @@
   
   
   <link rel="stylesheet" href="/css/wowchemy.c30d8a14377b0418a6b56a64af4e417d.css" />
+  <link rel="stylesheet" href="/css/shared-layout.css" />
 
   
   
@@ -963,233 +964,160 @@
 
 
 <div class="universal-wrapper">
-  
-    <div class="article-style"><p><strong>Organizing Committee</strong>:</p>
-<ul>
-<li>ACL 2025 (Virtual Infrastructure Chairs)</li>
-<li>NAACL 2025 (Publication Chairs) <a href='./students/publicationchair/'>summary</a></li>
-<li>EMNLP 2024 (Demonstration Chairs) <a href='./students/demotrack/'>summary</a></li>
-<li>Foundation Models Meet Embodied Agents @ CVPR 2025 workshop</li>
-<li>Towords Knowledgeable Foundation Models @ ACL 2025 workshop</li>
-<li>Towords Knowledgeable Foundation Models @ AAAI 2025 workshop</li>
-<li>Towords Knowledgeable Foundation Models @ ACL 2024 workshop</li>
-<li>Knowledge Discovery from Unstructured Data in Financial Services (KDF) @ SIGIR 2023 Workshop</li>
-</ul>
-<p><strong>Senior Area Chair</strong>:</p>
-<ul>
-<li>EMNLP (from 2025)</li>
-</ul>
-<p><strong>Area Chair</strong>:</p>
-<ul>
-<li>ACL (from 2023)</li>
-<li>EMNLP (from 2023)</li>
-<li>NAACL (from 2024)</li>
-<li>COLM (from 2025)</li>
-</ul>
-<!-- **Senior Program Committee**: 
-  * IJCAI, 2021 -->
-<p><strong>Program Committee</strong>:</p>
-<ul>
-<li>ARR (ACL Rolling Review, from 2021)</li>
-<li>ACL (from 2021)</li>
-<li>EMNLP (from 2021)</li>
-<li>NAACL-HLT (from 2021)</li>
-<li>AAAI (from 2021)</li>
-<li>WWW (from 2021)</li>
-<li>AKBC (2021)</li>
-<li>EACL (from 2021)</li>
-<li>KDD DI Workshop (2021)</li>
-<li>NLPCC (2021)</li>
-<li>COLING (from 2020)</li>
-<li>AACL (from 2020)</li>
-<li>CCL (from 2020)</li>
-</ul>
-<p><strong>Journal Reviewer</strong>:</p>
-<ul>
-<li>TACL</li>
-<li>TIST</li>
-<li>TKDE</li>
-</ul>
-  <!-- * IEEE MultiMedia
-  * Journal of Artificial Intelligence Research
-  * Journal of Advances in Information Technology -->
-<p><strong>Community Services</strong>:</p>
-<ul>
-<li>ACL Student Research Workshop (SRW) Mentor, ACL, 2024</li>
-<li>ACM Mentor, ACM Mentorship Program at UIUC, 2022</li>
-<li>CS Ambassador, UIUC CS Visit Day for Prospective Graduate Students, 2022</li>
-<li>Advising Assistant, UIUC PhD Orientation Seminar, 2021</li>
-<li>Graduate Student Representative, UIUC CS Visit Day, 2020</li>
-</ul>
-  <!-- * Co-Chair, "Source" Department Technology Association in University of Science and Technology Beijing, 2014 -->
-<!-- Volunteer,  the 22nd APEC (Asia-Pacific Economic Cooperation) Economic Leaders' Meeting, 2014 --></div>
-  
+  <div class="article-style">
+
+    <p><strong>Fun Projects</strong><br></p>
+
+    <p><strong>Architecting the Reasoning Interface for Embodied Foundation Agents</strong></p>
+
+    <p>My research vision is to fundamentally transform artificial intelligence models from passive observers
+    into active, embodied agents. Today’s foundation models, trained on static web-scale data, excel at
+    semantic-centric reasoning, yet lack grounded interactions with the dynamic and partially observable
+    physical world. For example, they fail at a task a young child masters: when instructed to “put the turkey
+    on the table”, they place the cooked turkey directly on the table, without thinking of using plates. This
+    failure captures the core of my research: the reasoning gap between semantic-centric priors (turkey and
+    table frequently co-occur in language) and embodied reasoning (a turkey requires a plate) .</p>
+
+    <p>I strive to architect this foundational bridge, which I term the Reasoning Interface, as a trainable
+    structured reasoning protocol that connects foundation models to physical environments. My solution
+    addresses the core challenges in perception, policy and alignment:</p>
+
+    <ul>
+      <li>Seeing the unseen: My work was among the first to expose the limitations of geometric reasoning
+      in VLMs [28, 1], and delveop Spatial-Geometric Reasoning about 3D spatial geometry [26, 9] and 4D
+      dynamics [6, 33] from partial, egocentric observations.</li>
+      <li>Exploring the world: My work designs Self-Evolving Policy Reasoning by enabling world-model
+      exploration [24, 3, 25] and robust policy learning [30, 8] under sparse feedback, serving as the core
+      engine for generalist embodied agents [23, 32, 25].</li>
+      <li>Steering the reasoning: My work pioneered both mechanisium interpretability in spatial intelli­
+      gence [4, 2] (first to open black box of VLMs and diagnose why they fail in spatial tasks) and cross-modal
+      active intervention [34, 5, 35] (first to dynamically steer multimodal reasoning toward safe and aligned
+      decisions) to build the Mechanistic Control Interface, ensuring trustworthy reasoning [19, 17, 10].</li>
+    </ul>
+
+    <p><em>Figure 1: My research transforms passive AI models to active embodied agents via trainable reasoning interfaces.</em></p>
+
+
+    <p>1https://foundation-models-meet-embodied-agents.github.io</p>
+
+    <p><strong>The Spatial Reasoning Interface: From Semantic-Centric Priors to Spatial-Geometric Reasoning</strong></p>
+
+    <p>Foundation models are pre-trained on the semantics of language and static 2D images rather than the
+    geometry of the physical world. This creates a critical reasoning gap: models memorize semantic priors
+    (e.g., “cup is on table”) but remain blind to the underlying 3D spatial and temporal-causal structures. They
+    cannot reason about what they have not seen. My ADAPTVIS [4] provides the first systematic diagnosis of
+    this failure, showing that current VLMs behave as “style memorizers”, attending to linguistically salient
+    but spatially irrelevant regions rather than reasoning on true geometry. It is among first to expose the
+    fundamental weakness in how cross-modal attention encodes spatial relations, motivating the need to
+    integrate reasoning with vision-centric priors.</p>
+
+    <p><em>Figure 2: Spatial Reasoning Interface bridging Semantic-Centric Priors to Spatial-Geometric Reasoning. My work
+    diagnoses VLM reasoning failures and introduces new architectures for 3D/4D spatial and geometric reasoning.</em></p>
+
+    <p>To address this, my work introduces a cognitive map based reasoning interface that close the gap between
+    perception and VLMs. MindCube [26] (Best Paper Award at ICCV 2025 Workshop) demonstrates that true
+    spatial intelligence requires an internal Spatial Mental Model. By reconstructing a top-down cognitive map
+    from limited egocentric views, the model learns to reason about unseen perspectives and spatial relations.
+    With these core architectures, my research expand the spatial reasoning interface along new dimensions of
+    scale and modality. LayoutVLM [9] optimizes 3D spatial layouts through differentiable vision–language
+    reasoning, IKEA Manuals at Work [6] grounds 4D assembly instructions on real Internet videos, and
+    HourVideo [1] scales this paradigm to long-form temporal reasoning across hours of video. T* [33]
+    explores temporal search as an additional dimension of spatial reasoning, unifying spatial, temporal,
+    and semantic grounding within a single framework. My work on Spatial Reasoning enables foundation
+    agents to perceive and reason about the physical world, and has been invited as keynote speech at the
+    first Spatial Intelligence workshop at ICCV 2025.</p>
+
+    <p><strong>The Self-Evolving Policy Reasoning Interface: From Exploitation to Exploration via World Modeling</strong></p>
+
+    <p>My research on policy reasoning addresses a central challenge in embodied AI: adapting foundation
+    models that were pre-trained on static, language-centric data to learn from sparse, delayed, and stochastic
+    reinforcement signals. Standard reinforcement learning usually collapses under this out-of-distribution
+    (OOD) environments. My work RAGEN [30] (Best Poster Award at MMLS 2025; 2.3k+ GitHub Stars) was
+    the first to identify the key of this failure mode, which I call the Echo Trap. In this state, the agent’s reasoning
+    collapses into repetitive, self-reinforcing patterns and overfits to familiar thought trajectories instead of
+    exploring new strategies. RAGEN establishes the foundation for stable and robust reinforcement learning
+    with reasoning agents, with a Markov Decision Process (MDP) grounded State–Thinking–Action–Reward
+    Policy Optimization (StarPO). It later was widely adopted as the foundation for multi-turn RL with follow
+    ups such as Search-R1, Agent-R1, etc.</p>
+
+    <p><em>Figure 3: Policy Reasoning Interface with our State–Thinking–Action–Reward Optimization and World Modeling.</em></p>
+
+    <p>To encourage exploration over exploitation, we propose VAGEN [24] to learn an internal world model
+    that grounds reinforcement learning in structured belief states to stabilize policy reasoning under partial
+    observability (POMDP). VAGEN has been able to successfully support various enviornments such as
+    robotic manipulation, games, and SVG figures. We further explore where is the best to inject world
+    model knowledge in agentic RL: my Self-Play Agent [3] encourage foundation models to learn to
+    self-play with the environemnt to learn to world models. ROSETTA [8] (Best Paper Award at a RSS
+    2025 workshop) further learn from human feedback with language-grounded reward modeling, and
+    ENACT [25] further expand this reasoning interface toward multi-step world modeling. Our Embodied
+    Agent Interface [23] (Oral Top 0.4% at NeurIPS, Best Paper at SoCal NLP 2024) and EmbodiedBench [32]
+    (Oral Top 1% at ICML 2025) further serve as the core engine to provide feedback for embodied agents.
+    Collectively, this line of research redefines the policy reasoning interface and transforms reinforcement
+    learning from a low-level optimization procedure into a high-level reasoning framework that guides
+    foundation models toward exploration, adaptation, and self-evolution.</p>
+
+    <p><strong>The Mechanistic Control Interface: From Black Boxes to Safe Agents</strong></p>
+
+    <p>My research on mechanistic control tackles the final challenge in building reasoning agents: transforming
+    black-box models into safe, interpretable, and steerable systems. As foundation models scale, their
+    reasoning processes become opaque, which makes it difficult to diagnose errors or enforce alignment. The
+    Mechanistic Control Interface bridges this gap by enabling agents to reason not only about the external
+    world but also about their own internal mechanisms.</p>
+
+    <p><em>Figure 4: I work towards safe and controllable foundation models via improving mechanistic interpretability.</em></p>
+
+    <p>The first step toward this goal is to improve the reasoning controllability. LM-Steer [5] (ACL 2024,
+    Outstanding Paper Award) and ODESteer [35] introduce a direct steering interface that manipulates
+    activation vectors at inference time, providing fine-grained control over safety, style, and factuality
+    without retraining. HallE-Control [34] is the first to control visual hallucination in multimodal models.
+    Interpretability is well supported by this interface. My work to answer why is spatial reasoning hard [4]
+    (ICML 2025) opens up VLMs analyzing attention mechanisms, the first to reveal the roots of spatial
+    reasoning failure. Diffusion Transformer Grafting [2] (Oral Top 0.36% at NeurIPS 2025) shows how
+    architectural components shape reasoning behavior by editing pretrained models. Trustworthiness is
+    centered my research from the very begining to ensure that reasoning remains grounded in verifiable
+    knowledge. My doctoral thesis on event-centric multimodal knowledge acquisition [10] (ACL Inaugural
+    Best Dissertation Award Honorable Mention) and CLIP-Event [18] (Oral at CVPR 2022) established
+    event-centric multimodal grounding as a foundation for factual reasoning. With this foundation, my
+    GAIA system [19, 15, 14] and my COVID-19 Claim Radar [17], demonstrate factual reliability at scale
+    and achieve first place at the NIST SM-KBP evaluations in both 2019 and 2020. Through these efforts,
+    the Mechanistic Control Interface transforms agents from black boxes into safe, interpretable systems.
+    closing the final gap between intelligent behavior and reliable alignment.</p>
+
+    <p><strong>Future Research</strong></p>
+
+    <p>My future research will extend the frontier of embodied and interpretable intelligence:
+    Mechanistic interpretability of 3D-grounded VLMs and VLAs. A key next step is to open the black box
+    of 3D-aware foundation models and VLAs and understand how they internalize physics and affordances,
+    probing how models trained on dynamic visual data form internal “physics circuits”. I plan to study
+    whether subnetworks or attention heads are causally responsible for predicting gravity, collision, and
+    containment, and how concepts such as “graspable” emerge separately from visual identity. Activation
+    patching and causal editing will allow us to test whether we can transfer the “is-graspable” property
+    between objects or locate “pushing” circuits that map actions to predicted 3D outcomes. Through probing
+    for geometric primitives, such as coordinates, orientation, and occlusion states, I will characterize how 3D
+    world models are represented and manipulated within large vision–language systems.</p>
+
+    <p>From passive to active exploration like humans. I aim to develop agents that represent what is known
+    about a scene, quantify what remains unknown, and use that uncertainty to guide exploration [24, 25]. This
+    involves building an internal belief state that integrates both geometric and semantic layers: a geometric
+    representation such as in 3D space, overlaid with a semantic scene graph encoding abstraction of entities
+    and relations. The agent will actively seek keyframes that reduce uncertainty and fuse new observations
+    back into the belief state, transforming passive perception into curiosity-driven reasoning.</p>
+
+    <p>Representation learning for space to create generalist embodied agents with spatial priors. My
+    research will focus on a new training paradigm to solve a critical flaw in current VLAs: fine-tuning for
+    expert action often causes forgetting of the VLM’s generalist language and reasoning priors. I aim to
+    answer how do we best distill and collect spatial-geometric priors, and what is the optimal representation
+    for space? This approach will use geometric consistency to stabilize learning in low-data regimes, and also
+    will produce a unified agent that can act on, reason about, and explain its interactions with the physical
+    world, closing the loop between perception, reasoning, and control.</p>
+
+    <p>Certifying the safety of embodied agents through control theory. I plan to extend my previous work
+    on Control Barrier Functioninto formal verification of embodied systems. This line of research aims to
+    make embodied reasoning not only powerful but also provably safe. I will identify activation patterns that
+    correspond to unsafe behaviors, design monitors that track them in real time, and implement intervention
+    layers that can override dangerous trajectories. This CBF-driven study will redefine alignment as a
+    mechanistic process that can be achieved through precise and interpretable control of internal activations.</p>
 
-
-  
-
-  
-  
-    
-
-
-
-
-
-
-
-
-
-
-
-
-
-  
-
-
-<div class="media stream-item view-compact">
-  <div class="media-body">
-
-    <div class="section-subheading article-title mb-0 mt-0">
-      <a href="/service/demotrack/" >EMNLP 2024 Demo Track Summary</a>
-    </div>
-
-    
-    <a href="/service/demotrack/"  class="summary-link">
-      <div class="article-style">
-        Tasks/Roles: Before submission: Call for papers of the demo track Openreview set up and operations, including submission form including all the submission field (video link, demo link, etc), the review form, meta review form, decision option, camera ready form, etc During Submission: Hire reviewers, area chairs, chasing reviews and area chairs Making the final decision (we assign chairs as SACs) Composing Award Committee, voting for Best Paper Awards After submission: Proceedings, checking whether the format is correct and contact authors to revise, will take a long time Underline coordination Registration tracking &amp; on-site demo coordination Publicize about the demo track Recommendations/Lessons learned: Most importantly: We recommend to split the task at the beginning, set up timeline for each task (that is why we give a complete list of the tasks) The length of the demo paper (6 pages) and main paper (8 pages) is different.
-      </div>
-    </a>
-    
-
-    <div class="stream-meta article-metadata">
-
-      
-
-      
-        
-
-
-<div class="article-metadata">
-
-  
-  
-
-  
-  <span class="article-date">
-    
-    
-      
-    
-    
-  </span>
-  
-
-  
-
-  
-
-  
-  
-  
-  
-
-  
-  
-
-</div>
-
-      
-    </div>
-
-    
-
-  </div>
-  <div class="ml-3">
-    
-    
-  </div>
-</div>
-
-  
-    
-
-
-
-
-
-
-
-
-
-
-
-
-
-  
-
-
-<div class="media stream-item view-compact">
-  <div class="media-body">
-
-    <div class="section-subheading article-title mb-0 mt-0">
-      <a href="/service/publicationchair/" >NAACL 2025 Publication Co-Chair Summary</a>
-    </div>
-
-    
-    <a href="/service/publicationchair/"  class="summary-link">
-      <div class="article-style">
-        Tasks/Roles: Before submission: Apply for ISBN During Submission: Cooridnating the camera-ready date Cooridnating the workshop camera-ready date After submission: Main / Findings Proceedings, checking whether the format is correct and contact authors to revise, will take a long time Workshop proceedings Industry proceedings Demo proceedings Tutorial proceedings, Student Mentoring Proceedings, etc Handbook meta data Proceeding list Proceedings of the 2025 Conference of the Nations of the Americas Chapter of the Association for Computational Linguistics: Human Language Technologies (Volume 1: Long Papers) Proceedings of the 2025 Conference of the Nations of the Americas Chapter of the Association for Computational Linguistics: Human Language Technologies (Volume 2: Short Papers) Proceedings of the 2025 Conference of the Nations of the Americas Chapter of the Association for Computational Linguistics: Human Language Technologies (Volume 3: System Demonstrations) Proceedings of the 2025 Conference of the Nations of the Americas Chapter of the Association for Computational Linguistics: Human Language Technologies (Volume 4: Student Research Workshop) Proceedings of the 2025 Conference of the Nations of the Americas Chapter of the Association for Computational Linguistics: Human Language Technologies (Volume 5: Tutorial Abstracts) Proceedings of the 2025 Conference of the Nations of the Americas Chapter of the Association for Computational Linguistics: Human Language Technologies (Volume 6: Industry Track) Findings of the Association for Computational Linguistics: NAACL 2025 Proceeding of the First Workshop on AI and Scientific Discovery: Directions and Opportunities Proceedings of the 7th Workshop on Computational Approaches to Linguistic Code-Switching Proceedings of the 10th Workshop on Computational Linguistics and Clinical Psychology (CLPsych 2025) Proceedings of the Workshop on Cognitive Modeling and Computational Linguistics (CMCL 2025) Proceedings of the Fifth Workshop on Speech and Language Technologies for Dravidian Languages Proceedings of the 4th Workshop on Knowledge-Augmentation for Language Models and NLP Methods Proceedings of the Eighth Workshop on Technologies for Machine Translation of Low-Resource Languages (LoResMT 2025) Proceedings of the 22nd SIGMORPHON Workshop on Computational Morphology, Phonology, and Phonetics Proceedings of the Tenth Workshop on Noisy and User-generated Text (W-NUT 2025) Proceedings of the 5th Workshop on Trustworthy NLP (TrustNLP 2024) Proceedings of the 5th International Conference on Natural Language Processing for Digital Humanities Proceedings of the 2nd Workshop on Ancient Language Processing (ALP 2025) Proceedings of the Fifth Workshop on NLP for Indigenous Languages of the Americas (AmericasNLP) Proceedings of the 3rd Workshop on Cross-Cultural Considerations in NLP (C3NLP 2025) Proceedings of the 2nd Workshop on Patient-oriented Language Processing (CL4Health 2025) Proceedings of the Fourth Workshop on Intelligent and Interactive Writing Assistants (in2writing 2025) Proceedings of the Sixth Workshop on Insights from Negative Results in NLP (Insights 2025) Proceedings of the Ninth Joint SIGHUM Workshop on Computational Linguistics for Cultural Heritage, Social Sciences, Humanities and Literature (LaTeCH-CLfL 2025) Proceedings of the 1st Workshop on Language Models for Underserved Communities (LM4UC 2025) Proceedings of the 21st Workshop on Multiword Expressions (MWE 2025) Proceedings of the Queer in AI workshop Proceedings of the 10th Workshop on Representation Learning for NLP (RepL4NLP-2025) Proceedings of the Sixth Workshop on Privacy in Natural Language Processing Proceedings of the Seventh Workshop on Narrative Understanding Workshop Settings: 
-      </div>
-    </a>
-    
-
-    <div class="stream-meta article-metadata">
-
-      
-
-      
-        
-
-
-<div class="article-metadata">
-
-  
-  
-
-  
-  <span class="article-date">
-    
-    
-      
-    
-    
-  </span>
-  
-
-  
-
-  
-
-  
-  
-  
-  
-
-  
-  
-
-</div>
-
-      
-    </div>
-
-    
-
-  </div>
-  <div class="ml-3">
-    
-    
   </div>
 </div>
 
