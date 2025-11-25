@@ -1,0 +1,14 @@
+{
+  "permissions": {
+    "allow": [
+      "Bash(for year in 2024 2023 2022 2021)",
+      "Bash(do)",
+      "Bash(done)",
+      "Bash(for year in 2025 2024 2023 2022 2021)",
+      "Bash(do echo \"=== Year $year page ===\" grep -oE \"(NeurIPS|CVPR|ACL|EMNLP|ICML|ICLR|AAAI|NAACL|RSS|TMLR).*(20[0-9]{2})\" /Users/ccy/Documents/GitHub/limanling.github.io/publication/$year/index.html)",
+      "Bash(python3:*)"
+    ],
+    "deny": [],
+    "ask": []
+  }
+}

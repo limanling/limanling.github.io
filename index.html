@@ -1334,7 +1334,7 @@ function togglePastMembers(btn) {
     const section = document.getElementById('publications');
     if (!section || !section.contains(a)) return;
     const href = a.getAttribute('href') || '';
-    if (/^\/publication\/(selected|all)\/$/.test(href)) {
+    if (/^\/publication\/(selected|all|\d{4})\/$/.test(href)) {
       e.preventDefault();
       loadPublications(href);
     }
