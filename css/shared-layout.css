@@ -1,5 +1,17 @@
 :root {
-      --section-heading-size: 1.65rem;
+      --section-heading-size: 1.55rem;
+    }
+    html {
+      font-size: 14px; /* 缩小基础字号，从16px减到14px */
+    }
+    body {
+      font-size: 0.92rem;
+    }
+    /* 保持导航栏字号不变 */
+    .navbar,
+    .navbar .nav-link,
+    .navbar .navbar-brand {
+      font-size: 1rem;
     }
     .page-header.header--fixed {
       position: sticky;
