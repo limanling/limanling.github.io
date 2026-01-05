@@ -6,6 +6,7 @@
     }
     body {
       font-size: 0.92rem;
+      font-weight: 300;
     }
     /* 保持导航栏字号不变 */
     .navbar,
